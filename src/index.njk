@@ -1,9 +1,53 @@
 ---
-layout: base
+layout: page
 eleventyNavigation:
   key: Home
 ---
 
-<div class="container">
-    <h1>A blank 11ty project.</h1>
-</div>
+<section class="homepage">
+      <img className="avatar" src="" alt="That's me!" width="200" />
+      <h1 title="It's pronounced 'Uh-Jay'">
+        <span>Hi, </span>
+        I'm Ajay
+      </h1>
+      <p className="lead">
+        I'm a creative front-end developer and user interface designer
+        from Buckingham, UK, with a passion for user experience, clean
+        code and pixel-perfection.
+      </p>
+      <p>
+        I have over 18 years experience designing and building engaging projects for clients including BP, HSBC, Thames Water, BT, Caterpillar, Ministry of Sound, and  <a href="/portfolio/">many more</a>
+        .
+      </p>
+
+      <p>
+        I pride myself on writing clear, well-structured, and modern HTML,
+        CSS and JavaScript, and focus closely on UX, accessibility, and
+        performance.
+      </p>
+
+      <p>
+        For more details about my experience <a href="/about/">check out my bio</a> or find out <a href="/now/">what I'm up to right now</a> . </p> <p>
+        I'm currently working as a front-end developer at <a href="https://www.aiimi.com" target="_blank" rel="nofollow noopener" > Aiimi
+        </a>
+        .
+      </p>
+
+    <hr />
+
+    <aside className="recent">
+      <h2>Recent Posts</h2>
+      <Link to="/blog/" className="button">
+        All posts
+      </Link>
+    </aside>
+
+    <hr />
+
+    <aside className="popular">
+      <h2>Popular Posts</h2>
+      <Link to="/tags/popular/" className="button">
+        All popular posts
+      </Link>
+    </aside>
+  </section>

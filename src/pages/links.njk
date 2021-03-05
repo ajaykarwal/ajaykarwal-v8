@@ -1,0 +1,22 @@
+---
+layout: page
+title: Links
+subtitle: A single place to find my most important content
+permalink: /links/
+<!-- eleventyExcludeFromCollections: true -->
+eleventyNavigation:
+    key: Links
+---
+
+<ul class="link-list unstyled">
+    {%- for link in links -%}
+    <li key="{{ link.label }}">
+        <a href="{{ link.url }}" target="_blank" rel="nofollow noopener">
+            {{ link.label }}
+        </a>
+        {%- if link.description -%}
+        <span> — {{ link.description }}</span>
+        {%- endif -%}
+    </li>
+    {%- endfor -%}
+</ul>
