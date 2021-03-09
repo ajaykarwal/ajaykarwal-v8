@@ -5,7 +5,7 @@ subtitle: Here are some of the things I’m currently focused on.
 permalink: /now/
 <!-- eleventyExcludeFromCollections: true -->
 eleventyNavigation:
-    key: Now
+  key: Now
 ---
 
 **Last updated:** January 2021.
@@ -40,10 +40,10 @@ I'm currently watching [The Crown](https://www.netflix.com/gb/title/80025678) on
 
 ## Music
 
-<p>{{ lastfm.lastfmStatus }}</p>
+<div id="lastfmStatus"></div>
 
 <blockquote className="muted">
-  You can see what else I've been listening to on my <a href="https://www.last.fm/user/ajaykarwal">Last.fm</a> and <a href="https://open.spotify.com/user/keynote">Spotify</a> profiles.
+  You can see what I've been listening to on my <a href="https://www.last.fm/user/ajaykarwal">Last.fm</a> and <a href="https://open.spotify.com/user/keynote">Spotify</a> profiles.
 </blockquote>
 
 ## Gaming

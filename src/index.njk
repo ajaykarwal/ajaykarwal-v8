@@ -5,49 +5,78 @@ eleventyNavigation:
 ---
 
 <section class="homepage">
-      <img className="avatar" src="" alt="That's me!" width="200" />
-      <h1 title="It's pronounced 'Uh-Jay'">
-        <span>Hi, </span>
-        I'm Ajay
-      </h1>
-      <p className="lead">
-        I'm a creative front-end developer and user interface designer
-        from Buckingham, UK, with a passion for user experience, clean
-        code and pixel-perfection.
-      </p>
-      <p>
-        I have over 18 years experience designing and building engaging projects for clients including BP, HSBC, Thames Water, BT, Caterpillar, Ministry of Sound, and  <a href="/portfolio/">many more</a>
-        .
-      </p>
+  <img className="avatar" src="" alt="That's me!" width="200" />
+  <h1 title="It's pronounced 'Uh-Jay'">
+    <span>Hi, </span>
+    I'm Ajay
+  </h1>
+  <p className="lead">
+    I'm a creative front-end developer and user interface designer from
+    Buckingham, UK, with a passion for user experience, clean code and
+    pixel-perfection.
+  </p>
+  <p>
+    I have over 18 years experience designing and building engaging projects for
+    clients including BP, HSBC, Thames Water, BT, Caterpillar, Ministry of
+    Sound, and <a href="/portfolio/">many more</a>
+    .
+  </p>
 
-      <p>
-        I pride myself on writing clear, well-structured, and modern HTML,
-        CSS and JavaScript, and focus closely on UX, accessibility, and
-        performance.
-      </p>
+  <p>
+    I pride myself on writing clear, well-structured, and modern HTML, CSS and
+    JavaScript, and focus closely on UX, accessibility, and performance.
+  </p>
 
-      <p>
-        For more details about my experience <a href="/about/">check out my bio</a> or find out <a href="/now/">what I'm up to right now</a> . </p> <p>
-        I'm currently working as a front-end developer at <a href="https://www.aiimi.com" target="_blank" rel="nofollow noopener" > Aiimi
-        </a>
-        .
-      </p>
+  <p>
+    For more details about my experience
+    <a href="/about/">check out my bio</a> or find out
+    <a href="/now/">what I'm up to right now</a> .
+  </p>
+  <p>
+    I'm currently working as a front-end developer at
+    <a href="https://www.aiimi.com" target="_blank" rel="nofollow noopener">
+      Aiimi
+    </a>
+    .
+  </p>
 
-    <hr />
+  <hr />
 
-    <aside className="recent">
-      <h2>Recent Posts</h2>
-      <Link to="/blog/" className="button">
-        All posts
-      </Link>
-    </aside>
+  <aside class="recent">
+    <h2>Recent Posts</h2>
+    <ul>
+      {%- for post in collections.posts -%}
+      <li>
+        <a href="{{ post.url }}">{{ post.data.title }}</a>
+        <ul>
+          {%- for category in post.data.categories -%}
+          <li>
+            {{ category }}
+          </li>
+          {%- endfor -%}
+        </ul>
+      </li>
+      {%- endfor -%}
+    </ul>
+    <a href="/blog/" class="button"> All posts </a>
+  </aside>
 
-    <hr />
+  <hr />
 
-    <aside className="popular">
-      <h2>Popular Posts</h2>
-      <Link to="/tags/popular/" className="button">
-        All popular posts
-      </Link>
-    </aside>
-  </section>
+  <aside class="popular">
+    <h2>Popular Posts</h2>
+    <a href="/tags/popular/" class="button"> All popular posts </a>
+  </aside>
+  <hr />
+
+  <aside class="popular">
+    <h2>Sitemap</h2>
+    <ul>
+      {%- for post in collections.all -%}
+      <li>
+        <a href="{{ post.url }}">{{ post.url }}</a>
+      </li>
+      {%- endfor -%}
+    </ul>
+  </aside>
+</section>
