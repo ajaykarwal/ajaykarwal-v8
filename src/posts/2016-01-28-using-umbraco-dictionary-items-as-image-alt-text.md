@@ -2,8 +2,8 @@
 layout: post
 date: "2016-01-28"
 title: "Using Umbraco Dictionary Items as image alt text"
-cover: "../images/og/umbraco.jpg"
-categories:
+cover: "/assets/images/og/umbraco.jpg"
+tags:
   - umbraco
 ---
 

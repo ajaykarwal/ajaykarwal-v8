@@ -1,0 +1,27 @@
+.hidden {
+  display: none !important;
+}
+
+.cf,
+.clearfix {
+  @include clearfix;
+}
+
+.center-block {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.img-responsive {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+a.gatsby-resp-image-link {
+  &:hover {
+    border: 0;
+    background: none;
+  }
+}

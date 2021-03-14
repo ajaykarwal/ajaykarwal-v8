@@ -1,82 +1,68 @@
 ---
-layout: page
+layout: base
+eleventyExcludeFromCollections: true
 eleventyNavigation:
-  key: Home
+    key: Home
 ---
 
 <section class="homepage">
-  <img className="avatar" src="" alt="That's me!" width="200" />
-  <h1 title="It's pronounced 'Uh-Jay'">
-    <span>Hi, </span>
-    I'm Ajay
-  </h1>
-  <p className="lead">
-    I'm a creative front-end developer and user interface designer from
-    Buckingham, UK, with a passion for user experience, clean code and
-    pixel-perfection.
-  </p>
-  <p>
-    I have over 18 years experience designing and building engaging projects for
-    clients including BP, HSBC, Thames Water, BT, Caterpillar, Ministry of
-    Sound, and <a href="/portfolio/">many more</a>
-    .
-  </p>
+	<img class="avatar" src="/assets/images/avatar.jpg" alt="That's me!" width="200" />
+	<h1 class="jumbo" title="It's pronounced 'Uh-Jay'">
+		<span>Hi, </span>
+		I'm Ajay
+	</h1>
+	<p class="lead">A frontend developer, UI designer and podcast host and all-round tech enthusiast from Buckingham, UK.</p>
 
-  <p>
-    I pride myself on writing clear, well-structured, and modern HTML, CSS and
-    JavaScript, and focus closely on UX, accessibility, and performance.
-  </p>
+	<p>
+		Over the past 20 years or so I’ve worked with some amazing clients including BP, HSBC, Thames Water, Audi, Land Rover, BT,
+		Caterpillar, Ministry of Sound, and <a href="/projects/">many more</a>.
+	</p>
 
-  <p>
-    For more details about my experience
-    <a href="/about/">check out my bio</a> or find out
-    <a href="/now/">what I'm up to right now</a> .
-  </p>
-  <p>
-    I'm currently working as a front-end developer at
-    <a href="https://www.aiimi.com" target="_blank" rel="nofollow noopener">
-      Aiimi
-    </a>
-    .
-  </p>
+	<p>
+		I pride myself on writing clear, well-structured, and modern HTML, CSS and JavaScript, and focus closely on UX, accessibility, and
+		performance.
+	</p>
 
-  <hr />
+	<p>
+		For more details about my experience
+		<a href="/about/">check out my bio</a> or find out <a href="/now/">what I'm up to right now</a> .
+	</p>
 
-  <aside class="recent">
-    <h2>Recent Posts</h2>
-    <ul>
-      {%- for post in collections.posts -%}
-      <li>
-        <a href="{{ post.url }}">{{ post.data.title }}</a>
-        <ul>
-          {%- for category in post.data.categories -%}
-          <li>
-            {{ category }}
-          </li>
-          {%- endfor -%}
-        </ul>
-      </li>
-      {%- endfor -%}
-    </ul>
-    <a href="/blog/" class="button"> All posts </a>
-  </aside>
+	<hr />
 
-  <hr />
+	<aside class="content-block">
+		<header>
+			<h2>Latest Posts</h2>
+			<p class="subheading">Subscribe to all posts <a class="rss" href="/feed.xml">{% icon "rss" %}</a></p>
+		</header>
+		<div class="content-block__details">
+			<ul class="unstyled">
+				{%- for post in collections.posts.slice(0, 5) -%}
+				<li>
+					{% include 'post-listing.njk' %}
+				</li>
+				{%- endfor -%}
+			</ul>
+		</div>
+		<footer>
+			<a href="/blog/" class="button">All posts</a>
+		</footer>
+	</aside>
 
-  <aside class="popular">
-    <h2>Popular Posts</h2>
-    <a href="/tags/popular/" class="button"> All popular posts </a>
-  </aside>
-  <hr />
-
-  <aside class="popular">
-    <h2>Sitemap</h2>
-    <ul>
-      {%- for post in collections.all -%}
-      <li>
-        <a href="{{ post.url }}">{{ post.url }}</a>
-      </li>
-      {%- endfor -%}
-    </ul>
-  </aside>
+	<aside class="content-block">
+		<header>
+			<h2>Inspect.fm</h2>
+			<p class="subheading">A Podcast about Design + Development</p>
+		</header>
+		<div class="content-block__details two-col">
+			<img src="/assets/images/inspectfm.jpg" alt="Inspect.fm podcast artwork" />
+			<p>
+				Inspect is a podcast about design and development hosted by myself and Kay Mankoo where we discuss design trends, the latest
+				in web development and the tech industry.
+			</p>
+		</div>
+		<footer>
+			<a href="https://inspect.fm" target="_blank" rel="nofollow noopener" class="button">Listen</a>
+		</footer>
+	</aside>
 </section>

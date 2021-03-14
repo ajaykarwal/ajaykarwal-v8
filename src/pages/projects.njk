@@ -5,33 +5,32 @@ subtitle: Some info about my work
 permalink: /projects/
 eleventyNavigation:
     key: Projects
+    order: 1
 ---
 
 <p>
-    It's a little tricky to create a portfolio of development work I've been
-    involved in. It can't always be portrayed with shiny screenshots or cool UX
-    prototypes and behind-the-scenes photos of spint meetings.
+	It's a little tricky to create a portfolio of development work I've been involved in. It can't always be portrayed with shiny
+	screenshots or cool UX prototypes and behind-the-scenes photos of spint meetings.
 </p>
 
 <p>
-    So rather than a traditional portfolio, here are some of the great clients
-    I've worked with in the past and some details of some of the larger projects
-    I've been involved in.
+	So rather than a traditional portfolio, here are some of the great clients I've worked with in the past and some details of some of the
+	larger projects I've been involved in.
 </p>
 
-<ul className="projects">
-    {%- for project in projects -%}
-    <li key="{{ project.id }}">
-        <h3>
-            {{ project.title }}
-        </h3>
-        {%- if project.role -%}
-        <p>{{ project.role }}</p>
-        {%- endif -%} {%- if project.description -%}
-        <p>{{ project.description }}</p>
-        {%- endif -%} {%- if project.tech -%} {% for item in project.tech %}
-        <p>{{ item }}</p>
-        {% endfor %} {%- endif -%}
-    </li>
-    {%- endfor -%}
+<ul class="projects">
+	{%- for project in projects -%}
+	<li key="{{ project.id }}">
+		<h3>
+			{{ project.title }}
+		</h3>
+		{%- if project.role -%}
+		<p>{{ project.role }}</p>
+		{%- endif -%} {%- if project.description -%}
+		<p>{{ project.description }}</p>
+		{%- endif -%} {%- if project.tech -%} {% for item in project.tech %}
+		<p>{{ item }}</p>
+		{% endfor %} {%- endif -%}
+	</li>
+	{%- endfor -%}
 </ul>

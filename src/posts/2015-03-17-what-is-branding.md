@@ -2,8 +2,8 @@
 layout: post
 date: "2015-03-17"
 title: "What is Branding?"
-cover: "../images/og/what-is-branding.jpg"
-categories:
+cover: "/assets/images/og/what-is-branding.jpg"
+tags:
   - branding
   - links
 ---

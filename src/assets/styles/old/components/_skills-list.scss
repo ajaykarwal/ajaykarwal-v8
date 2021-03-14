@@ -1,0 +1,32 @@
+.skills-list {
+	display: grid;
+	margin-bottom: $space-md;
+
+	@include mq(sm) {
+		grid-template-columns: 1fr 1fr;
+		column-gap: $space-lg;
+		row-gap: $space;
+	}
+
+	dl {
+		display: grid;
+
+		@include mq(md) {
+			grid-template-columns: 160px 1fr;
+		}
+
+		dt {
+			font-weight: $font-weight-semibold;
+		}
+
+		dd {
+			margin-left: $space-md;
+			@include mq(md) {
+				margin-left: 0;
+			}
+			p {
+				margin-bottom: $space-xs;
+			}
+		}
+	}
+}

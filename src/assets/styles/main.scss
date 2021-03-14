@@ -2,22 +2,19 @@
 // MASTER STYLESHEET INDEX
 // ---------------------------------
 
-//--------------------
-// UTILITIES
-//--------------------
+/* --------------------------- Reset and Normalise -------------------------- */
 
+@import 'base/reboot';
+@import 'base/normalize';
+
+/* -------------------------------- UTILITIES ------------------------------- */
 @import 'utils/functions';
 @import 'utils/variables';
 @import 'utils/mixins';
 
-//--------------------
-// BASE MODULES
-// partials with global scope
-//--------------------
-
-@import 'base/fonts';
-@import 'base/normalize';
-@import 'base/reboot';
+/* ------------------------------ BASE MODULES ------------------------------ */
+@import 'base/root';
+@import 'base/base';
 @import 'base/layout';
 @import 'base/typography';
 @import 'base/focus';
@@ -25,12 +22,12 @@
 @import 'base/screenreader';
 @import 'base/animation';
 
-//--------------------
-// COMPONENTS
-// partials with local scope to a component
-//--------------------
-
+/* ------------------------------- COMPONENTS ------------------------------- */
 @import 'components/header';
-@import 'components/nav';
 @import 'components/footer';
+@import 'components/nav';
 @import 'components/icon';
+@import 'components/homepage';
+@import 'components/listing';
+@import 'components/buttons';
+@import 'components/sitemap';

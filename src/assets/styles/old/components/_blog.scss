@@ -1,0 +1,11 @@
+article {
+	> .post-cover-image,
+	> .gatsby-resp-image-wrapper {
+		margin-bottom: $space-md;
+		@include mq(sm) {
+			float: right;
+			width: 340px;
+			margin-left: $space-md;
+		}
+	}
+}

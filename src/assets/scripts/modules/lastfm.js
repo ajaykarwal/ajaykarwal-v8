@@ -109,12 +109,12 @@ var lastfmify = function () {
         )} I've mainly been listening to `;
     var template = `
         <p>
-            <span className="lastfm">
-                ${lastfmStatus} <a href=${trackUrl} target="_blank"><span className="lastfm__track-title">${trackTitle}</span></a>
+            <span class="lastfm">
+                ${lastfmStatus} <a href=${trackUrl} target="_blank"><span class="lastfm__track-title">${trackTitle}</span></a>
             by ${
               trackArtistUrl
-                ? `<a className="lastfm__track-artist" href=${trackArtistUrl}>${trackArtist}</a>`
-                : `<span className="lastfm__track-artist">${trackArtist}</span>`
+                ? `<a class="lastfm__track-artist" href=${trackArtistUrl}>${trackArtist}</a>`
+                : `<span class="lastfm__track-artist">${trackArtist}</span>`
             }
             </span>.
         </p>

@@ -3,9 +3,9 @@ layout: page
 title: What I'm up to right now
 subtitle: Here are some of the things I’m currently focused on.
 permalink: /now/
-<!-- eleventyExcludeFromCollections: true -->
+eleventyExcludeFromCollections: true
 eleventyNavigation:
-  key: Now
+    key: Now
 ---
 
 **Last updated:** January 2021.
@@ -18,7 +18,7 @@ I'll probably keep the site built on Gatsby for now and simply make this a cosme
 
 In my day job I'm working on new features for our Angular application as well as refactoring some of the existing code.
 
-<blockquote className="muted">
+<blockquote class="muted">
   See more of my <a href="/portfolio/">recent work</a>.
 </blockquote>
 
@@ -26,7 +26,7 @@ In my day job I'm working on new features for our Angular application as well as
 
 I've been reading [Rich Dad's Cashflow Quadrant](https://amzn.to/2Jgo3Z4) by Robert Kiyosaki for a while now. Progress has been slow, but I'm going to stick with it.
 
-<blockquote className="muted">
+<blockquote class="muted">
   Check out more of the books I like on <a href="https://www.goodreads.com/ajaykarwal">my Goodreads profile</a>.
 </blockquote>
 
@@ -34,7 +34,7 @@ I've been reading [Rich Dad's Cashflow Quadrant](https://amzn.to/2Jgo3Z4) by Rob
 
 I'm currently watching [The Crown](https://www.netflix.com/gb/title/80025678) on Netflix.
 
-<blockquote className="muted">
+<blockquote class="muted">
   You can see what else I've been watching on my <a href="https://letterboxd.com/ajaykarwal/">Letterboxd</a> and <a href="https://www.tvtime.com/en/user/38092710/profile">TV Time</a> profiles.
 </blockquote>
 
@@ -42,7 +42,7 @@ I'm currently watching [The Crown](https://www.netflix.com/gb/title/80025678) on
 
 <div id="lastfmStatus"></div>
 
-<blockquote className="muted">
+<blockquote class="muted">
   You can see what I've been listening to on my <a href="https://www.last.fm/user/ajaykarwal">Last.fm</a> and <a href="https://open.spotify.com/user/keynote">Spotify</a> profiles.
 </blockquote>
 

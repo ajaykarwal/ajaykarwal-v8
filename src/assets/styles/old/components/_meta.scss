@@ -1,0 +1,85 @@
+.post-meta-container {
+	border-top: 2px solid var(--grey-medium);
+	border-bottom: 2px solid var(--grey-medium);
+	padding: $space 0;
+	margin-top: $space-md;
+	@include font-size(13px);
+}
+
+.post-meta {
+	display: flex;
+	flex-wrap: wrap;
+	margin-bottom: $space-sm;
+
+	&:last-of-type {
+		margin-bottom: 0;
+	}
+
+	&__label {
+		margin-right: $space;
+		color: var(--black);
+	}
+	&__date {
+		color: var(--black);
+	}
+
+	&__tag {
+		margin: 0;
+		@include linkSeparator;
+	}
+	&__meta-data {
+		@include linkSeparator;
+	}
+}
+
+.category-container,
+.tag-container {
+	a {
+		display: inline-block;
+		margin: 0 $space $space 0;
+		@include font-size(13px);
+
+		&:hover {
+			border: 0;
+			background: none;
+		}
+	}
+
+	span {
+		display: block;
+		padding: $space-sm $space-sm;
+		background: var(--grey-medium);
+		border-radius: $border-radius-sm;
+		color: var(--black);
+
+		&:active,
+		&:focus,
+		&:hover {
+			background: var(--primary-very-light);
+			color: var(--true-black);
+		}
+	}
+
+	.button {
+		margin: 0 $space-sm $space-sm 0;
+		padding: $space-xs $space-sm;
+		@include font-size(13px);
+	}
+}
+
+.search-container {
+	margin-top: $space;
+	@include mq(sm) {
+		margin-top: $space-md;
+	}
+	input {
+		width: 100%;
+		border-bottom: 2px solid var(--grey-medium);
+		padding: $space-sm;
+		@include font-size(18px);
+
+		@include mq(sm) {
+			@include font-size(24px);
+		}
+	}
+}

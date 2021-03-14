@@ -1,9 +1,28 @@
 .header {
-    padding: $spacing-y 0;
+	padding: 0 $space;
+	background-color: var(--grey-light);
 
-    &__inner {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-    }
+	@include mq(md) {
+		padding: 0 $space-md;
+	}
+
+	&__content {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		border-bottom: 2px solid var(--black);
+		padding: $space 0;
+	}
+
+	&__logo {
+		display: flex;
+		text-decoration: none;
+		border: 0;
+		background: none;
+		width: 70px;
+
+		@include mq(md) {
+			width: 90px;
+		}
+	}
 }
