@@ -1,5 +1,5 @@
 ﻿.homepage {
-    @include center-content($wide: true);
+	@include center-content($wide: true);
 
 	h1 {
 		padding-top: $space-lg;
@@ -41,6 +41,7 @@
 		}
 
 		header {
+			padding-top: 0;
 			margin-bottom: $space-lg;
 			.subheading {
 				@include font-size(16px);
