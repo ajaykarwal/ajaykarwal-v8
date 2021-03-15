@@ -41,7 +41,7 @@ input[type='reset'] {
 	font-variation-settings: 'wght' $font-weight-semibold;
 	transition: box-shadow 0.3s ease;
 	padding: $space-sm $space;
-	border: 2px solid var(--primary);
+	border: 0;
 	@include font-size(13px);
 
 	@include mq(sm) {
@@ -52,23 +52,7 @@ input[type='reset'] {
 	&:focus {
 		color: var(--white);
 		background: var(--primary-dark);
-		border-color: var(--primary-dark);
 		text-decoration: none;
 		outline: none;
-	}
-
-	&.on {
-		color: var(--black);
-		background: var(--secondary);
-		border-color: var(--primary);
-		// &:hover {
-		//   color: var(--black);
-		//   background: var(--primary-very-light);
-		// }
-	}
-
-	.count {
-		font-weight: 400;
-		margin-left: 0.25rem;
 	}
 }

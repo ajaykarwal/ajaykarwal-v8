@@ -5,7 +5,7 @@ eleventyNavigation:
     key: Home
 ---
 
-<section class="homepage">
+<article class="container homepage">
 	<img class="avatar" src="/assets/images/avatar.jpg" alt="That's me!" width="200" />
 	<h1 class="jumbo" title="It's pronounced 'Uh-Jay'">
 		<span>Hi, </span>
@@ -37,10 +37,8 @@ eleventyNavigation:
 		</header>
 		<div class="content-block__details">
 			<ul class="unstyled">
-				{%- for post in collections.posts.slice(0, 5) -%}
-				<li>
-					{% include 'post-listing.njk' %}
-				</li>
+				{%- for post in collections.posts.slice(0,5) -%}
+				<li>{% include 'post-listing.njk' %}</li>
 				{%- endfor -%}
 			</ul>
 		</div>
@@ -65,4 +63,4 @@ eleventyNavigation:
 			<a href="https://inspect.fm" target="_blank" rel="nofollow noopener" class="button">Listen</a>
 		</footer>
 	</aside>
-</section>
+</article>

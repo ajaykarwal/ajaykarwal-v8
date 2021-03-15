@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About Me
-subtitle: About Me sub
+# subtitle: About Me sub
 permalink: /about/
 eleventyNavigation:
     key: About

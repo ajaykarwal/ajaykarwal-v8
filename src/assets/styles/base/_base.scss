@@ -48,9 +48,8 @@ main {
 
 hr {
 	margin-top: $space-lg;
-	margin-bottom: $space-lg;
 	border: 0;
-	background-color: var(--grey-dark);
+	background-color: var(--grey-medium);
 	height: 2px;
 
 	@include mq(sm) {
@@ -108,8 +107,7 @@ figure {
 }
 
 blockquote {
-	margin-top: $space;
-	margin-bottom: $space;
+	margin: $space auto;
 	padding: $space;
 	border-left: 5px solid var(--primary);
 	background-color: var(--primary-very-light);
@@ -119,7 +117,7 @@ blockquote {
 	}
 
 	&.muted {
-		border-left: 5px solid var(--grey-medium);
+		border-left: 5px solid var(--grey-semi);
 		background-color: transparent;
 	}
 
@@ -127,48 +125,3 @@ blockquote {
 		@include font-size(13px);
 	}
 }
-
-:not(pre) {
-	> code[class*='language-'],
-	> code,
-	> kbd,
-	> samp {
-		@extend %font-mono;
-		@include font-size(14px);
-		padding: 3px 5px;
-		border-radius: 3px;
-		color: var(--black);
-		background-color: $inline-code;
-		text-shadow: 0 1px 0 var(--white);
-
-		@include mq(sm) {
-			white-space: pre-wrap;
-		}
-	}
-}
-
-pre {
-	display: block;
-	border: 0;
-	border-radius: 5px;
-	line-height: 1.5;
-	margin: $space auto $space;
-	padding: 20px;
-	word-break: break-all;
-	word-wrap: break-word;
-	overflow: scroll;
-
-	@include mq(sm) {
-		padding: 20px;
-		overflow: auto;
-	}
-
-	code {
-		background: transparent;
-		padding: 0;
-		text-shadow: none;
-		box-shadow: none;
-		border: 0;
-	}
-}
-

@@ -38,12 +38,13 @@ $primary-light: lighten($primary, 20%);
 $primary-very-light: rgba($primary, 0.1);
 $secondary: #ffdf31;
 $secondary-dark: #f7cb1f;
-$secondary-light: #fdf9e1;
+$secondary-light: #fbedca;
 
 $white: #ffffff;
 $grey-light: #eeeeee;
 $grey-medium: #e5e5e5;
-$grey-dark: #dddddd;
+$grey-semi: #cccccc;
+$grey-dark: #777777;
 $grey-darkest: #404040;
 $black: #2a3432;
 $true-black: #000000;
@@ -63,7 +64,7 @@ $theme-colors: (
 	'white': $white,
 	'grey-light': $grey-light,
 	'grey-medium': $grey-medium,
-	'grey-semi': $grey-dark,
+	'grey-semi': $grey-semi,
 	'grey-dark': $grey-dark,
 	'black': $black,
 	'true-black': $true-black
@@ -108,19 +109,6 @@ $breakpoints: (
 );
 
 $container-max-width: 100%;
-
-// Z-Index Stack
-//
-// Control the order of layers in the application
-$z-layers: (
-	'modal': 999,
-	'nav': 100,
-	'content-overlay': 30
-);
-
-// Animation
-//
-// Default easing curves, Transitions, etc
 
 $animation-curve-fast-out-slow-in: cubic-bezier(0.4, 0, 0.2, 1);
 $animation-curve-linear-out-slow-in: cubic-bezier(0, 0, 0.2, 1);

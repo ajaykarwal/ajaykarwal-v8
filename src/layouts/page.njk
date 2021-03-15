@@ -3,9 +3,11 @@ layout: base
 ---
 
 <article class="container">
-    <header>
-        <h1>{{ title }}</h1>
-        {% if subtitle %} <p class="subtitle">{{ subtitle }}</h1> {% endif %}
-    </header>
-    {{ content | safe }}
+	<header>
+		<h1>{{ title }}</h1>
+		{% if subtitle %}
+		<p class="subtitle">{{ subtitle }}</p>
+		{% endif %} {% if headerButton %} <a href="{{ headerButton.url }}" class="button">{{ headerButton.text }}</a> {% endif %}
+	</header>
+	{{ content | safe }}
 </article>

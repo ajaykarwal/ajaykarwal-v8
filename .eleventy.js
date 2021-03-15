@@ -6,35 +6,37 @@ const filters = require('./utils/filters.js');
 const transforms = require('./utils/transforms.js');
 const shortcodes = require('./utils/shortcodes.js');
 const iconsprite = require('./utils/iconsprite.js');
+const syntaxHighlight = require('@11ty/eleventy-plugin-syntaxhighlight');
 
-module.exports = function (config) {
+module.exports = function (eleventyConfig) {
 	// Plugins
-	config.addPlugin(pluginRss);
-	config.addPlugin(pluginNavigation);
+	eleventyConfig.addPlugin(pluginRss);
+	eleventyConfig.addPlugin(pluginNavigation);
+	eleventyConfig.addPlugin(syntaxHighlight);
 
 	// Filters
 	Object.keys(filters).forEach(filterName => {
-		config.addFilter(filterName, filters[filterName]);
+		eleventyConfig.addFilter(filterName, filters[filterName]);
 	});
 
 	// Transforms
 	Object.keys(transforms).forEach(transformName => {
-		config.addTransform(transformName, transforms[transformName]);
+		eleventyConfig.addTransform(transformName, transforms[transformName]);
 	});
 
 	// Shortcodes
 	Object.keys(shortcodes).forEach(shortcodeName => {
-		config.addShortcode(shortcodeName, shortcodes[shortcodeName]);
+		eleventyConfig.addShortcode(shortcodeName, shortcodes[shortcodeName]);
 	});
 
 	// Icon Sprite
-	config.addNunjucksAsyncShortcode('iconsprite', iconsprite);
+	eleventyConfig.addNunjucksAsyncShortcode('iconsprite', iconsprite);
 
 	// Asset Watch Targets
-	config.addWatchTarget('./src/assets');
+	eleventyConfig.addWatchTarget('./src/assets');
 
 	// Markdown
-	config.setLibrary(
+	eleventyConfig.setLibrary(
 		'md',
 		markdownIt({
 			html: true,
@@ -44,26 +46,25 @@ module.exports = function (config) {
 		})
 	);
 
-	config.addFilter('dateString', date => {
+	eleventyConfig.addFilter('dateString', date => {
 		return moment(date).format('DD MMMM, YYYY');
 	});
 
-    config.addFilter("keys", obj => Object.keys(obj));
-
+	eleventyConfig.addFilter('keys', obj => Object.keys(obj));
 
 	// Layouts
-	config.addLayoutAlias('base', 'base.njk');
-	config.addLayoutAlias('post', 'post.njk');
-	config.addLayoutAlias('page', 'page.njk');
+	eleventyConfig.addLayoutAlias('base', 'base.njk');
+	eleventyConfig.addLayoutAlias('post', 'post.njk');
+	eleventyConfig.addLayoutAlias('page', 'page.njk');
 
 	// Pass-through files
-	config.addPassthroughCopy('src/robots.txt');
-	config.addPassthroughCopy('src/site.webmanifest');
-	config.addPassthroughCopy('src/assets/images');
-	config.addPassthroughCopy('src/assets/fonts');
+	eleventyConfig.addPassthroughCopy('src/robots.txt');
+	eleventyConfig.addPassthroughCopy('src/site.webmanifest');
+	eleventyConfig.addPassthroughCopy('src/assets/images');
+	eleventyConfig.addPassthroughCopy('src/assets/fonts');
 
 	// Deep-Merge
-	config.setDataDeepMerge(true);
+	eleventyConfig.setDataDeepMerge(true);
 
 	// Base Config
 	return {

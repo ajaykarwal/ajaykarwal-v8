@@ -31,28 +31,40 @@ body {
 }
 
 .container {
-    @include center-content();
+	@include center-content();
 	margin-left: auto;
 	margin-right: auto;
 	padding: 0 $space;
 
-    @include mq(md) {
+	@include mq(md) {
 		padding: 0 $space-md;
 	}
 }
 
 article,
 section {
-    header {
-        padding-top: $space-lg;
+	header {
+		position: relative;
+		padding-top: $space-lg;
+		padding-bottom: $space;
+		border-bottom: 2px solid var(--grey-medium);
+		margin-bottom: $space-lg;
 
 		@include mq(lg) {
 			padding-top: $space-xl;
 		}
-        margin-bottom: $space-lg;
-        .subheading {
-            @include font-size(16px);
-            font-weight: $font-weight-medium;
-        }
-    }
+
+		.subheading {
+			@include font-size(16px);
+			font-weight: $font-weight-medium;
+		}
+
+		.button {
+			@include mq(lg) {
+				position: absolute;
+				top: $space-xl;
+				right: 0;
+			}
+		}
+	}
 }

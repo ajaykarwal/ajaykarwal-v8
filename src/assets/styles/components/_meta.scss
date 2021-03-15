@@ -32,38 +32,32 @@
 	}
 }
 
-.category-container,
-.tag-container {
+.tags {
+	margin-bottom: $space-lg;
 	a {
 		display: inline-block;
-		margin: 0 $space $space 0;
+		background-color: var(--white);
+		border-radius: $border-radius;
+		padding: $space-xs $space-sm;
+		margin: 0 $space-sm $space-sm 0;
 		@include font-size(13px);
 
 		&:hover {
 			border: 0;
-			background: none;
+			background-color: var(--primary);
+			color: var(--white);
+			text-decoration: none;
+
+			span {
+				color: var(--white);
+			}
 		}
-	}
 
-	span {
-		display: block;
-		padding: $space-sm $space-sm;
-		background: var(--grey-medium);
-		border-radius: $border-radius-sm;
-		color: var(--black);
-
-		&:active,
-		&:focus,
-		&:hover {
-			background: var(--primary-very-light);
-			color: var(--true-black);
+		span {
+			display: none;
+			margin-left: $space-xs;
+			color: var(--grey-dark);
 		}
-	}
-
-	.button {
-		margin: 0 $space-sm $space-sm 0;
-		padding: $space-xs $space-sm;
-		@include font-size(13px);
 	}
 }
 

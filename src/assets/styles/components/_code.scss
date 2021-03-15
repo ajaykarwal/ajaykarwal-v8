@@ -1,31 +1,34 @@
-.gatsby-highlight {
-	border-radius: $border-radius;
-	background: var(--black);
-	margin-bottom: $space-md;
-	overflow: auto;
-	@extend %font-mono;
-	font-size: 14px !important;
-
-	pre,
-	code {
+// Inline code
+:not(pre) {
+	> code[class*='language-'],
+	> code,
+	> kbd,
+	> samp {
 		@extend %font-mono;
-		display: block;
-		color: var(--white);
-		background: transparent;
-		padding: $space-sm $space;
-		overflow: auto;
+		@include font-size(15px);
+		padding: 3px 5px;
+		border-radius: 3px;
+		color: var(--black);
+		background-color: $inline-code;
+		text-shadow: 0 1px 0 var(--white);
+
+		@include mq(sm) {
+			white-space: pre-wrap;
+		}
 	}
 }
 
-.file {
-	background: var(--true-black);
-	position: relative;
-	bottom: -$space-sm;
-	border-radius: $border-radius $border-radius 0 0;
-	padding: $space-sm $space;
-	border-bottom: 2px solid var(--grey-dark);
-	color: var(--white);
-	font-weight: $font-weight-semibold;
+// Code blocks
+pre[class*='language-'] {
 	@extend %font-mono;
-	@include font-size(15px);
+	@include font-size(16px);
+	display: block;
+	border: 0;
+	border-radius: $border-radius-lg;
+	line-height: 1.5;
+	margin: $space auto $space;
+	padding: $space-md;
+	word-break: break-all;
+	word-wrap: break-word;
+	overflow: scroll;
 }
