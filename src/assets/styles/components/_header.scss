@@ -15,8 +15,9 @@
 	}
 
 	&__logo {
-		display: inline-flex;
+		display: block;
 		text-decoration: none;
+		line-height: 0;
 		border: 0;
 		background: none;
 		width: 70px;

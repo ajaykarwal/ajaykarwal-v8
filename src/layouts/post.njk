@@ -3,11 +3,18 @@ layout: base
 ---
 
 <article class="container">
-    <header>
-        <h1>{{ title }}</h1>
-        {% if subtitle %} <p>{{ subtitle }}</h1> {% endif %}
-    </header>
-    {{ content | safe }}
-    <hr />
-    <div class="comments">[[Discus here]]</div>
+	<header>
+		<h1>{{ title }}</h1>
+		{% if subtitle %}
+		<p class="subtitle">{{ subtitle }}</p>
+		{% endif %} {% if headerButton %} <a href="{{ headerButton.url }}" class="button">{{ headerButton.text }}</a> {% endif %}
+	</header>
+	{{ content | safe }}
+
+	{% if config.disqusShortname %} {% if comments != false %}
+	<aside>
+		<h2>Comments</h2>
+		{% include "disqus.njk" %}
+	</aside>
+	{% endif %} {% endif %}
 </article>

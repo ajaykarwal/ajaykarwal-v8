@@ -1,0 +1,58 @@
+{
+    "siteTitle": "Ajay Karwal",
+    "siteTitleShort": "Ajay Karwal",
+    "siteTitleAlt": "Personal Portfolio of Ajay Karwal",
+    "siteFavicon": "/logos/logo-1024.png",
+    "siteLogo": "/open-graph-image.png",
+    "siteUrl": "https://ajaykarwal.com",
+    "repository": "https://github.com/ajaykarwal/ajaykarwal.com",
+    "pathPrefix": "/",
+    "siteDescription": "Ajay Karwal is a Front-end Developer and UI Designer from Buckingham, UK.",
+    "siteRss": "/rss.xml",
+    "siteRssTitle": "Personal Portfolio of Ajay Karwal - RSS feed",
+    "googleAnalyticsID": "UA-16609747-8",
+    "disqusShortname": "ajaykarwal",
+    "dateFromFormat": "YYYY-MM-DD",
+    "dateFormat": "DD MMMM, YYYY",
+    "postsPerPage": 4,
+    "userName": "Ajay Karwal",
+    "userEmail": "ajaykarwal@gmail.com",
+    "userTwitter": "ajaykarwal",
+    "userDescription": "I’m Ajay Karwal. I write about my experiences as a front-end developer. If you enjoy my content, please consider supporting what I do.",
+    "userLinks": {
+        "github": {
+            "label": "GitHub",
+            "url": "https://github.com/ajaykarwal"
+        },
+        "twitter": {
+            "label": "Twitter",
+            "url": "https://twitter.com/ajaykarwal"
+        },
+        "facebook": {
+            "label": "Facebook",
+            "url": "https://facebook.com/ajaykarwal"
+        },
+        "dribbble": {
+            "label": "Dribbble",
+            "url": "https://dribbble.com/ajaykarwal"
+        },
+        "linkedin": {
+            "label": "LinkedIn",
+            "url": "http://www.linkedin.com/in/ajaykarwal"
+        },
+        "behance": {
+            "label": "Behance",
+            "url": "https://behance.net/ajaykarwal"
+        },
+        "email": {
+            "label": "Email",
+            "url": "mailto:ajaykarwal@gmail.com"
+        },
+        "rss": {
+            "label": "RSS",
+            "url": "/rss.xml"
+        }
+    },
+    "themeColor": "#bc3e31",
+    "backgroundColor": "#eeeeee"
+}
