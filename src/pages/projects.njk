@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Projects
-subtitle: Some info about my work
 permalink: /projects/
 eleventyNavigation:
     key: Projects
@@ -18,19 +17,34 @@ eleventyNavigation:
 	larger projects I've been involved in.
 </p>
 
-<ul class="projects">
+<ul class="projects unstyled">
 	{%- for project in projects -%}
-	<li key="{{ project.id }}">
-		<h3>
-			{{ project.title }}
-		</h3>
-		{%- if project.role -%}
-		<p>{{ project.role }}</p>
-		{%- endif -%} {%- if project.description -%}
-		<p>{{ project.description }}</p>
-		{%- endif -%} {%- if project.tech -%} {% for item in project.tech %}
-		<p>{{ item }}</p>
-		{% endfor %} {%- endif -%}
+	<li class="project__item {{ 'has-details' if project.details }}">
+		<div class="project__header">
+			<div class="project__header-content">
+				<h3 class="project__title">
+					{{ project.title }}
+				</h3>
+				{%- if project.summary -%}
+				<p class="project__summary">{{ project.summary }}</p>
+				{%- endif -%}
+			</div>
+			<div class="project__date">
+				{{ project.date | projectDate }}
+			</div>
+		</div>
+		{%- if project.details -%}
+		<div class="project__details">
+			<p>{{ project.details | safe }}</p>
+			{%- if project.tech -%}
+			<ul class="project__tech unstyled">
+				{% for item in project.tech %}
+				<li class="project__tech-item">{{ item }}</li>
+				{% endfor %}
+			</ul>
+			{%- endif -%}
+		</div>
+		{%- endif -%}
 	</li>
 	{%- endfor -%}
 </ul>

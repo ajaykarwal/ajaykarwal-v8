@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Uses
-subtitle: The tech and tools I use on a daily basis
 permalink: /uses/
 eleventyNavigation:
     key: Uses

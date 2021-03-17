@@ -1,0 +1,61 @@
+ul.projects {
+	margin-top: $space-xl;
+
+	.project {
+		&__item {
+			border-bottom: 2px solid var(--grey-medium);
+			padding: 0 $space $space;
+			margin: $space 0;
+
+			&.has-details {
+				background-color: var(--grey-medium);
+				padding-top: $space;
+			}
+		}
+		&__header {
+			display: flex;
+			justify-content: space-between;
+			&-content {
+				max-width: 70%;
+			}
+		}
+		&__title {
+			margin-top: 0;
+		}
+		&__summary {
+			@include font-size(15px);
+			color: var(--grey-darkest);
+			margin: 0;
+			@include mq(sm) {
+				@include font-size(18px);
+			}
+		}
+		&__date {
+			@include font-size(16px);
+			@include mq(sm) {
+				@include font-size(20px);
+			}
+		}
+		&__details {
+			@include font-size(18px);
+			margin: $space 0;
+			padding: 0 $space;
+			border-left: 5px solid var(--primary);
+			background-color: var(--grey-medium);
+		}
+		&__tech {
+			display: flex;
+			align-items: center;
+			flex-wrap: wrap;
+			&-item {
+				display: inline-block;
+				background-color: var(--grey-light);
+				border-radius: $border-radius;
+				padding: $space-xs $space-sm;
+				margin-right: $space-sm;
+				margin-bottom: $space-sm;
+				@include font-size(13px);
+			}
+		}
+	}
+}

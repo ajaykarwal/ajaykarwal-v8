@@ -49,6 +49,9 @@ module.exports = function (eleventyConfig) {
 	eleventyConfig.addFilter('dateString', date => {
 		return moment(date).format('DD MMMM, YYYY');
 	});
+	eleventyConfig.addFilter('projectDate', date => {
+		return moment(date).format('MMM YYYY');
+	});
 
 	eleventyConfig.addFilter('keys', obj => Object.keys(obj));
 

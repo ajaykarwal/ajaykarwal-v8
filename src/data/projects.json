@@ -1,9 +1,52 @@
 [
     {
-        "id": "airbp",
+        "current": true,
+        "title": "Aiimi",
+        "summary": "Something about building InsightMaker",
+        "date": "2020-10",
+        "details": ""
+    },
+    {
+        "title": "Support Room",
+        "summary": "Online mental health counselling and therapy platform",
+        "date": "2020-08"
+    },
+    {
+        "title": "Hugo Boss",
+        "summary": "Email marketing campaign powered by Adobe Campaign",
+        "date": "2020-07"
+    },
+    {
+        "title": "A Plastic Planet",
+        "summary": "Building a plastic free materials marketplace",
+        "date": "2020-06"
+    },
+    {
+        "title": "Der Touristik Suisse",
+        "summary": "Email marketing campaign to promote Swiss tourism",
+        "date": "2020-02"
+    },
+    {
+        "title": "Wienerberger - Pipelife",
+        "summary": "Upgrades to global website and themed sub-brands",
+        "date": "2019-10",
+        "details": "The client undertook a series of upgrades for their global website and themed sub-brands. My role was to configure themes for the Pipelife sub-brand and customise core components to meet the bespoke requirements of the brand.",
+        "tech": [
+            "Adobe Experience Manager",
+            "Webpack",
+            "Sass"
+        ]
+    },
+    {
+        "title": "Audi",
+        "summary": "Car configurator updates",
+        "date": "2019-07"
+    },
+    {
         "title": "Air BP - Airfield Automation",
-        "description": "Air BP tracks the movement of airline fuel throughout its journey from the ground, to refineries and storage tanks, and finally to airlines. The Airfield Automation project was to convert an antiquated Windows desktop application into a versitile web application for use on any platform including mobile devices.",
-        "role": "Using the exiting desktop application as a starting point and utilising Air BP's brand guidelines, I designed the UI for the updated forms. I translated these designs into React components which the team could then use to build the necessary steps of the form.",
+        "summary": "Airline fuel tracking portal",
+        "date": "2019-05",
+        "details": "Air BP tracks the movement of airline fuel throughout its journey from the ground, to refineries and storage tanks, and finally to airlines. The Airfield Automation project was to convert an antiquated Windows desktop application into a versitile web application for use on any platform including mobile devices.<br><br>Using the exiting desktop application as a starting point and utilising Air BP's brand guidelines, I designed the UI for the updated forms. I translated these designs into React components which the team could then use to build the necessary steps of the form.",
         "tech": [
             "React.js",
             "Bootstrap",
@@ -13,11 +56,10 @@
         ]
     },
     {
-        "id": "thameswater",
         "title": "Thames Water - Developer Services",
-        "path": "https://developers.thameswater.co.uk/Domestic-and-small-commercial/Water-Supply/new-or-replacement-water-connection/How-to-get-a-quote",
-        "description": "The project was to build a multi-step form for property developers to book in new water connections — a process which was formerly paper-based and involved a large amount of human input. The form contains a large amount of logic and validations which are checked against and API provided by a Sitecore and SAP backend.",
-        "role": "My role was to design and build the static frontend templates of the form which were later ported over to a Sitecore backend (externally). The form elements are built in Nunjucks and scaffolded with Bootstrap. There are then composed into the various pages of the form and served locally via a simple Express server. All the form logic and validations are written in jQuery with a Gulp build process to optimise all the static assets.",
+        "summary": "Water connection form for property developers",
+        "date": "2019-02",
+        "details": "The project was to build a multi-step form for property developers to book in new water connections — a process which was formerly paper-based and involved a large amount of human input. The form contains a large amount of logic and validations which are checked against and API provided by a Sitecore and SAP backend.<br><br>My role was to design and build the static frontend templates of the form which were later ported over to a Sitecore backend (externally). The form elements are built in Nunjucks and scaffolded with Bootstrap. There are then composed into the various pages of the form and served locally via a simple Express server. All the form logic and validations are written in jQuery with a Gulp build process to optimise all the static assets.",
         "tech": [
             "Node",
             "Express",
@@ -31,19 +73,60 @@
         ]
     },
     {
-        "id": "audi",
-        "title": "Audi"
+        "title": "NSK Europe",
+        "summary": "Site performance and accessibility audit",
+        "date": "2018-12"
     },
     {
-        "id": "bt",
-        "title": "BT"
+        "title": "Heineken Direct",
+        "summary": "B2B supplies ordering portal",
+        "date": "2018-08"
     },
     {
-        "id": "caterpillar",
+        "title": "Axalta",
+        "date": "2018-02"
+    },
+    {
+        "title": "HSBC",
+        "date": "2017-03"
+    },
+    {
+        "title": "Martin West Interiors",
+        "date": "2017-01"
+    },
+    {
+        "title": "AHDB",
+        "date": "2016-11"
+    },
+    {
+        "title": "Relish Broadband",
+        "date": "2016-08"
+    },
+    {
+        "title": "Royal Voluntary Service",
+        "date": "2016-03"
+    },
+    {
+        "title": "Ministry of Sound",
+        "summary": "Microsite for new Audio range launch",
+        "date": "2015-12",
+        "details": "In 2015, Ministry of Sound, the iconic music brand launched their new Audio range of wireless speakers and headphones. As part of this launch they required a new microsite to be added to their existing website.<br><br>My role was to work closely with the in-house development team to drive the online marketing of the Ministry Audio range within the brand's existing guidelines.",
+        "tech": [
+            "Adobe Photoshop"
+        ]
+    },
+    {
+        "title": "Land Rover",
+        "date": "2015-09"
+    },
+    {
+        "title": "Kodak",
+        "date": "2015-05"
+    },
+    {
         "title": "Catphones",
-        "path": "https://www.behance.net/gallery/51959447/Catphonescom-website-design-and-build",
-        "description": "The primary goal of this project was to upgrade from Umbraco version 4 to version 6. As this was a major upgrade and largely a manual process, the project also included a full UI redesign at the same time.",
-        "role": "My role was to redesign the website and refactor the front-end code to suit.",
+        "date": "2015-02",
+        "details": "The primary goal of this project was to upgrade from Umbraco version 4 to version 6. As this was a major upgrade and largely a manual process, the project also included a full UI redesign at the same time.<br><br>My role was to redesign the website and refactor the front-end code to suit.",
         "tech": [
             "Umbraco",
             "Bootstrap",
@@ -51,40 +134,19 @@
         ]
     },
     {
-        "id": "hsbc",
-        "title": "HSBC"
+        "title": "WHSmith",
+        "date": "2014-11"
     },
     {
-        "id": "kodak",
-        "title": "Kodak"
+        "title": "Coast",
+        "date": "2014-08"
     },
     {
-        "id": "landrover",
-        "title": "Land Rover"
+        "title": "Asian Bride Magazine",
+        "date": "2012"
     },
     {
-        "id": "mos",
-        "title": "Ministry of Sound",
-        "path": "https://www.behance.net/gallery/48129351/Ministry-of-Sound",
-        "description": "In 2015, Ministry of Sound, the iconic music brand launched their new Audio range of wireless speakers and headphones. As part of this launch they required a new microsite to be added to their existing website.",
-        "role": "My role was to work closely with the in-house development team to drive the online marketing of the Ministry Audio range within the brand's existing guidelines.",
-        "tech": [
-            "Adobe Photoshop"
-        ]
-    },
-    {
-        "id": "nsk",
-        "title": "NSK Europe"
-    },
-    {
-        "id": "wienerberger",
-        "title": "Wienerberger - Pipelife",
-        "description": "The client undertook a series of upgrades for their global website and themed sub-brands.",
-        "role": "My role was to configure themes for the Pipelife sub-brand and customise core components to meet the bespoke requirements of the brand.",
-        "tech": [
-            "Adobe Experience Manager",
-            "Webpack",
-            "Sass"
-        ]
+        "title": "Chilli Tickets",
+        "date": "2006"
     }
 ]
