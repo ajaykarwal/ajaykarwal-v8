@@ -8,18 +8,16 @@ eleventyNavigation:
     key: Now
 ---
 
-**Last updated:** January 2021.
+**Last updated:** March 2021.
 
 ## Work
 
-I'm currently in the early stages of planning a redesign of my website. It's something I do roughly every two years to keep on top of new trends and technologies.
+I've just launched my redesigned website. It's something I do roughly every two years to keep on top of new trends and technologies.
 
-I'll probably keep the site built on Gatsby for now and simply make this a cosmetic change.
-
-In my day job I'm working on new features for our Angular application as well as refactoring some of the existing code.
+I've switched from Gatsby to [Eleventy](https://www.11ty.dev/) &mdash; a static site generator written in JavaScript which is lightning fast!
 
 <blockquote class="muted">
-  See more of my <a href="/portfolio/">recent work</a>.
+  See more of the <a href="/projects/">projects</a> I've worked on.
 </blockquote>
 
 ## Reading
@@ -32,7 +30,7 @@ I've been reading [Rich Dad's Cashflow Quadrant](https://amzn.to/2Jgo3Z4) by Rob
 
 ## Watching
 
-I'm currently watching [The Crown](https://www.netflix.com/gb/title/80025678) on Netflix.
+I'm currently watching [Schitt's Creek](https://www.netflix.com/title/80036165) and working my way through all the <abbr title="Marvel Cinematic Universe">MCU</abbr> movies in release order.
 
 <blockquote class="muted">
   You can see what else I've been watching on my <a href="https://letterboxd.com/ajaykarwal/">Letterboxd</a> and <a href="https://www.tvtime.com/en/user/38092710/profile">TV Time</a> profiles.

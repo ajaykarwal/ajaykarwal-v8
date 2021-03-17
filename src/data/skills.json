@@ -5,8 +5,8 @@
             "JavaScript (ES6+) / TypeScript",
             "HTML / Markdown",
             "CSS / Sass / Less",
-            "Java",
-            "C#"
+            "C#",
+            "Java"
         ]
     },
     {
@@ -16,6 +16,7 @@
             "React",
             "jQuery",
             "Jekyll",
+            "Eleventy",
             "Gatsby",
             "Bootstrap"
         ]
@@ -32,8 +33,8 @@
     {
         "label": "Design",
         "data": [
-            "Sketch",
             "Figma",
+            "Sketch",
             "Photoshop",
             "Illustrator",
             "InVision",

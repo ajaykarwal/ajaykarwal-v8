@@ -1,12 +1,12 @@
 <div class="skills-list">
-  {%- for skill in skills -%}
-  <dl key="{{ skill.label }}">
-    <dt>{{ skill.label }}</dt>
-    <dd>
-      {%- for item in skill.data -%}
-      <p>{{ item }}</p>
-      {%- endfor -%}
-    </dd>
-  </dl>
-  {%- endfor -%}
+	{%- for skill in skills -%}
+	<dl key="{{ skill.label }}">
+		<dt>{{ skill.label }}</dt>
+		<dd>
+			{%- for item in skill.data -%}
+			<p>{{ item }}</p>
+			{%- endfor -%}
+		</dd>
+	</dl>
+	{%- endfor -%}
 </div>

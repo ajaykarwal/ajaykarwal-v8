@@ -12,11 +12,8 @@ Here is a streamlined version of my résumé to give you an idea about my experi
 
 ## Current Role
 
-**Front-end Developer**
-
-[Aiimi](http://aiimi.com)
-
-My role involves developing features for Aiimi's core product, InsightMaker, an enterprise search and analytics application.
+**Front-end Developer** @ [Aiimi](http://aiimi.com)
+My role involves developing features for Aiimi's core product, InsightMaker, an enterprise search and analytics tool.
 
 ## Skills
 

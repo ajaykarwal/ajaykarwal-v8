@@ -2,7 +2,7 @@
     {
         "current": true,
         "title": "Aiimi",
-        "summary": "Something about building InsightMaker",
+        "summary": "Enterprise search and analytics app",
         "date": "2020-10",
         "details": ""
     },
@@ -84,26 +84,32 @@
     },
     {
         "title": "Axalta",
+        "summary": "Web component customisation",
         "date": "2018-02"
     },
     {
         "title": "HSBC",
+        "summary": "",
         "date": "2017-03"
     },
     {
         "title": "Martin West Interiors",
+        "summary": "Brochure site for bespoke furniture builders",
         "date": "2017-01"
     },
     {
         "title": "AHDB",
+        "summary": "Episerver platform upgrade",
         "date": "2016-11"
     },
     {
         "title": "Relish Broadband",
+        "summary": "General site maintenance",
         "date": "2016-08"
     },
     {
         "title": "Royal Voluntary Service",
+        "summary": "General site maintenance",
         "date": "2016-03"
     },
     {
@@ -121,10 +127,12 @@
     },
     {
         "title": "Kodak",
+        "summary": "Microsite for Kodak's IM5 Android smartphone",
         "date": "2015-05"
     },
     {
         "title": "Catphones",
+        "summary": "Umbraco CMS upgrade and website redesign",
         "date": "2015-02",
         "details": "The primary goal of this project was to upgrade from Umbraco version 4 to version 6. As this was a major upgrade and largely a manual process, the project also included a full UI redesign at the same time.<br><br>My role was to redesign the website and refactor the front-end code to suit.",
         "tech": [
@@ -135,18 +143,22 @@
     },
     {
         "title": "WHSmith",
+        "summary": "Checkout process upgrades",
         "date": "2014-11"
     },
     {
         "title": "Coast",
+        "summary": "Personalised marketing campaign manager",
         "date": "2014-08"
     },
     {
         "title": "Asian Bride Magazine",
+        "summary": "Online portal and digital iPad magazine design",
         "date": "2012"
     },
     {
         "title": "Chilli Tickets",
+        "summary": "Online event ticketing platform",
         "date": "2006"
     }
 ]

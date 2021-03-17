@@ -95,6 +95,7 @@ a {
 b,
 strong {
 	font-weight: $font-weight-medium;
+	font-variation-settings: 'wght' $font-weight-medium;
 }
 
 p {

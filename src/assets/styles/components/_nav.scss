@@ -27,7 +27,7 @@
 		&.is-open &__menu {
 			display: block;
 			left: 20px;
-			top: 67px;
+			top: $space-xl + 7px;
 			width: calc(100% - 40px);
 			background-color: var(--black);
 			color: var(--white);
