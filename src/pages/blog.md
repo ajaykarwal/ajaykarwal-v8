@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Blog
-# subtitle: Blog sub
 permalink: /blog/
 eleventyNavigation:
     key: Blog
@@ -16,8 +15,6 @@ eleventyNavigation:
 
 <ul class="unstyled">
     {%- for post in collections.posts.reverse() -%}
-    <li>
-        {% include 'post-listing.njk' %}
-    </li>
+    <li>{% include 'post-listing.njk' %}</li>
     {%- endfor -%}
 </ul>
