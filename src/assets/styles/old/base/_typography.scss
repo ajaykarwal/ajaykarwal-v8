@@ -105,7 +105,7 @@ p {
 		color: var(--black);
 		margin-bottom: $space-md;
 
-		@include mq(sm) {
+		@include mq(md) {
 			@include font-size(24px);
 		}
 	}

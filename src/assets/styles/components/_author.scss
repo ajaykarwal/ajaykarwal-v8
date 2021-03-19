@@ -13,7 +13,7 @@
 	margin-top: $space-md;
 	color: var(--white);
 
-	@include mq(sm) {
+	@include mq(md) {
 		grid-gap: $space $space-md;
 		padding: $space-md $space-lg;
 		grid-template-columns: 120px auto auto;
@@ -32,7 +32,7 @@
 		border-radius: 100em;
 		margin-right: $space;
 		width: 100px;
-		@include mq(sm) {
+		@include mq(md) {
 			width: 100%;
 		}
 	}
@@ -43,7 +43,7 @@
 		p {
 			@include font-size(16px);
 
-			@include mq(sm) {
+			@include mq(md) {
 				@include font-size(18px);
 			}
 		}
@@ -56,7 +56,7 @@
 		grid-gap: $space;
 		grid-template-rows: auto;
 
-		@include mq(sm) {
+		@include mq(md) {
 			grid-template-columns: auto 1fr;
 		}
 		@include mq(md) {

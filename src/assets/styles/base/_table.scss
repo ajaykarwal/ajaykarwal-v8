@@ -1,0 +1,21 @@
+table,
+.table {
+	width: 100%;
+	margin: $space-lg 0;
+	th,
+	td {
+		border-bottom: 1px solid var(--grey-semi);
+		@include font-size(17px);
+		padding: $space-sm $space;
+	}
+	th {
+		// background-color: var(--white);
+        border-bottom-width: 3px;
+		color: var(--primary);
+		font-weight: $font-weight-medium;
+		font-variation-settings: 'wght' $font-weight-medium;
+	}
+	tr:hover td {
+		background-color: var(--grey-medium);
+	}
+}

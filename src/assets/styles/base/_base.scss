@@ -25,7 +25,6 @@ body {
 	padding-bottom: 50px;
 	margin: auto;
 	background-color: var(--grey-light);
-	// background-image: url("data:image/svg+xml,%3Csvg width='6' height='6' viewBox='0 0 6 6' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='%23bc3e31' fill-opacity='0.05' fill-rule='evenodd'%3E%3Cpath d='M5 0h1L0 6V5zM6 5v1H5z'/%3E%3C/g%3E%3C/svg%3E");
 	font-weight: $font-weight-normal;
 	font-variation-settings: 'wght' $font-weight-normal;
 	line-height: 1.4;
@@ -34,8 +33,7 @@ body {
 	min-height: 100%;
 	@include font-size(18px);
 
-	@include mq(sm) {
-		border-width: 12px;
+	@include mq(lg) {
 		line-height: 1.5;
 		@include font-size(20px);
 	}
@@ -51,7 +49,7 @@ hr {
 	background-color: var(--grey-medium);
 	height: 2px;
 
-	@include mq(sm) {
+	@include mq(md) {
 		margin-top: $space-xl;
 		margin-bottom: $space-xl;
 	}
@@ -108,16 +106,19 @@ figure {
 blockquote {
 	margin: $space auto;
 	padding: $space;
-	border-left: 5px solid var(--primary);
-	background-color: var(--primary-very-light);
+    border-left: 5px solid var(--grey-semi);
+    background-color: var(--grey-medium);
 
 	p {
-		margin: 0;
+        margin: 0;
+        + p {
+            margin-top: $space;
+        }
 	}
 
-	&.muted {
-		border-left: 5px solid var(--grey-semi);
-		background-color: transparent;
+	&.primary {
+        border-left: 5px solid var(--primary);
+        background-color: var(--primary-very-light);
 	}
 
 	cite {

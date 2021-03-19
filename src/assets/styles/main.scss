@@ -17,21 +17,23 @@
 @import 'base/base';
 @import 'base/layout';
 @import 'base/typography';
-@import 'base/focus';
-@import 'base/utilities';
-@import 'base/screenreader';
 @import 'base/animation';
+@import 'base/focus';
+@import 'base/screenreader';
+@import 'base/table';
+@import 'base/utilities';
 
 /* ------------------------------- COMPONENTS ------------------------------- */
-@import 'components/header';
-@import 'components/footer';
-@import 'components/nav';
-@import 'components/icon';
-@import 'components/homepage';
-@import 'components/listing';
+@import 'components/author';
 @import 'components/buttons';
-@import 'components/sitemap';
 @import 'components/code';
+@import 'components/footer';
+@import 'components/header';
+@import 'components/homepage';
+@import 'components/icon';
+@import 'components/listing';
 @import 'components/meta';
-@import 'components/skills-list';
+@import 'components/nav';
 @import 'components/projects';
+@import 'components/sitemap';
+@import 'components/skills-list';

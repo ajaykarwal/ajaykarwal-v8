@@ -63,7 +63,7 @@
 
 .search-container {
 	margin-top: $space;
-	@include mq(sm) {
+	@include mq(md) {
 		margin-top: $space-md;
 	}
 	input {
@@ -72,7 +72,7 @@
 		padding: $space-sm;
 		@include font-size(18px);
 
-		@include mq(sm) {
+		@include mq(md) {
 			@include font-size(24px);
 		}
 	}

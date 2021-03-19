@@ -1,5 +1,25 @@
 <footer class="footer" role="contentinfo">
-	<div class="footer__inner container">
-		<span>&copy; copyright {{ build.timestamp | dateToFormat('yyyy') }}</span>
+	<div class="footer__content">
+		<div class="footer__about">
+			<h4>A bit about me</h4>
+			<p>Hi, I’m Ajay Karwal, a frontend developer, UI designer, podcast host and all-round tech enthusiast from Buckingham, UK.</p>
+		</div>
+		<div class="footer__connect">
+			<h4>Connect with me</h4>
+			<ul class="unstyled">
+				{%- for link in config.connect -%}
+				<li key="{{ link.label }}">
+					<a href="{{ link.url }}" target="_blank" rel="nofollow noopener">
+						{{ link.label }}
+					</a>
+				</li>
+				{%- endfor -%}
+			</ul>
+		</div>
 	</div>
+	<small>
+        <span>&copy; copyright {{ build.timestamp | dateToFormat('yyyy') }}</span>
+		<a href="/versions/">Version 8.0</a>, built using <a href="https://www.11ty.dev">Eleventy</a> and hosted on
+		<a href="https://www.netlify.com/">Netlify</a>. You can see the source code on <a href="{config.repository}">Github</a>.
+	</small>
 </footer>

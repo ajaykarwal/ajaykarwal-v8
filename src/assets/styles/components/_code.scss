@@ -12,7 +12,7 @@
 		background-color: $inline-code;
 		text-shadow: 0 1px 0 var(--white);
 
-		@include mq(sm) {
+		@include mq(md) {
 			white-space: pre-wrap;
 		}
 	}

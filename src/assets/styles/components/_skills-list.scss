@@ -2,7 +2,7 @@
 	display: grid;
 	margin-bottom: $space-md;
 
-	@include mq(sm) {
+	@include mq(md) {
 		grid-template-columns: 1fr 1fr;
 		column-gap: $space-lg;
 		row-gap: $space;

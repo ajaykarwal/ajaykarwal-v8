@@ -44,7 +44,7 @@ input[type='reset'] {
 	border: 0;
 	@include font-size(13px);
 
-	@include mq(sm) {
+	@include mq(md) {
 		@include font-size(15px);
 	}
 

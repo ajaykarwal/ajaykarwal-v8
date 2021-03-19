@@ -106,7 +106,7 @@ var lastfmify = function () {
 			}
             .
         </p>
-        <blockquote>
+        <blockquote class="primary">
             👆🏼 That data is being pulled directly from Last.fm which is linked
             to my Spotify account to show what I'm listening to in real-time or
             what I've been listening to most if I'm not currenly playing

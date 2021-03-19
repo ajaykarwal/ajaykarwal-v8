@@ -26,13 +26,13 @@ ul.projects {
 			@include font-size(15px);
 			color: var(--grey-darkest);
 			margin: 0;
-			@include mq(sm) {
+			@include mq(md) {
 				@include font-size(18px);
 			}
 		}
 		&__date {
 			@include font-size(16px);
-			@include mq(sm) {
+			@include mq(md) {
 				@include font-size(20px);
 			}
 		}
