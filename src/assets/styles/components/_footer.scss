@@ -13,16 +13,20 @@
 		@include mq(md) {
 			display: flex;
 			justify-content: space-between;
-            > div {
-                max-width: 40%;
-            }
+			> div {
+				max-width: 40%;
+			}
 		}
 	}
 	&__about {
-        p {
-            @include font-size(15px);
-            margin-top: $space + 5px;
-        }
+		p {
+			@include font-size(15px);
+			margin-top: $space;
+
+			@include mq(md) {
+				margin-top: $space + 5px;
+			}
+		}
 	}
 	&__connect {
 		ul {
@@ -30,7 +34,7 @@
 				display: inline-block;
 				position: relative;
 				margin-right: $space-sm;
-                margin-bottom: 0;
+				margin-bottom: 0;
 
 				@include mq(md) {
 					margin-right: auto;
@@ -38,7 +42,7 @@
 					text-align: right;
 				}
 
-                a {
+				a {
 					@include font-size(15px);
 					font-weight: $font-weight-normal;
 					font-variation-settings: 'wght' $font-weight-normal;
@@ -48,6 +52,9 @@
 		@include mq(md) {
 			text-align: right;
 		}
+	}
+	&__copyright {
+		margin-top: $space;
 	}
 }
 
