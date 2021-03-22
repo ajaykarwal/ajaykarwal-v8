@@ -15,11 +15,13 @@
 				</li>
 				{%- endfor -%}
 			</ul>
+			<small class="footer__version">
+				<a href="/versions/">Version 8.0</a>, built using <a href="https://www.11ty.dev">Eleventy</a> and hosted on
+				<a href="https://www.netlify.com/">Netlify</a>.
+				<br />
+				You can see the source code on <a href="{{ config.repository }}">Github</a>.
+			</small>
 		</div>
 	</div>
-	<small>
-        <a href="/versions/">Version 8.0</a>, built using <a href="https://www.11ty.dev">Eleventy</a> and hosted on
-		<a href="https://www.netlify.com/">Netlify</a>. You can see the source code on <a href="{config.repository}">Github</a>.
-        <p class="footer__copyright">&copy; copyright {{ build.timestamp | dateToFormat('yyyy') }}</p>
-	</small>
+	<p class="footer__copyright">&copy; {{ build.timestamp | dateToFormat('yyyy') }} <a href="/">Ajay Karwal</a></p>
 </footer>

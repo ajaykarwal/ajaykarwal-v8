@@ -14,9 +14,25 @@ Here is an archive of previous designs with some notes on how that specific vers
 
 ---
 
+## v8.0
+
+2021-Present
+
+![](/assets/images/v8.jpg)
+
+For version 8 I ported the site over to [Eleventy](https://www.11ty.dev).
+
+I'd heard a lot of good things about Eleventy and upon some investigation it reminded me a lot of Jekyll (which v5.1 of this site was built in) so I knew it wouldn't be too much work to get familiar with it.
+
+The great thing about Eleventy over Jekyll is that it runs on JavaScript, so there's no annoying Ruby dependencies to setup and manager. That, and the fact that it's ⚡️ **LIGHTNING FAST** ⚡️ makes it a great choice for a site like this.
+
+Version 8 also got a full redesign. I've updated my brand logo and colour scheme and focused a lot more attention on typography and overall vertical rhythm.
+
+The site remains hosted on [Netlify](https://www.netlify.com/) with the source code available on <a href="{{ config.repository }}">Github</a>.
+
 ## v7.0
 
-2020-Present
+2020-2021
 
 ![](/assets/images/v7.jpg)
 

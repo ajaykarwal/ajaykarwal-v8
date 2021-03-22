@@ -14,7 +14,7 @@
 			display: flex;
 			justify-content: space-between;
 			> div {
-				max-width: 40%;
+				max-width: 350px;
 			}
 		}
 	}
@@ -53,8 +53,13 @@
 			text-align: right;
 		}
 	}
-	&__copyright {
+	&__version {
 		margin-top: $space;
+	}
+	&__copyright {
+        @include font-size(13px);
+		margin-top: $space;
+        text-align: center;
 	}
 }
 
