@@ -3,7 +3,7 @@ layout: post
 date: "2019-04-01"
 title: "Uninstall Node.js and install Node Version Manager (NVM)"
 cover: "/assets/images/og/node-to-nvm.jpg"
-slug: uninstall-node-and-install-nvm
+permalink: "{{ title | slug }}/index.html"
 tags:
   - node
   - javascript

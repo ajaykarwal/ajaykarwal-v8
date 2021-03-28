@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Dark Mode CSS Media Query"
+permalink: "{{ title | slug }}/index.html"
 date: "2020-11-01"
 tags:
   - css

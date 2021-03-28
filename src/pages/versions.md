@@ -3,9 +3,6 @@ layout: page
 title: Versions
 subtitle: A look back at the history of this site
 permalink: /versions/
-eleventyExcludeFromCollections: true
-eleventyNavigation:
-    key: Versions
 ---
 
 Whenever I am learning a new programming language or CMS I tend to use my own portfolio website as a way of understanding it. Over the years this website has been built in a number of different ways and I've usually given the site a design update at the same time.

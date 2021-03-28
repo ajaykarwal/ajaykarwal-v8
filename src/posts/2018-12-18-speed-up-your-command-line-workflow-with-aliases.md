@@ -3,7 +3,7 @@ layout: post
 date: "2018-12-18"
 title: "Speed up your Terminal workflow with aliases on macOS"
 cover: "/assets/images/og/terminal-aliases.jpg"
-slug: speed-up-your-command-line-workflow-with-aliases
+permalink: "{{ title | slug }}/index.html"
 tags:
   - terminal
   - macos

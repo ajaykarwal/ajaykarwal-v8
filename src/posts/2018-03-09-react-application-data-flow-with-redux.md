@@ -2,6 +2,7 @@
 layout: post
 date: "2018-03-09"
 title: "React application data flow with Redux"
+permalink: "{{ title | slug }}/index.html"
 cover: "/assets/images/og/react-and-redux.jpg"
 tags:
   - react

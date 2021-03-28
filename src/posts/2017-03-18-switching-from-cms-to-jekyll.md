@@ -3,7 +3,7 @@ layout: post
 date: "2017-03-18"
 title: "Switching from a CMS to Jekyll"
 cover: "/assets/images/og/switching-to-jekyll.jpg"
-slug: switching-from-cms-to-jekyll
+permalink: "{{ title | slug }}/index.html"
 tags:
   - jekyll
   - umbraco

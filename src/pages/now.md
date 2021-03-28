@@ -3,9 +3,6 @@ layout: page
 title: What I'm up to right now
 subtitle: Here are some of the things I’m currently focused on.
 permalink: /now/
-eleventyExcludeFromCollections: true
-eleventyNavigation:
-    key: Now
 ---
 
 **Last updated:** March 2021.

@@ -3,7 +3,7 @@ layout: post
 date: "2019-04-29"
 title: "Add spaces to the Dock in macOS"
 cover: "/assets/images/og/dock-spaces.jpg"
-slug: add-spaces-to-macos-dock
+permalink: "{{ title | slug }}/index.html"
 tags:
   - macos
   - terminal

@@ -7,10 +7,10 @@ eleventyNavigation:
     order: 0
 ---
 
-<div class="tags">
-  {%- for tag, posts in collections | dictsort %}
-  <a href="/tags/{{tag}}">{{tag}} <span>[{{ posts | length }}]</span></a>
-  {%- endfor %}
+<div class="tags tags--buttons">
+  {%- for tag in collections.tagList -%}
+    <a href="/tags/{{tag}}">{{tag}}</a>
+  {%- endfor -%}
 </div>
 
 <ul class="unstyled">

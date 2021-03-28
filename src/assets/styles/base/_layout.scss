@@ -58,7 +58,14 @@ section {
 			@include font-size(16px);
 			font-weight: $font-weight-medium;
 		}
-
+		.date {
+			@include font-size(15px);
+			color: var(--black);
+			margin-bottom: $space-xs;
+		}
+		.tags {
+			margin-bottom: 0;
+		}
 		.button {
 			@include mq(lg) {
 				position: absolute;

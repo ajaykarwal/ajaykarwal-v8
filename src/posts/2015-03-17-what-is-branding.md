@@ -3,6 +3,7 @@ layout: post
 date: "2015-03-17"
 title: "What is Branding?"
 cover: "/assets/images/og/what-is-branding.jpg"
+permalink: "{{ title | slug }}/index.html"
 tags:
   - branding
   - links

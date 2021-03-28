@@ -2,6 +2,7 @@
 layout: post
 title: "Declaring variables in JavaScript"
 date: "2021-01-03"
+permalink: "{{ title | slug }}/index.html"
 tags:
   - javascript
 ---

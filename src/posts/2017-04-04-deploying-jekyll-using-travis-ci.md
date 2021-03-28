@@ -3,7 +3,7 @@ layout: post
 date: "2017-04-04"
 title: "Deploying a Jekyll website using Travis CI"
 cover: "/assets/images/og/deploying-with-travis.jpg"
-slug: deploying-jekyll-using-travis-ci
+permalink: deploying-jekyll-using-travis-ci
 tags:
   - jekyll
   - ci

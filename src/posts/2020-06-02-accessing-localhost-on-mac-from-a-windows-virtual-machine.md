@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Accessing localhost on Mac from a Windows Virtual Machine"
+permalink: "{{ title | slug }}/index.html"
 date: "2020-06-02"
 tags:
   - windows

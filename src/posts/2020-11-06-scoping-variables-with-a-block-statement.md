@@ -1,9 +1,10 @@
 ---
 layout: post
-title: "Scoping Variables With A Block Statement"
-date: "2020-11-06"
+title: 'Scoping Variables With A Block Statement'
+permalink: '{{ title | slug }}/index.html'
+date: '2020-11-06'
 tags:
-  - javascript
+    - javascript
 ---
 
 A block is simply any code wrapped in curly braces `{ }`.
@@ -13,11 +14,11 @@ In JavaScript, you can use block scope and the `let` keyword to your advantage b
 Let's look at two examples:
 
 ```javascript
-const dateStr = "2020-05-04";
+const dateStr = '2020-05-04';
 var [year, month, day] = dateStr.split('-');
 
 // 'year' accidently gets redefined on the global scope
-var year = "1982";
+var year = '1982';
 
 let parsedDate;
 parsedDate = Date.parse(year, month, day);
@@ -32,13 +33,13 @@ The `year` varibale is available on the global scope and could easily be redefin
 Here's how block scope can fix this.
 
 ```javascript
-const dateStr = "2020-05-04";
+const dateStr = '2020-05-04';
 let parsedDate;
-var year = "1982"; // Gloabl year variable
+var year = '1982'; // Gloabl year variable
 
 {
-  let [year, month, day] = dateStr.split('-');
-  parsedDate = Date.parse(year, month, day);
+	let [year, month, day] = dateStr.split('-');
+	parsedDate = Date.parse(year, month, day);
 }
 
 console.log(parsedDate);

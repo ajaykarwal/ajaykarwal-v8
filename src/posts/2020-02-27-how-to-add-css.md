@@ -3,6 +3,7 @@ layout: post
 date: "2020-02-27"
 title: "Three methods for adding CSS to your website"
 cover: "/assets/images/og/how-to-add-css.jpg"
+permalink: "{{ title | slug }}/index.html"
 tags:
   - css
   - popular

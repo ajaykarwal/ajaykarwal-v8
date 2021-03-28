@@ -3,6 +3,7 @@ layout: post
 date: "2020-03-08"
 title: "How I use Sass in my projects"
 cover: "/assets/images/og/how-i-use-sass.jpg"
+permalink: "{{ title | slug }}/index.html"
 tags:
   - css
 ---

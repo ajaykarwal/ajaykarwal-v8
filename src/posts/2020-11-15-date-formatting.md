@@ -1,6 +1,7 @@
 ---
 layout: post
 title: 'Date formatting'
+permalink: '{{ title | slug }}/index.html'
 date: '2020-11-15'
 tags:
     - misc

@@ -3,7 +3,7 @@ layout: post
 date: "2017-01-24"
 title: "Download YouTube videos to a Synology NAS"
 cover: "/assets/images/og/synology-youtube.jpg"
-slug: download-youtube-videos-to-synology-nas
+permalink: "{{ title | slug }}/index.html"
 tags:
   - tips
   - synology

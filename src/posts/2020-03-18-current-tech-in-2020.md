@@ -3,6 +3,7 @@ layout: post
 date: "2020-03-18"
 title: "My current tech in 2020"
 cover: "/assets/images/og/current-tech-in-2020.jpg"
+permalink: "{{ title | slug }}/index.html"
 tags:
   - tech
   - tools

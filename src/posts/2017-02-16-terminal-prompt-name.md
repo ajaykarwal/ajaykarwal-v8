@@ -3,7 +3,7 @@ layout: post
 date: "2017-02-16"
 title: "Edit the Terminal Prompt name on macOS"
 cover: "/assets/images/og/terminal-prompt.jpg"
-slug: edit-terminal-prompt-on-mac
+permalink: "{{ title | slug }}/index.html"
 tags:
   - terminal
   - macos

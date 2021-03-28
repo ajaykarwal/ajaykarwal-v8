@@ -2,6 +2,7 @@
 layout: post
 date: "2016-06-21"
 title: "Good product manager; Bad product manager"
+permalink: "{{ title | slug }}/index.html"
 cover: "/assets/images/og/hard-thing.jpg"
 tags:
   - book review

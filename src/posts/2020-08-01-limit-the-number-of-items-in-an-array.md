@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Limit the number of items in an Array"
+permalink: "{{ title | slug }}/index.html"
 date: "2020-08-01"
 tags:
   - javascript

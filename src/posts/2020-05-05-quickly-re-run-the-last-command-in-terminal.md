@@ -2,6 +2,7 @@
 layout: post
 date: "2020-05-05"
 title: "Quickly re-run the last command in terminal"
+permalink: "{{ title | slug }}/index.html"
 tags:
   - terminal
   - tips

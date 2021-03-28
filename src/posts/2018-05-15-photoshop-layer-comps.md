@@ -3,7 +3,7 @@ layout: post
 date: "2018-05-15"
 title: "Working with Layer Comps in Photoshop"
 cover: "/assets/images/og/photoshop-layer-comps.jpg"
-slug: photoshop-layer-comps
+permalink: "{{ title | slug }}/index.html"
 tags:
   - design
   - photoshop

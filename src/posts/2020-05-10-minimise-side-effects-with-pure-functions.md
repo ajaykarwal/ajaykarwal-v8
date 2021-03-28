@@ -1,6 +1,7 @@
 ---
 layout: post
 title: "Minimise side effects with pure functions"
+permalink: "{{ title | slug }}/index.html"
 date: "2020-05-10"
 tags:
   - javascript
