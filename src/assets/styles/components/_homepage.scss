@@ -13,6 +13,7 @@
 		width: 100px;
 		height: 150px;
 		object-fit: cover;
+        object-position: top;
 		display: block;
 		float: right;
 		margin: calc(#{$space-md} + 6px) auto $space $space;

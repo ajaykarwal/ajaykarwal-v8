@@ -10,8 +10,7 @@ layout: base
 		{% endif %}
 		<p class="date">{{ page.date | dateString }}</p>
 		<div class="tags">
-            Posted in 
-			{%- for tag in tags -%} {% if tag !== "posts" %}
+			Posted in {%- for tag in tags -%} {% if tag !== "posts" %}
 			<a href="/tags/{{ tag }}">{{ tag }}</a>
 			{% endif %} {%- endfor -%}
 		</div>
@@ -19,7 +18,7 @@ layout: base
 	</header>
 	{{ content | safe }}
 
-	{% if config.disqusShortname %} {% if comments != false %}
+	{% include "author.njk" %} {% if config.disqusShortname %} {% if comments != false %}
 	<aside>
 		<h2>Comments</h2>
 		{% include "disqus.njk" %}
