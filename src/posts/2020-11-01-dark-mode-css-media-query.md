@@ -25,4 +25,4 @@ You should only need to use one of these queries, as the user will default to th
 
 Browser support is pretty much universal.
 
-![](/assets/images/prefers-color-scheme.png)
+{% lightbox 'prefers-color-scheme.png', 'CanIUse prefers color scheme data' %}

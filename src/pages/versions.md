@@ -15,7 +15,7 @@ Here is an archive of previous designs with some notes on how that specific vers
 
 2021-Present
 
-![](/assets/images/v8.jpg)
+{% lightbox 'v8.jpg', 'Website v8' %}
 
 For version 8 I ported the site over to [Eleventy](https://www.11ty.dev).
 
@@ -31,7 +31,7 @@ The site remains hosted on [Netlify](https://www.netlify.com/) with the source c
 
 2020-2021
 
-![](/assets/images/v7.jpg)
+{% lightbox 'v7.jpg', 'Website v7' %}
 
 Version 7 of the site is now built with [Gatsby](https://www.gatsbyjs.org/) and remains hosted on [Netlify](https://www.netlify.com/).
 
@@ -43,7 +43,7 @@ I've also re-introduced a [portfolio](/portfolio/) section which shows some of t
 
 2018-2020
 
-![](/assets/images/v6.jpg)
+{% lightbox 'v6.jpg', 'Website v6' %}
 
 For version 6, the site has stayed on Jekyll but is now hosted on [Netlify](https://www.netlify.com/) which deploys automatically when I push to the Master branch of my GitHub repo. The new design is much more stripped back with a bigger focus on written content and typography. I also stripped out jQuery, FontAwesome and switched to a [system font stack](https://css-tricks.com/snippets/css/system-font-stack/) which has masively increased the page load speeds.
 
@@ -57,7 +57,7 @@ The site was still hosted on Azure but I introduced a <a href="/deploying-jekyll
 
 2017-2018
 
-![](/assets/images/v5.jpg)
+{% lightbox 'v5.jpg', 'Website v5' %}
 
 Version 5 stays on Umbraco and Azure but swsitched over to a light theme while keeping the basic layout as version 4.
 
@@ -65,7 +65,7 @@ Version 5 stays on Umbraco and Azure but swsitched over to a light theme while k
 
 2016-2017
 
-![](/assets/images/v4.jpg)
+{% lightbox 'v4.jpg', 'Website v4' %}
 
 Version 4 is was the first CMS version of the website and introduced my new [logo](https://dribbble.com/shots/2718615-Branding-logo-and-website-refresh-for-2016). I decided to build it in [Umbraco](https://umbraco.com/) as that was the platform the company I was working for at the time was using. I hosted the site on the free tier of Microsoft Azure.
 
@@ -73,7 +73,7 @@ Version 4 is was the first CMS version of the website and introduced my new [log
 
 2014-2016
 
-![](/assets/images/v3.jpg)
+{% lightbox 'v3.jpg', 'Website v3' %}
 
 For version 3 I decided to give my personal identity a [design refresh](https://dribbble.com/shots/1524996-Personal-Identity-V2) which introduced some bright colours and softer lines. This version of the site was built in PHP and included a lot more jQuery animations. I was aiming for a 'single page web app' look and feel which was the trend at the time.
 
@@ -81,7 +81,7 @@ For version 3 I decided to give my personal identity a [design refresh](https://
 
 2012-2014
 
-![](/assets/images/v2.jpg)
+{% lightbox 'v2.jpg', 'Website v2' %}
 
 Version 2 was built using ASP.NET Web Forms. It was at a point in my career where I had enough experience and enough work to showcase in a proper portfolio and I wanted to create a [personal identity](https://dribbble.com/shots/775585-Personal-Identity) for myself. The left column was fixed and took 100% height of the browser (which was still tricky to do back in 2012) while the right column scrolled.
 
@@ -93,7 +93,7 @@ The left column is the `<header>` and the social icons at the bottom are the `<f
 
 2010-2012
 
-![](/assets/images/v1.jpg)
+{% lightbox 'v1.jpg', 'Website v1' %}
 
 Version 1 of the site could hardly be called a website at all. It was just a single page with some links to my profiles on various networks. I even took the liberty to make each line of text into an image becuase of the custom fonts (this was pre-webfonts) and decided to be cryptic about where each link would even take you &mdash; can you figure them out?
 

@@ -25,4 +25,4 @@ To create more spaces, just run the command again.
 
 Here is what my Dock looks like. I like to group my apps by function.
 
-![](/assets/images/macos-dock.png)
+{% lightbox 'macos-dock.png', 'My macOS Dock' %}

@@ -10,7 +10,7 @@ tags:
 
 This handy poster is a great resource to print and keep close to hand the next time you're debugging some HTTP requests.
 
-![](/assets/images/http-status-code-poster-745x1024.jpg)
+{% lightbox 'http-status-code-poster-745x1024.jpg', 'HTTP Status Codes poster' %}
 
 Designed by Steve Schoger
 

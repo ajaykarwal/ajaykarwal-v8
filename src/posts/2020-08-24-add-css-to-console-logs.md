@@ -16,6 +16,6 @@ You can add CSS to your console logs be simply adding the color flag `%c` before
 console.log('%c Hello World!', 'font-size:3em; background: #073642; color: #EEE');
 ```
 
-![](/assets/images/console-colours-1024x684.png)
+{% lightbox 'console-colours-1024x684.png', 'Console colours example' %}
 
 This can be a useful when you need to highlight key bits of information in your console to make your debugging easier.
