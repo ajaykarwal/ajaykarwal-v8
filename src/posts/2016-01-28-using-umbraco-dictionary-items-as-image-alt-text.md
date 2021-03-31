@@ -3,7 +3,6 @@ layout: post
 date: "2016-01-28"
 title: "Using Umbraco Dictionary Items as image alt text"
 permalink: "{{ title | slug }}/index.html"
-cover: "/assets/images/og/umbraco.jpg"
 tags:
   - umbraco
 ---

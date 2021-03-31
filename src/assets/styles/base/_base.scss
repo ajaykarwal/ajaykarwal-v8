@@ -103,7 +103,7 @@ figure {
 	margin: 0 0 20px 0;
 }
 
-blockquote {
+blockquote:not(.twitter-tweet) {
 	margin: $space auto;
 	padding: $space;
     border-left: 5px solid var(--grey-semi);

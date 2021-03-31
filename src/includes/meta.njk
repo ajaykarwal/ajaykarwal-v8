@@ -11,6 +11,8 @@
 <meta name="twitter:card" content="{% if image -%}summary_large_image{% else %}summary{% endif %}" />
 {%- if image -%}
 <meta property="og:image" content="{{ image | url | absoluteUrl(meta.url) }}" />
+{%- else -%}
+<meta property="og:image" content="{{ '/assets/images/og/default.png' | url | absoluteUrl(meta.url) }}" />
 {%- endif -%} {# Favicon #}
 <link rel="apple-touch-icon" sizes="180x180" href="{{ '/assets/images/favicon/apple-touch-icon.png' | url }}" />
 <link rel="icon" type="image/png" href="{{ '/assets/images/favicon/favicon-32x32.png' | url }}" sizes="32x32" />

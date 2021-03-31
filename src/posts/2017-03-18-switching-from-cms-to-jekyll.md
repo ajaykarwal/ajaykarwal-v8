@@ -1,31 +1,17 @@
 ---
 layout: post
-date: "2017-03-18"
-title: "Switching from a CMS to Jekyll"
-cover: "/assets/images/og/switching-to-jekyll.jpg"
-permalink: "{{ title | slug }}/index.html"
+date: '2017-03-18'
+title: 'Switching from a CMS to Jekyll'
+permalink: '{{ title | slug }}/index.html'
 tags:
-  - jekyll
-  - umbraco
-  - popular
+    - jekyll
+    - umbraco
+    - popular
 ---
 
 Back in February 2017, I shipped a new version of my website. Only a very slight update to the design but a complete overhaul on how it was built.
 
-<blockquote class="twitter-tweet" data-lang="en-gb">
-  <p lang="en" dir="ltr">
-    &quot;New&quot; version of my website is now live.{" "}
-    <a href="https://t.co/3lnJDCSY9S">https://t.co/3lnJDCSY9S</a>
-    <br />
-    Content is the same(ish) but its been rebuilt using{" "}
-    <a href="https://twitter.com/jekyllrb">@jekyllrb</a> &amp;{" "}
-    <a href="https://twitter.com/travisci">@travisci</a>
-  </p>
-  &mdash; Ajay Karwal (@ajaykarwal){" "}
-  <a href="https://twitter.com/ajaykarwal/status/829825398385082368">
-    9 February 2017
-  </a>
-</blockquote>
+<blockquote class="twitter-tweet"><p lang="en" dir="ltr">&quot;New&quot; version of my website is now live. <a href="https://t.co/3lnJDCSY9S">https://t.co/3lnJDCSY9S</a><br>Content is the same(ish) but its been rebuilt using <a href="https://twitter.com/jekyllrb?ref_src=twsrc%5Etfw">@jekyllrb</a> &amp; <a href="https://twitter.com/travisci?ref_src=twsrc%5Etfw">@travisci</a></p>&mdash; Ajay Karwal (@ajaykarwal) <a href="https://twitter.com/ajaykarwal/status/829825398385082368?ref_src=twsrc%5Etfw">February 9, 2017</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 
 Everything was originally built using [Umbraco](https://umbraco.com/) – a <abbr title="Content Management System">CMS</abbr> powered by .NET – and hosted on Microsoft Azure. This setup of course was reliant on Windows for developement.
 
@@ -103,14 +89,14 @@ Every use case is going to be different so take this with a pinch of salt, but t
 
 ### Pros
 
-- The output is just static HTML, CSS and JavaScript so the resulting site loads extemely fast. It can also take advantage of browser caching to make return visits even more rapid.
-- No complex hosting package or server-side processing is required which could dramatically reduce the cost of running your website. You can even host it for free via [GitHub Pages](https://help.github.com/articles/using-jekyll-as-a-static-site-generator-with-github-pages/).
-- Writing your content in Markdown results in clean, semantic markup and encourages a more structured approach to your content.
+-   The output is just static HTML, CSS and JavaScript so the resulting site loads extemely fast. It can also take advantage of browser caching to make return visits even more rapid.
+-   No complex hosting package or server-side processing is required which could dramatically reduce the cost of running your website. You can even host it for free via [GitHub Pages](https://help.github.com/articles/using-jekyll-as-a-static-site-generator-with-github-pages/).
+-   Writing your content in Markdown results in clean, semantic markup and encourages a more structured approach to your content.
 
 ### Cons
 
-- There is a dependency of using the command-line to generate your site each time you make an edit, so some development expertise is needed. This means Jekyll is probably not a great solution for a client project where content is being managed by the client themselves.
-- Not really suited for sites which are updated very frequently.
+-   There is a dependency of using the command-line to generate your site each time you make an edit, so some development expertise is needed. This means Jekyll is probably not a great solution for a client project where content is being managed by the client themselves.
+-   Not really suited for sites which are updated very frequently.
 
 ## Final thoughts
 

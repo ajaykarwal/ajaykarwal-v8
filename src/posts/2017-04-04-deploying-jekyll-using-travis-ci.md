@@ -2,14 +2,13 @@
 layout: post
 date: "2017-04-04"
 title: "Deploying a Jekyll website using Travis CI"
-cover: "/assets/images/og/deploying-with-travis.jpg"
-permalink: deploying-jekyll-using-travis-ci
+permalink: "{{ title | slug }}/index.html"
 tags:
   - jekyll
   - ci
 ---
 
-Following on from my post about <a href="/switching-from-cms-to-jekyll/">moving from a CMS to Jekyll</a>, the next pain point to tackle is the build and deployment of your site.
+Following on from my post about <a href="/switching-from-a-cms-to-jekyll/">moving from a CMS to Jekyll</a>, the next pain point to tackle is the build and deployment of your site.
 
 Jekyll does a great job of compiling your website into a neat `_site` folder which you can then FTP to your server, however this does mean that you need to have the convenience of an FTP client at hand. A better solution would be to automate this process and seeing our source code is already being stored on GitHub, we're already half way there.
 
