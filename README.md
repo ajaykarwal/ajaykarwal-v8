@@ -3,7 +3,7 @@
 This is the repository for the current version of [ajaykarwal.com](https://ajaykarwal.com), running on Eleventy.
 
 <div align="center" style="margin:32px">
-    <img src="/assets/images/logo.png" alt="Logo" width='200px' height='200px'/>
+    <img src="https://raw.githubusercontent.com/ajaykarwal/ajaykarwal-v8/master/src/assets/images/logo.png" alt="Logo" width='200px' height='200px'/>
 </div>
 
 ## Note
