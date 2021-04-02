@@ -32,3 +32,21 @@ pre[class*='language-'] {
 	word-wrap: break-word;
 	overflow: auto;
 }
+
+.file {
+	@extend %font-mono;
+	@include font-size(14px);
+	font-weight: $font-weight-medium;
+	font-variation-settings: 'wght' $font-weight-medium;
+	position: relative;
+	padding: $space-sm $space;
+	background: var(--true-black);
+	color: var(--white);
+	border-radius: $border-radius-lg $border-radius-lg 0 0;
+
+	& + pre {
+		margin-top: 0;
+		border-top-left-radius: 0;
+		border-top-right-radius: 0;
+	}
+}
