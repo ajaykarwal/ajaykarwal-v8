@@ -1,48 +1,43 @@
 .author {
-	@include center-content;
 	display: grid;
 	grid-template-columns: 1fr;
 	grid-template-areas:
-		'avatar'
-		'info'
-		'support';
+		'i i i'
+		's s a';
 	grid-gap: $space;
-	background-color: var(--primary);
+
+	background-color: var(--white);
 	border-radius: $border-radius;
-	padding: $space-md;
-	margin-top: $space-md;
-	color: var(--white);
+	padding: $space;
+	color: var(--black);
 
 	@include mq(md) {
-		grid-gap: $space $space-md;
-		padding: $space-md $space-lg;
-		grid-template-columns: 120px auto auto;
+		grid-template-columns: auto auto 120px;
 		grid-template-areas:
-			'avatar info info'
-			'avatar support support';
-		margin-top: $space-xl;
+			'i i a'
+			's s a';
 	}
-	@include mq(md) {
-		grid-template-areas: 'avatar info support';
-	}
-
 	.avatar {
-		grid-area: avatar;
+		grid-area: a;
 
-		margin-right: $space;
-		width: 100px;
-        height: 100px;
-        object-fit: cover;
-        object-position: top;
+		width: 60px;
+		height: 60px;
+		object-fit: cover;
+		object-position: top;
+
+		@include mq(sm) {
+			width: 100px;
+			height: 100px;
+		}
 		@include mq(md) {
 			width: 100%;
-            height: 150px;
+			height: 150px;
 		}
 	}
 
 	&__info {
-		grid-area: info;
-        margin: auto;
+		grid-area: i;
+		margin: auto;
 
 		p {
 			@include font-size(15px);
@@ -50,26 +45,25 @@
 			@include mq(md) {
 				@include font-size(17px);
 			}
+			&:last-of-type {
+				margin-bottom: 0;
+			}
 		}
 	}
 
 	&__support {
-		grid-area: support;
+		grid-area: s;
 
 		display: grid;
 		grid-gap: $space;
-		grid-template-rows: auto;
+		grid-template-columns: auto;
 
 		@include mq(md) {
 			grid-template-columns: auto 1fr;
 		}
-		@include mq(md) {
-			grid-template-columns: auto;
-			margin: auto;
-		}
 		.supporter-button {
-			display: block;
-			max-width: 200px;
+			display: inline-block;
+			max-width: 150px;
 		}
 	}
 }

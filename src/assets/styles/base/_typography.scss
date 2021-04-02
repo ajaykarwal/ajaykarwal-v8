@@ -41,9 +41,9 @@ h1 {
 }
 
 h2 {
-	@include font-size(30px);
+	@include font-size(26px);
 	@include mq(lg) {
-		@include font-size(30px);
+		@include font-size(28px);
 	}
 }
 

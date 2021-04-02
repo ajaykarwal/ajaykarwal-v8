@@ -1,38 +1,37 @@
 {
-    "siteTitle": "Ajay Karwal",
-    "siteTitleShort": "Ajay Karwal",
-    "siteTitleAlt": "Personal Portfolio of Ajay Karwal",
-    "siteUrl": "https://ajaykarwal.com",
-    "repository": "https://github.com/ajaykarwal/ajaykarwal-v8",
-    "googleAnalyticsID": "UA-16609747-8",
-    "disqusShortname": "ajaykarwal",
-    "userDescription": "I’m Ajay Karwal. I write about my experiences as a front-end developer. If you enjoy my content, please consider supporting what I do.",
-    "connect": [
-        {
-            "label": "Twitter",
-            "url": "https://twitter.com/ajaykarwal"
-        },
-        {
-            "label": "Instagram",
-            "url": "https://instagram.com/ajaykarwal"
-        },
-        {
-            "label": "GitHub",
-            "url": "https://github.com/ajaykarwal"
-        },
-        {
-            "label": "LinkedIn",
-            "url": "http://www.linkedin.com/in/ajaykarwal"
-        },
-        {
-            "label": "Email",
-            "url": "mailto:ajaykarwal@gmail.com"
-        },
-        {
-            "label": "RSS",
-            "url": "/feed.xml"
-        }
-    ],
-    "themeColor": "#bc3e31",
-    "backgroundColor": "#eeeeee"
+	"siteTitle": "Ajay Karwal",
+	"siteTitleShort": "Ajay Karwal",
+	"siteTitleAlt": "Personal Portfolio of Ajay Karwal",
+	"siteUrl": "https://ajaykarwal.com",
+	"repository": "https://github.com/ajaykarwal/ajaykarwal-v8",
+	"googleAnalyticsID": "UA-16609747-8",
+	"disqusShortname": "ajaykarwal",
+	"connect": [
+		{
+			"label": "Twitter",
+			"url": "https://twitter.com/ajaykarwal"
+		},
+		{
+			"label": "Instagram",
+			"url": "https://instagram.com/ajaykarwal"
+		},
+		{
+			"label": "GitHub",
+			"url": "https://github.com/ajaykarwal"
+		},
+		{
+			"label": "LinkedIn",
+			"url": "http://www.linkedin.com/in/ajaykarwal"
+		},
+		{
+			"label": "Email",
+			"url": "mailto:ajaykarwal@gmail.com"
+		},
+		{
+			"label": "RSS",
+			"url": "/feed.xml"
+		}
+	],
+	"themeColor": "#bc3e31",
+	"backgroundColor": "#eeeeee"
 }
