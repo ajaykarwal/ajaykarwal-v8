@@ -1,11 +1,12 @@
 <footer class="footer" role="contentinfo">
+    <h1 class="hidden">Footer</h1>
 	<div class="footer__content">
-		<div class="footer__about">
-			<h4>A bit about me</h4>
+		<div class="footer__content-block footer__about">
+			<h2>A bit about me</h4>
 			<p>Hi, I’m Ajay Karwal, a frontend developer, UI designer, podcast host and all-round tech enthusiast from Buckingham, UK.</p>
 		</div>
-		<div class="footer__connect">
-			<h4>Connect with me</h4>
+		<div class="footer__content-block footer__connect">
+			<h2>Connect with me</h4>
 			<ul class="unstyled">
 				{%- for link in config.connect -%}
 				<li key="{{ link.label }}">

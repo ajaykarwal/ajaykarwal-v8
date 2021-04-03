@@ -18,6 +18,11 @@
 			}
 		}
 	}
+	&__content-block {
+		h2 {
+            @include font-size(18px);
+        }
+	}
 	&__about {
 		p {
 			@include font-size(15px);
