@@ -20,8 +20,8 @@
 	}
 	&__content-block {
 		h2 {
-            @include font-size(18px);
-        }
+			@include font-size(18px);
+		}
 	}
 	&__about {
 		p {
@@ -62,9 +62,9 @@
 		margin-top: $space;
 	}
 	&__copyright {
-        @include font-size(13px);
+		@include font-size(13px);
 		margin-top: $space;
-        text-align: center;
+		text-align: center;
 	}
 }
 

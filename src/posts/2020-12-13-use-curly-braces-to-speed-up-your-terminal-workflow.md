@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "Use curly braces to speed up your Terminal workflow"
-permalink: "{{ title | slug }}/index.html"
-date: "2020-12-13"
+title: 'Use curly braces to speed up your Terminal workflow'
+permalink: '{{ title | slug }}/index.html'
+date: '2020-12-13'
 tags:
-  - terminal
+    - terminal
 ---
 
 Use curly braces to perform multiple actions when dealing with files via the Terminal.

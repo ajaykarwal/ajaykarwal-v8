@@ -1,17 +1,17 @@
 ---
 layout: post
-title: "Check if user is offline"
-permalink: "{{ title | slug }}/index.html"
-date: "2020-10-15"
+title: 'Check if user is offline'
+permalink: '{{ title | slug }}/index.html'
+date: '2020-10-15'
 tags:
-  - javascript
-  - tips
+    - javascript
+    - tips
 ---
 
 It's pretty easy to check if a user is offline with javascript.
 
 ```javascript
-window.addEventListener('offline', () => console.log('is offline'))
+window.addEventListener('offline', () => console.log('is offline'));
 ```
 
 This can be useful to display a warning if your application auto-saves at a regular interval.

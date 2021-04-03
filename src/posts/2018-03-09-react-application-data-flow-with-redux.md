@@ -1,12 +1,12 @@
 ---
 layout: post
-date: "2018-03-09"
-title: "React application data flow with Redux"
-permalink: "{{ title | slug }}/index.html"
+date: '2018-03-09'
+title: 'React application data flow with Redux'
+permalink: '{{ title | slug }}/index.html'
 tags:
-  - react
-  - redux
-  - javascript
+    - react
+    - redux
+    - javascript
 ---
 
 This is a brief overview of the main elements of a React application's data flow with Redux. This article assumes you are familiar with at least the basics of React.
@@ -18,14 +18,14 @@ The Store is a combination of all the State objects from each Component in the a
 File: `~/reducers/index.js`
 
 ```javascript
-import { combineReducers } from "redux";
+import { combineReducers } from 'redux';
 
-import posts from "./posts";
-import comments from "./comments";
+import posts from './posts';
+import comments from './comments';
 
 const rootReducer = combineReducers({
-  posts,
-  comments
+	posts,
+	comments
 });
 
 export default rootReducer;
@@ -38,18 +38,18 @@ In this example we are importing the `posts` and `comments` reducers and combini
 A Provider receives the application's data from the Store and makes it available to all the Containers.
 
 ```javascript
-import { createStore } from "redux";
-import rootReducer from "./reducers/index";
+import { createStore } from 'redux';
+import rootReducer from './reducers/index';
 
 const store = createStore(rootReducer);
 
 const application = (
-  <Provider store={store}>
-    <Main />
-  </Provider>
+	<Provider store={store}>
+		<Main />
+	</Provider>
 );
 
-render(application, document.getElementById("root"));
+render(application, document.getElementById('root'));
 ```
 
 By wrapping the `<Main />` Container in a Provider, all of the applications data (the Store) is now available to all the children of the Provider.
@@ -61,15 +61,15 @@ Containers are a gateway between State and Components. They take a piece of Stat
 File: `/components/App.js`
 
 ```javascript
-import { bindActionCreators } from "redux";
-import { connect } from "react-redux";
-import Main from "./Main";
+import { bindActionCreators } from 'redux';
+import { connect } from 'react-redux';
+import Main from './Main';
 
 function mapStateToProps(state) {
-  return {
-    posts: state.posts,
-    comments: state.comments
-  };
+	return {
+		posts: state.posts,
+		comments: state.comments
+	};
 }
 
 const App = connect(mapStateToProps)(Main);
@@ -97,14 +97,14 @@ File: `actions.js`
 
 ```javascript
 export function addComment(postId, author, comment) {
-  return {
-    type: "ADD_COMMENT",
-    payload: {
-      postId,
-      author,
-      comment
-    }
-  };
+	return {
+		type: 'ADD_COMMENT',
+		payload: {
+			postId,
+			author,
+			comment
+		}
+	};
 }
 ```
 
@@ -117,11 +117,11 @@ This is done using the `mapDispatchToProps()` method
 File: `/components/App.js`
 
 ```javascript
-import { bindActionCreators } from "redux";
-import * as actionCreators from "../actions";
+import { bindActionCreators } from 'redux';
+import * as actionCreators from '../actions';
 
 function mapDispatchToProps(dispatch) {
-  return bindActionCreators(actionCreators, dispatch);
+	return bindActionCreators(actionCreators, dispatch);
 }
 
 const App = connect(mapStateToProps, mapDispatchToProps)(Main);
@@ -145,17 +145,17 @@ File: `/reducers/comments.js`
 
 ```javascript
 function postComments(state = [], action) {
-  switch (action.type) {
-    case "ADD_COMMENT":
-      // handle the ADD_COMMENT payload and modify state
-      return state;
-    case "REMOVE_COMMENT":
-      // handle the REMOVE_COMMENT payload and modify state
-      return state;
-    default:
-      return state;
-  }
-  return state;
+	switch (action.type) {
+		case 'ADD_COMMENT':
+			// handle the ADD_COMMENT payload and modify state
+			return state;
+		case 'REMOVE_COMMENT':
+			// handle the REMOVE_COMMENT payload and modify state
+			return state;
+		default:
+			return state;
+	}
+	return state;
 }
 ```
 

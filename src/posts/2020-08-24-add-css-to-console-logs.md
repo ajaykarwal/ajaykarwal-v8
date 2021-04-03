@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "Add CSS to console logs"
-permalink: "{{ title | slug }}/index.html"
-date: "2020-08-24"
+title: 'Add CSS to console logs'
+permalink: '{{ title | slug }}/index.html'
+date: '2020-08-24'
 tags:
-  - css
-  - console
+    - css
+    - console
 ---
 
 Having lots of `console.log()` statements in your JavaScript (while you're in dev mode of course, remove them in production!) your console can quickly become cluttered and all the logs can start looking the same.

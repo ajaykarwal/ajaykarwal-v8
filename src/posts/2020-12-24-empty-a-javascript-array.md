@@ -1,17 +1,17 @@
 ---
 layout: post
-title: "Empty a JavaScript Array"
-permalink: "{{ title | slug }}/index.html"
-date: "2020-12-24"
+title: 'Empty a JavaScript Array'
+permalink: '{{ title | slug }}/index.html'
+date: '2020-12-24'
 tags:
-  - javascript
-  - links
+    - javascript
+    - links
 ---
 
 [Ahmed Awais](https://twitter.com/MrAhmadAwais) shared this simple tip to empty a JavaScript Array.
 
 ```javascript
-arr.length = 0
+arr.length = 0;
 ```
 
 So simple right? But why would you want to do this?

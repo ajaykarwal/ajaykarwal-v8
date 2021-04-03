@@ -1,12 +1,12 @@
 ---
 layout: post
-date: "2017-02-16"
-title: "Edit the Terminal Prompt name on macOS"
-permalink: "{{ title | slug }}/index.html"
+date: '2017-02-16'
+title: 'Edit the Terminal Prompt name on macOS'
+permalink: '{{ title | slug }}/index.html'
 tags:
-  - terminal
-  - macos
-  - popular
+    - terminal
+    - macos
+    - popular
 ---
 
 As a developer you're likely to spend a lot of time in the Terminal and may have already customised the appearance of it to suit you, but what about the prompt name?
@@ -61,13 +61,13 @@ Quit Terminal and relaunch to see your new prompt in action.
 
 Here are a few common flags you can use to customize your Terminal prompt:
 
-- `\d` – Current date
-- `\t` – Current time
-- `\h` – Host name
-- `\#` – Command number
-- `\u` – User name
-- `\W` – Current working directory (ie: Desktop/)
-- `\w` – Current working directory with full path (ie: /Users/Admin/Desktop/)
+-   `\d` – Current date
+-   `\t` – Current time
+-   `\h` – Host name
+-   `\#` – Command number
+-   `\u` – User name
+-   `\W` – Current working directory (ie: Desktop/)
+-   `\w` – Current working directory with full path (ie: /Users/Admin/Desktop/)
 
 ## Going further
 

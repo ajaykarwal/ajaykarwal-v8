@@ -1,28 +1,28 @@
 ---
 layout: post
-title: "Merge Objects or Arrays with the `Spread` operator"
-permalink: "{{ title | slug }}/index.html"
-date: "2020-07-09"
+title: 'Merge Objects or Arrays with the `Spread` operator'
+permalink: '{{ title | slug }}/index.html'
+date: '2020-07-09'
 tags:
-  - javascript
-  - es6+
+    - javascript
+    - es6+
 ---
 
 Using the Spread operator (`...`) you can quickly merge multiple Objects or Arrays together.
 
 ```javascript
 const user = {
-  name: 'Ajay Karwal',
-  twitter: '@ajaykarwal'
+	name: 'Ajay Karwal',
+	twitter: '@ajaykarwal'
 };
 
 const appearance = {
-  eyes: "Brown",
-  hair: "Black",
-  glasses: true,
+	eyes: 'Brown',
+	hair: 'Black',
+	glasses: true
 };
 
-const profile = {...user, ...appearance};
+const profile = { ...user, ...appearance };
 
 console.log(profile);
 ```
@@ -42,17 +42,9 @@ The result is a single merged Object
 The same can be applied to Arrays.
 
 ```javascript
-const fruit = [
-  "apples",
-  "bananas",
-  "strawberries"
-]
+const fruit = ['apples', 'bananas', 'strawberries'];
 
-const veg = [
-  "potatoes",
-  "spinach",
-  "cauliflower"
-]
+const veg = ['potatoes', 'spinach', 'cauliflower'];
 
 const lunch = [...fruit, ...veg];
 

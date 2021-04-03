@@ -1,10 +1,10 @@
 ---
 layout: post
-date: "2020-03-08"
-title: "How I use Sass in my projects"
-permalink: "{{ title | slug }}/index.html"
+date: '2020-03-08'
+title: 'How I use Sass in my projects'
+permalink: '{{ title | slug }}/index.html'
 tags:
-  - css
+    - css
 ---
 
 I've previously posted about the three basic ways you can [add CSS to your website](/how-to-add-css). However, in modern web applications it's more common to use a CSS pre-processor such as Less, Stylus, or in my case, Sass.
@@ -58,24 +58,24 @@ My main entry point is located at `/styles/main.scss`. This is the file that get
 <div class="file">main.scss</div>
 
 ```scss
-@import "base/reset";
+@import 'base/reset';
 
-@import "base/variables";
-@import "base/mixins";
-@import "base/base";
-@import "base/typography";
+@import 'base/variables';
+@import 'base/mixins';
+@import 'base/base';
+@import 'base/typography';
 
-@import "components/layout";
-@import "components/header";
-@import "components/footer";
+@import 'components/layout';
+@import 'components/header';
+@import 'components/footer';
 
-@import "components/article";
-@import "components/author";
-@import "components/buttons";
-@import "components/code";
+@import 'components/article';
+@import 'components/author';
+@import 'components/buttons';
+@import 'components/code';
 // More components, sorted alphabetically
 
-@import "base/utility";
+@import 'base/utility';
 ```
 
 I dont really add any comments to this file, but I use line breaks to organise the imported files into groups. The order of these imports is important as the compiled output `.css` file will be organised in this order. Importing files in the wrong order could affect the cascade and styles my be overridden.
@@ -98,11 +98,11 @@ All other styling sits in the `components` folder and I aim to break down everyt
 
 ```scss
 .footer {
-  display: flex;
-  align-items: center;
-  @include font-size(14px);
+	display: flex;
+	align-items: center;
+	@include font-size(14px);
 
-  // More styling...
+	// More styling...
 }
 ```
 

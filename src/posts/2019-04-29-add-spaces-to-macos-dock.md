@@ -1,11 +1,11 @@
 ---
 layout: post
-date: "2019-04-29"
-title: "Add spaces to the Dock in macOS"
-permalink: "{{ title | slug }}/index.html"
+date: '2019-04-29'
+title: 'Add spaces to the Dock in macOS'
+permalink: '{{ title | slug }}/index.html'
 tags:
-  - macos
-  - terminal
+    - macos
+    - terminal
 ---
 
 If you want to take greater control of how apps are organised on your macOS Dock, a great way is to add spaces between groups of apps.

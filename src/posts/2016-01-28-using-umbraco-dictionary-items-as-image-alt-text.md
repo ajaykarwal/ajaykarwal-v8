@@ -1,10 +1,10 @@
 ---
 layout: post
-date: "2016-01-28"
-title: "Using Umbraco Dictionary Items as image alt text"
-permalink: "{{ title | slug }}/index.html"
+date: '2016-01-28'
+title: 'Using Umbraco Dictionary Items as image alt text'
+permalink: '{{ title | slug }}/index.html'
 tags:
-  - umbraco
+    - umbraco
 ---
 
 I was posed with a recent request to allow my content editor to edit the alt text of all the images in Umbraco to help with SEO rankings.

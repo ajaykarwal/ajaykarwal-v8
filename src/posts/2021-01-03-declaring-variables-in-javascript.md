@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "Declaring variables in JavaScript"
-date: "2021-01-03"
-permalink: "{{ title | slug }}/index.html"
+title: 'Declaring variables in JavaScript'
+date: '2021-01-03'
+permalink: '{{ title | slug }}/index.html'
 tags:
-  - javascript
+    - javascript
 ---
 
 Since the introduction of ES6, we now have three ways of declaring variables in JavaScript — `var`, `let` and `const`.
@@ -17,7 +17,7 @@ The `var` declaration has been part of the language since the beginning. It crea
 var myNumber = 10;
 console.log(myNumber); // 10
 
-myNumber = 20
+myNumber = 20;
 console.log(myNumber); // 20
 ```
 
@@ -29,11 +29,11 @@ A function-scoped variable is only available within the body of the function. A 
 var myNumber = 10; // Global variable
 
 function secretVar() {
-  var secretNumber = 100; // Function scoped variable
+	var secretNumber = 100; // Function scoped variable
 }
 
-if(myNumber > 5) {
-  var foo = "I'm block scoped"; // Block scoped variable
+if (myNumber > 5) {
+	var foo = "I'm block scoped"; // Block scoped variable
 }
 
 console.log(myNumber); // 10
@@ -53,11 +53,11 @@ If we update our earlier example to use `let` we can see that the `foo` variable
 let myNumber = 10; // Global variable
 
 function secretVar() {
-  let secretNumber = 100; // Function scoped variable
+	let secretNumber = 100; // Function scoped variable
 }
 
-if(myNumber > 5) {
-  let foo = "I'm block scoped"; // Block scoped variable
+if (myNumber > 5) {
+	let foo = "I'm block scoped"; // Block scoped variable
 }
 
 console.log(myNumber); // 10
@@ -70,8 +70,8 @@ console.log(foo); // ReferenceError: foo is not defined
 The `const` declaration, as the name implies, is used to define a constant variable; or an immutable variable which cannot be redeclared. Like `let`, the `const` declaration is also block-scoped.
 
 ```javascript
-const hero = "Iron Man";
-hero = "Captain America"; //error : Assignment to constant variable.
+const hero = 'Iron Man';
+hero = 'Captain America'; //error : Assignment to constant variable.
 ```
 
 ## Which should you use?

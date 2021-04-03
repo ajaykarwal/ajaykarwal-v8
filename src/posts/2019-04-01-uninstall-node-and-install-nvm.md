@@ -1,12 +1,12 @@
 ---
 layout: post
-date: "2019-04-01"
-title: "Uninstall Node.js and install Node Version Manager (NVM)"
-permalink: "{{ title | slug }}/index.html"
+date: '2019-04-01'
+title: 'Uninstall Node.js and install Node Version Manager (NVM)'
+permalink: '{{ title | slug }}/index.html'
 tags:
-  - node
-  - javascript
-  - popular
+    - node
+    - javascript
+    - popular
 ---
 
 When trying to install some npm packages globally, for example `npm i gulp-cli -g` you may run into a permissions error along the lines of:
@@ -35,10 +35,10 @@ Once you're ready, run this command to remove any top-level global npm packages.
 $ sudo npm list -g --depth=0 | awk -F ' ' '{print $2}' | awk -F '@' '{print $1}'  | sudo xargs npm remove -g
 ```
 
-- `sudo npm list -g --depth=0.` lists all top-level installed
-- `awk -F ' ' '{print $2}'` gets rid of `├──`
-- `awk -F '@' '{print $1}'` gets the part before the '@'
-- `sudo xargs npm remove -g` removes the package globally
+-   `sudo npm list -g --depth=0.` lists all top-level installed
+-   `awk -F ' ' '{print $2}'` gets rid of `├──`
+-   `awk -F '@' '{print $1}'` gets the part before the '@'
+-   `sudo xargs npm remove -g` removes the package globally
 
 ## 3. Install Node Version Manager
 

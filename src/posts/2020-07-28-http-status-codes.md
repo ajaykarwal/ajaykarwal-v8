@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "HTTP Status Codes"
-permalink: "{{ title | slug }}/index.html"
-date: "2020-07-28"
+title: 'HTTP Status Codes'
+permalink: '{{ title | slug }}/index.html'
+date: '2020-07-28'
 tags:
-  - http
-  - links
+    - http
+    - links
 ---
 
 This handy poster is a great resource to print and keep close to hand the next time you're debugging some HTTP requests.

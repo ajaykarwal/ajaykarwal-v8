@@ -1,11 +1,11 @@
 ---
 layout: post
-date: "2020-03-18"
-title: "My current tech in 2020"
-permalink: "{{ title | slug }}/index.html"
+date: '2020-03-18'
+title: 'My current tech in 2020'
+permalink: '{{ title | slug }}/index.html'
 tags:
-  - tech
-  - tools
+    - tech
+    - tools
 ---
 
 As with any job it's important to keep up to date with the latest technology and trends, but with software development — front-end development in particular — things change at such an alarming speed that many tech trends become obsolete before people even get a chance to explore them.

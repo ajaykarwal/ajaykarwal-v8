@@ -106,19 +106,19 @@ figure {
 blockquote:not(.twitter-tweet) {
 	margin: $space auto;
 	padding: $space;
-    border-left: 5px solid var(--grey-semi);
-    background-color: var(--grey-medium);
+	border-left: 5px solid var(--grey-semi);
+	background-color: var(--grey-medium);
 
 	p {
-        margin: 0;
-        + p {
-            margin-top: $space;
-        }
+		margin: 0;
+		+ p {
+			margin-top: $space;
+		}
 	}
 
 	&.primary {
-        border-left: 5px solid var(--primary);
-        background-color: var(--primary-very-light);
+		border-left: 5px solid var(--primary);
+		background-color: var(--primary-very-light);
 	}
 
 	cite {

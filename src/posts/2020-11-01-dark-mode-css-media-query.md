@@ -1,21 +1,21 @@
 ---
 layout: post
-title: "Dark Mode CSS Media Query"
-permalink: "{{ title | slug }}/index.html"
-date: "2020-11-01"
+title: 'Dark Mode CSS Media Query'
+permalink: '{{ title | slug }}/index.html'
+date: '2020-11-01'
 tags:
-  - css
+    - css
 ---
 
 It's super easy to detect whether a user has their device set to Dark or Light mode using a CSS media query.
 
 ```css
 @media (prefers-color-scheme: dark) {
-  /* Styles for users who prefer dark mode */
+	/* Styles for users who prefer dark mode */
 }
 
 @media (prefers-color-scheme: light) {
-  /* Styles for users who prefer light mode */
+	/* Styles for users who prefer light mode */
 }
 ```
 

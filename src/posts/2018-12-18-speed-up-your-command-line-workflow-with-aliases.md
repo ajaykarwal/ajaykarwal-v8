@@ -1,11 +1,11 @@
 ---
 layout: post
-date: "2018-12-18"
-title: "Speed up your Terminal workflow with aliases on macOS"
-permalink: "{{ title | slug }}/index.html"
+date: '2018-12-18'
+title: 'Speed up your Terminal workflow with aliases on macOS'
+permalink: '{{ title | slug }}/index.html'
 tags:
-  - terminal
-  - macos
+    - terminal
+    - macos
 ---
 
 Whether your just starting out on your development journey or you're a seasoned pro, chances are you'll be reaching for the Terminal app on a regular basis.

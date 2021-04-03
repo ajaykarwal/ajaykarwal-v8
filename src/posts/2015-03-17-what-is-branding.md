@@ -1,11 +1,11 @@
 ---
 layout: post
-date: "2015-03-17"
-title: "What is Branding?"
-permalink: "{{ title | slug }}/index.html"
+date: '2015-03-17'
+title: 'What is Branding?'
+permalink: '{{ title | slug }}/index.html'
 tags:
-  - branding
-  - links
+    - branding
+    - links
 ---
 
 A brand is so much more than a logo; a name; a font; a colour.

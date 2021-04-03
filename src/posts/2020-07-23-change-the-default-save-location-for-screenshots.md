@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "Change the default save location for screenshots on macOS"
-permalink: "{{ title | slug }}/index.html"
-date: "2020-07-23"
+title: 'Change the default save location for screenshots on macOS'
+permalink: '{{ title | slug }}/index.html'
+date: '2020-07-23'
 tags:
-  - macos
-  - terminal
+    - macos
+    - terminal
 ---
 
 First of all, here's [how to take a screenshot on Mac](https://support.apple.com/en-gb/HT201361).

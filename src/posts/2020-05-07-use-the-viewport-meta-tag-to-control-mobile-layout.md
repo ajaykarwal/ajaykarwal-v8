@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "Use the `viewport` meta tag to control mobile layout"
-permalink: "{{ title | slug }}/index.html"
-date: "2020-05-07"
+title: 'Use the `viewport` meta tag to control mobile layout'
+permalink: '{{ title | slug }}/index.html'
+date: '2020-05-07'
 tags:
-  - html
+    - html
 ---
 
 Add this single line of code to your webpage's `<head>` section if you're experiencing layout problems on mobile devices.

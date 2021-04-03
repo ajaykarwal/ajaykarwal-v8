@@ -1,11 +1,11 @@
 ---
 layout: post
-date: "2017-04-04"
-title: "Deploying a Jekyll website using Travis CI"
-permalink: "{{ title | slug }}/index.html"
+date: '2017-04-04'
+title: 'Deploying a Jekyll website using Travis CI'
+permalink: '{{ title | slug }}/index.html'
 tags:
-  - jekyll
-  - ci
+    - jekyll
+    - ci
 ---
 
 Following on from my post about <a href="/switching-from-a-cms-to-jekyll/">moving from a CMS to Jekyll</a>, the next pain point to tackle is the build and deployment of your site.
@@ -27,42 +27,42 @@ Create a new file in the root of your Jekyll project and name it `.travis.yml`. 
 ```yaml
 language: ruby
 rvm:
-  - 2.3.1
+    - 2.3.1
 
 install:
-  - bundle install
-  - gem install jekyll
-  - gem install jekyll-sitemap
-  - gem install emoji_for_jekyll
+    - bundle install
+    - gem install jekyll
+    - gem install jekyll-sitemap
+    - gem install emoji_for_jekyll
 
 branches:
-  only:
-    - master
+    only:
+        - master
 
 env:
-  global:
-    - JEKYLL_ENV=production
+    global:
+        - JEKYLL_ENV=production
 
 notifications:
-  email:
-    recipients:
-      - ajaykarwal@gmail.com
-    on_success: always
-    on_failure: always
+    email:
+        recipients:
+            - ajaykarwal@gmail.com
+        on_success: always
+        on_failure: always
 
 script:
-  - chmod +x _scripts/build.sh
-  - _scripts/build.sh
+    - chmod +x _scripts/build.sh
+    - _scripts/build.sh
 
 after_success:
-  - chmod +x _scripts/deploy.sh
-  - _scripts/deploy.sh
+    - chmod +x _scripts/deploy.sh
+    - _scripts/deploy.sh
 
 sudo: false
 addons:
-  apt:
-    packages:
-      - ncftp
+    apt:
+        packages:
+            - ncftp
 ```
 
 Let's break this down step-by-step
@@ -72,21 +72,21 @@ Let's break this down step-by-step
 ```yaml
 language: ruby
 rvm:
-  - 2.3.1
+    - 2.3.1
 
 install:
-  - bundle install
-  - gem install jekyll
-  - gem install jekyll-sitemap
-  - gem install emoji_for_jekyll
+    - bundle install
+    - gem install jekyll
+    - gem install jekyll-sitemap
+    - gem install emoji_for_jekyll
 
 branches:
-  only:
-    - master
+    only:
+        - master
 
 env:
-  global:
-    - JEKYLL_ENV=production
+    global:
+        - JEKYLL_ENV=production
 ```
 
 This section tells Travis CI that the build requires Ruby and sets the version to 2.3.1. It also lists any Gem dependencies. 'jekyll-sitemap' and 'emoji_for_jekyll' are specific to my project.
@@ -99,18 +99,18 @@ Setting `JEKYLL_ENV` to production means we can test for this environment variab
 
 ```yaml
 script:
-  - chmod +x _scripts/build.sh
-  - _scripts/build.sh
+    - chmod +x _scripts/build.sh
+    - _scripts/build.sh
 
 after_success:
-  - chmod +x _scripts/deploy.sh
-  - _scripts/deploy.sh
+    - chmod +x _scripts/deploy.sh
+    - _scripts/deploy.sh
 
 sudo: false
 addons:
-  apt:
-    packages:
-      - ncftp
+    apt:
+        packages:
+            - ncftp
 ```
 
 This section is telling Travis CI to find and execute the file located at `_scripts/build.sh` and on success execute the file at `_scripts/deploy.sh`.
@@ -159,9 +159,9 @@ This script was written by [Jamie Magee](https://jamiemagee.co.uk/2015/03/31/con
 
 For the deploy script to work you need to configure the environment variables for your GitHub repository in Travis CI.
 
-- Go to your [Travis profile](https://travis-ci.org/profile/)
-- Find your Jekyll repository, switch Travis CI on and click the gear icon
-- Set the Environment Variables for your FTP host.
+-   Go to your [Travis profile](https://travis-ci.org/profile/)
+-   Find your Jekyll repository, switch Travis CI on and click the gear icon
+-   Set the Environment Variables for your FTP host.
 
 {% lightbox 'travis-settings.png', 'Travis Settings' %}
 
@@ -177,11 +177,11 @@ The notifications section in `.travis.yml` file can be used to manage who receiv
 
 ```yaml
 notifications:
-  email:
-    recipients:
-      - ajaykarwal@gmail.com
-    on_success: always
-    on_failure: always
+    email:
+        recipients:
+            - ajaykarwal@gmail.com
+        on_success: always
+        on_failure: always
 ```
 
 ## Final thoughts
