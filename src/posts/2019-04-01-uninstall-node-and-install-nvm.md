@@ -66,7 +66,7 @@ export NVM_DIR="$HOME/.nvm"
 
 You can now install Node using the `nvm` command. This will install the latest version.
 
-```
+```shell
 $ nvm install node
 ```
 
