@@ -9,13 +9,15 @@ eleventyNavigation:
 
 Here is a list of hardware, software, apps and other tools I use on a daily basis both at work and in my personal life. I hope you found some useful resources here.
 
-**Last updated:** March 2021.
+**Last updated:** April 2021.
 
 ## Hardware
-
--   **My Desk:** Here is a [picture of my desk](https://www.instagram.com/p/BxS_i7qlkLo/) (it's not always this neat).
--   **Personal Laptop:** 15" Macbook Pro (2013)
--   **Work Laptop:** 16" Macbook Pro (2019)
+-   **Desk:** A 3m kitchen worktop resting on two IKEA ALEX drawers with IKEA ADILS support legs in the middle.
+-   **Chair:** [Herman Miller Mirra 2](https://www.hermanmiller.com/en_gb/products/seating/office-chairs/mirra-2-chairs/)
+-   **Personal Laptop:** 15" MacBook Pro (2013)
+-   **Work Laptop:** Dell XPS 15 9500
+-   **Keyboard:** [Logitech MX Keys](https://amzn.to/3mriE3O) with a [Logitech MX Palm Rest](https://amzn.to/3wrIEAv)
+-   **Mouse:** [Logitech MX Master 3](https://amzn.to/3fGSTeg)
 -   **Screen:** [Dell U2515H monitor](https://amzn.to/2Yfp118)
 -   **Dock:** [i-Tec Docking Station](https://amzn.to/2SXtGyL)
 -   **Desk Mat:** [BUBM Case Desk Mat](https://amzn.to/2YBFYOs)
@@ -28,12 +30,11 @@ Here is a list of hardware, software, apps and other tools I use on a daily basi
 -   **Reading:** [Kindle Fire HDX](http://amzn.to/2chJzcz)
 
 ## Software
-
 -   **Editor:** Visual Studio Code
 -   **Theme:** Material Theme - Palenight High Contrast
 -   **Font:** [Fira Code](https://github.com/tonsky/FiraCode)
 -   **Browsers:** Chrome mainly
--   **Terminal:** I use the default Mac Terminal App with a slighly customised theme which you can find [here](https://github.com/ajaykarwal/dotfiles/blob/master/src/shell/bash_prompt)
+-   **Command Prompt / Terminal:** [cmder](https://cmder.net/)
 -   **Design:** Figma
 -   **Audio:** Logic Pro X for editing my [podcast](http://inspect.fm)
 -   **Video:** [DaVinci Resolve](https://www.blackmagicdesign.com/uk/products/davinciresolve/)
@@ -41,7 +42,6 @@ Here is a list of hardware, software, apps and other tools I use on a daily basi
 -   **Cloud Storage:** Dropbox
 
 ## Other
-
 -   **Sketchbook:** [Behance Dotgrid Notebook](https://amzn.to/2T0BqjJ)
 -   **Notebook:** [Pukka Pad Squared Paper](https://amzn.to/2Yh4DwF)
 -   **Pencil:** [Graphgear 1000 pencil](https://www.pentel.co.uk/products.asp?group=3&type=13&pid=124)
