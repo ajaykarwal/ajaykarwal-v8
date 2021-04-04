@@ -39,7 +39,7 @@
 				display: inline-block;
 				position: relative;
 				margin-right: $space-sm;
-				margin-bottom: 0;
+				margin-bottom: $space-sm;
 
 				@include mq(md) {
 					margin-right: auto;
