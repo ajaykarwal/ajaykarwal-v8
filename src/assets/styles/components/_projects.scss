@@ -21,34 +21,42 @@ ul.projects {
 			justify-content: space-between;
 
 			&--icon {
-                display: none;
-                background-color: var(--grey-medium);
-                width: 70px;
-                height: 70px;
-                border-radius: $border-radius-lg;
-                padding: $space-sm;
-
-                @include mq(md) {
+				display: none;
+				background-color: var(--grey-medium);
+				border-radius: $border-radius-lg;
+				padding: $space-sm;
+                
+				@include mq(sm) {
+                    width: 50px;
+                    height: 50px;
                     display: flex;
-                    align-items: center;
-                    justify-content: center;
-                }
-		}
+					align-items: center;
+					justify-content: center;
+					flex-shrink: 0;
+                    margin-right: $space;
+				}
+				@include mq(md) {
+                    width: 70px;
+                    height: 70px;
+				}
+			}
 
 			&--content {
-				max-width: 70%;
 				flex-grow: 1;
 			}
 
 			&--date {
-				@include font-size(16px);
+                text-align: right;
+                margin-left: $space;
+				@include font-size(15px);
+                
 				@include mq(md) {
 					@include font-size(20px);
 				}
 			}
-
+            
 			&--title {
-				margin-top: 0;
+                margin-top: 0;
 			}
 
 			&--summary {
