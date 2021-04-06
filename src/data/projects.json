@@ -1,137 +1,162 @@
 [
 	{
 		"current": true,
-		"title": "Aiimi",
+		"id": "aiimi",
+        "title": "Aiimi",
 		"summary": "Enterprise search and analytics app",
 		"date": "2020-10",
 		"details": ""
 	},
 	{
-		"title": "Support Room",
+		"id": "supportroom",
+        "title": "Support Room",
 		"summary": "Online mental health counselling and therapy platform",
 		"date": "2020-08"
 	},
 	{
-		"title": "Hugo Boss",
+		"id": "hugoboss",
+        "title": "Hugo Boss",
 		"summary": "Email marketing campaign powered by Adobe Campaign",
 		"date": "2020-07"
 	},
 	{
-		"title": "A Plastic Planet",
+		"id": "plasticplanet",
+        "title": "A Plastic Planet",
 		"summary": "Building a plastic free materials marketplace",
 		"date": "2020-06"
 	},
 	{
-		"title": "Der Touristik Suisse",
+		"id": "dertouristiksuisse",
+        "title": "Der Touristik Suisse",
 		"summary": "Email marketing campaign to promote Swiss tourism",
 		"date": "2020-02"
 	},
 	{
-		"title": "Wienerberger - Pipelife",
+		"id": "wienerberger",
+        "title": "Wienerberger - Pipelife",
 		"summary": "Upgrades to global website and themed sub-brands",
 		"date": "2019-10",
 		"details": "The client undertook a series of upgrades for their global website and themed sub-brands. My role was to configure themes for the Pipelife sub-brand and customise core components to meet the bespoke requirements of the brand.",
 		"tech": ["Adobe Experience Manager", "Webpack", "Sass"]
 	},
 	{
-		"title": "Audi",
+		"id": "audi",
+        "title": "Audi",
 		"summary": "Car configurator updates",
 		"date": "2019-07"
 	},
 	{
-		"title": "Air BP - Airfield Automation",
+		"id": "airbp",
+        "title": "Air BP - Airfield Automation",
 		"summary": "Airline fuel tracking portal",
 		"date": "2019-05",
 		"details": "Air BP tracks the movement of airline fuel throughout its journey from the ground, to refineries and storage tanks, and finally to airlines. The Airfield Automation project was to convert an antiquated Windows desktop application into a versitile web application for use on any platform including mobile devices.<br><br>Using the exiting desktop application as a starting point and utilising Air BP's brand guidelines, I designed the UI for the updated forms. I translated these designs into React components which the team could then use to build the necessary steps of the form.",
 		"tech": ["React.js", "Bootstrap", "Sass", "Gulp", "Sketch"]
 	},
 	{
-		"title": "Thames Water - Developer Services",
+		"id": "thameswater",
+        "title": "Thames Water - Developer Services",
 		"summary": "Water connection form for property developers",
 		"date": "2019-02",
 		"details": "The project was to build a multi-step form for property developers to book in new water connections — a process which was formerly paper-based and involved a large amount of human input. The form contains a large amount of logic and validations which are checked against and API provided by a Sitecore and SAP backend.<br><br>My role was to design and build the static frontend templates of the form which were later ported over to a Sitecore backend (externally). The form elements are built in Nunjucks and scaffolded with Bootstrap. There are then composed into the various pages of the form and served locally via a simple Express server. All the form logic and validations are written in jQuery with a Gulp build process to optimise all the static assets.",
 		"tech": ["Node", "Express", "Nunjucks", "jQuery", "Bootstrap", "Sass", "Gulp", "Babel", "Sketch"]
 	},
 	{
-		"title": "NSK Europe",
+		"id": "nsk",
+        "title": "NSK Europe",
 		"summary": "Site performance and accessibility audit",
 		"date": "2018-12"
 	},
 	{
-		"title": "Heineken Direct",
+		"id": "heineken",
+        "title": "Heineken Direct",
 		"summary": "B2B supplies ordering portal",
 		"date": "2018-08"
 	},
 	{
-		"title": "Axalta",
+		"id": "axalta",
+        "title": "Axalta",
 		"summary": "Web component customisation",
 		"date": "2018-02"
 	},
 	{
-		"title": "HSBC",
+		"id": "hsbc",
+        "title": "HSBC",
 		"summary": "",
 		"date": "2017-03"
 	},
 	{
-		"title": "Martin West Interiors",
+		"id": "martinwestinteriors",
+        "title": "Martin West Interiors",
 		"summary": "Brochure site for bespoke furniture builders",
 		"date": "2017-01"
 	},
 	{
-		"title": "AHDB",
+		"id": "ahdb",
+        "title": "AHDB",
 		"summary": "Episerver platform upgrade",
 		"date": "2016-11"
 	},
 	{
-		"title": "Relish Broadband",
+		"id": "relishbroadband",
+        "title": "Relish Broadband",
 		"summary": "General site maintenance",
 		"date": "2016-08"
 	},
 	{
-		"title": "Royal Voluntary Service",
+		"id": "rvs",
+        "title": "Royal Voluntary Service",
 		"summary": "General site maintenance",
 		"date": "2016-03"
 	},
 	{
-		"title": "Ministry of Sound",
+		"id": "mos",
+        "title": "Ministry of Sound",
 		"summary": "Microsite for new Audio range launch",
 		"date": "2015-12",
 		"details": "In 2015, Ministry of Sound, the iconic music brand launched their new Audio range of wireless speakers and headphones. As part of this launch they required a new microsite to be added to their existing website.<br><br>My role was to work closely with the in-house development team to drive the online marketing of the Ministry Audio range within the brand's existing guidelines.",
 		"tech": ["Adobe Photoshop"]
 	},
 	{
-		"title": "Land Rover",
+		"id": "landrover",
+        "title": "Land Rover",
 		"date": "2015-09"
 	},
 	{
-		"title": "Kodak",
+		"id": "kodak",
+        "title": "Kodak",
 		"summary": "Microsite for Kodak's IM5 Android smartphone",
 		"date": "2015-05"
 	},
 	{
-		"title": "Catphones",
+		"id": "caterpillar",
+        "title": "Catphones",
 		"summary": "Umbraco CMS upgrade and website redesign",
 		"date": "2015-02",
 		"details": "The primary goal of this project was to upgrade from Umbraco version 4 to version 6. As this was a major upgrade and largely a manual process, the project also included a full UI redesign at the same time.<br><br>My role was to redesign the website and refactor the front-end code to suit.",
 		"tech": ["Umbraco", "Bootstrap", "Sass"]
 	},
 	{
-		"title": "WHSmith",
+		"id": "whsmith",
+        "title": "WHSmith",
 		"summary": "Checkout process upgrades",
 		"date": "2014-11"
 	},
 	{
-		"title": "Coast",
+		"id": "coast",
+        "title": "Coast",
 		"summary": "Personalised marketing campaign manager",
 		"date": "2014-08"
 	},
 	{
-		"title": "Asian Bride Magazine",
+		"id": "asianbride",
+        "title": "Asian Bride Magazine",
 		"summary": "Online portal and digital iPad magazine design",
 		"date": "2012"
 	},
 	{
-		"title": "Chilli Tickets",
+		"id": "chillitickets",
+        "title": "Chilli Tickets",
 		"summary": "Online event ticketing platform",
 		"date": "2006"
 	}

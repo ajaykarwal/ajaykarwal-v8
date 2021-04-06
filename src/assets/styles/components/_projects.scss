@@ -10,30 +10,62 @@ ul.projects {
 			&.has-details {
 				background-color: var(--grey-medium);
 				padding-top: $space;
+
+				.project__header--icon {
+					background-color: var(--grey-light);
+				}
 			}
 		}
 		&__header {
 			display: flex;
 			justify-content: space-between;
-			&-content {
-				max-width: 70%;
+
+			&--icon {
+				display: none;
+				background-color: var(--grey-medium);
+				border-radius: $border-radius-lg;
+				padding: $space-sm;
+                
+				@include mq(sm) {
+                    width: 50px;
+                    height: 50px;
+                    display: flex;
+					align-items: center;
+					justify-content: center;
+					flex-shrink: 0;
+                    margin-right: $space;
+				}
+				@include mq(md) {
+                    width: 70px;
+                    height: 70px;
+				}
 			}
-		}
-		&__title {
-			margin-top: 0;
-		}
-		&__summary {
-			@include font-size(15px);
-			color: var(--grey-darkest);
-			margin: 0;
-			@include mq(md) {
-				@include font-size(18px);
+
+			&--content {
+				flex-grow: 1;
 			}
-		}
-		&__date {
-			@include font-size(16px);
-			@include mq(md) {
-				@include font-size(20px);
+
+			&--date {
+                text-align: right;
+                margin-left: $space;
+				@include font-size(15px);
+                
+				@include mq(md) {
+					@include font-size(20px);
+				}
+			}
+            
+			&--title {
+                margin-top: 0;
+			}
+
+			&--summary {
+				@include font-size(15px);
+				color: var(--grey-darkest);
+				margin: 0;
+				@include mq(md) {
+					@include font-size(18px);
+				}
 			}
 		}
 		&__details {
