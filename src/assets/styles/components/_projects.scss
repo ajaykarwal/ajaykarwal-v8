@@ -10,30 +10,54 @@ ul.projects {
 			&.has-details {
 				background-color: var(--grey-medium);
 				padding-top: $space;
+
+				.project__header--icon {
+					background-color: var(--grey-light);
+				}
 			}
 		}
 		&__header {
 			display: flex;
 			justify-content: space-between;
-			&-content {
+
+			&--icon {
+                display: none;
+                background-color: var(--grey-medium);
+                width: 70px;
+                height: 70px;
+                border-radius: $border-radius-lg;
+                padding: $space-sm;
+
+                @include mq(md) {
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                }
+		}
+
+			&--content {
 				max-width: 70%;
+				flex-grow: 1;
 			}
-		}
-		&__title {
-			margin-top: 0;
-		}
-		&__summary {
-			@include font-size(15px);
-			color: var(--grey-darkest);
-			margin: 0;
-			@include mq(md) {
-				@include font-size(18px);
+
+			&--date {
+				@include font-size(16px);
+				@include mq(md) {
+					@include font-size(20px);
+				}
 			}
-		}
-		&__date {
-			@include font-size(16px);
-			@include mq(md) {
-				@include font-size(20px);
+
+			&--title {
+				margin-top: 0;
+			}
+
+			&--summary {
+				@include font-size(15px);
+				color: var(--grey-darkest);
+				margin: 0;
+				@include mq(md) {
+					@include font-size(18px);
+				}
 			}
 		}
 		&__details {
