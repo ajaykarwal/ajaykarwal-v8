@@ -8,7 +8,6 @@
 
 	&__content {
 		border-top: 2px solid var(--grey-semi);
-		padding: $space-md 0;
 
 		@include mq(md) {
 			display: flex;
@@ -67,68 +66,20 @@
 		text-align: center;
 	}
 }
-
-// .footer {
-// 	display: flex;
-// 	align-items: center;
-// 	@include font-size(14px);
-
-// 	text-align: center;
-
-// 	@include mq(md) {
-// 		text-align: left;
-// 	}
-
-// 	&__content {
-// 		display: flex;
-// 		flex-direction: column-reverse;
-// 		justify-content: space-between;
-// 		border-top: 2px solid var(--grey-medium);
-// 		padding-top: $space-md;
-
-// 		@include mq(md) {
-// 			flex-direction: row;
-// 		}
-// 	}
-
-// 	&__links {
-// 		display: flex;
-// 		flex-direction: column;
-// 		margin-top: $space;
-
-// 		@include mq(md) {
-// 			margin-top: 0;
-// 		}
-// 		.user-links {
-// 			margin-bottom: $space;
-// 			p {
-// 				display: inline-block;
-// 				position: relative;
-// 				margin: 0;
-
-// 				&::after {
-// 					content: '/';
-// 					display: inline-block;
-// 					margin: 0 $space-sm;
-// 					color: var(--grey-dark);
-// 				}
-
-// 				&:last-of-type::after {
-// 					display: none;
-// 				}
-// 			}
-// 		}
-// 	}
-
-// 	&__logo {
-// 		text-align: center;
-
-// 		.icon {
-// 			width: 60px;
-// 			fill: var(--grey-medium);
-// 		}
-// 	}
-// 	&__copyright {
-// 		margin-top: $space;
-// 	}
-// }
+.hotline-webring {
+	@include font-size(13px);
+	margin-top: $space-sm;
+	&__arrow {
+		@include font-size(18px);
+	}
+	&__prev {
+		margin-right: $space-sm;
+	}
+	&__next {
+		margin-left: $space-sm;
+	}
+	&__home {
+		font-weight: $font-weight-normal;
+		font-variation-settings: 'wght' $font-weight-normal;
+	}
+}

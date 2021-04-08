@@ -1,5 +1,5 @@
 <footer class="footer" role="contentinfo">
-    <h1 class="hidden">Footer</h1>
+	<h1 class="hidden">Footer</h1>
 	<div class="footer__content">
 		<div class="footer__content-block footer__about">
 			<h2>A bit about me</h2>
@@ -22,7 +22,16 @@
 				<br />
 				You can see the source code on <a href="{{ config.repository }}">Github</a>.
 			</small>
+            <div class="hotline-webring">
+                <a class="hotline-webring__arrow hotline-webring__prev" href="https://hotlinewebring.club/ajaykarwal/previous">
+                    ← <span class="sr-only">Previous webring website</span>
+                </a>
+                <a class="hotline-webring__home" href="https://hotlinewebring.club/">Hotline Webring</a>
+                <a class="hotline-webring__arrow hotline-webring__next" href="https://hotlinewebring.club/ajaykarwal/next">
+                    <span class="sr-only">Next webring website</span> →
+                </a>
+            </div>
 		</div>
 	</div>
-	<p class="footer__copyright">&copy; {{ build.timestamp | dateToFormat('yyyy') }} <a href="/">Ajay Karwal</a></p>
+    <p class="footer__copyright">&copy; {{ build.timestamp | dateToFormat('yyyy') }} <a href="/">Ajay Karwal</a></p>
 </footer>
