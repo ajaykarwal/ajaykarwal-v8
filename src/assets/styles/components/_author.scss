@@ -1,69 +1,74 @@
 .author {
-	display: grid;
-	grid-template-columns: 1fr;
-	grid-template-areas:
-		'i i i'
-		's s a';
-	grid-gap: $space;
+    margin-top: $space-xl;
 
-	background-color: var(--white);
-	border-radius: $border-radius;
-	padding: $space;
-	color: var(--black);
+    &__content {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            'i i i'
+            's s a';
+        grid-gap: $space;
+        background-color: var(--white);
+        border-radius: $border-radius;
+        padding: $space;
+        color: var(--black);
 
-	@include mq(md) {
-		grid-template-columns: auto auto 120px;
-		grid-template-areas:
-			'i i a'
-			's s a';
-	}
-	.avatar {
-		grid-area: a;
+        @include mq(md) {
+            grid-template-columns: auto auto 120px;
+            grid-template-areas:
+                'i i a'
+                's s a';
+        }
+    }
 
-		width: 60px;
-		height: 60px;
-		object-fit: cover;
-		object-position: top;
+    .avatar {
+        grid-area: a;
+        width: 60px;
+        height: 60px;
+        object-fit: cover;
+        object-position: top;
 
-		@include mq(sm) {
-			width: 100px;
-			height: 100px;
-		}
-		@include mq(md) {
-			width: 100%;
-			height: 150px;
-		}
-	}
+        @include mq(sm) {
+            width: 100px;
+            height: 100px;
+        }
 
-	&__info {
-		grid-area: i;
-		margin: auto;
+        @include mq(md) {
+            width: 100%;
+            height: 150px;
+        }
+    }
 
-		p {
-			@include font-size(15px);
+    &__info {
+        grid-area: i;
+        margin: auto;
 
-			@include mq(md) {
-				@include font-size(17px);
-			}
-			&:last-of-type {
-				margin-bottom: 0;
-			}
-		}
-	}
+        p {
+            @include font-size(15px);
 
-	&__support {
-		grid-area: s;
+            @include mq(md) {
+                @include font-size(17px);
+            }
 
-		display: grid;
-		grid-gap: $space;
-		grid-template-columns: auto;
+            &:last-of-type {
+                margin-bottom: 0;
+            }
+        }
+    }
 
-		@include mq(md) {
-			grid-template-columns: auto 1fr;
-		}
-		.supporter-button {
-			display: inline-block;
-			max-width: 150px;
-		}
-	}
+    &__support {
+        grid-area: s;
+        display: grid;
+        grid-gap: $space;
+        grid-template-columns: auto;
+
+        @include mq(md) {
+            grid-template-columns: auto 1fr;
+        }
+
+        .supporter-button {
+            display: inline-block;
+            max-width: 150px;
+        }
+    }
 }

@@ -7,8 +7,8 @@ eleventyNavigation:
 
 <article class="container homepage">
 	<img class="avatar" src="/assets/images/avatar.jpg" alt="That's me!" width="340" height="520" />
-	<h1 class="jumbo" title="It's pronounced 'Uh-Jay'">Hi, I'm Ajay</h1>
-	<p class="lead">A frontend developer, UI designer, podcast host and all-round tech enthusiast from Buckingham, UK.</p>
+	<h1 class="jumbo" title="It's pronounced 'Uh-Jay'">Hi, I'm Ajay.</h1>
+	<p class="lead">I'm a frontend developer, UI designer, podcast host and all-round tech enthusiast from Buckingham, UK.</p>
 
 	<p>
 		Over the past 20 years or so I’ve worked with some amazing clients including BP, HSBC, Thames Water, Audi, Land Rover, BT,
@@ -34,7 +34,8 @@ eleventyNavigation:
 		</header>
 		<div class="content-block__details">
 			<ul class="unstyled">
-				{%- for post in collections.posts.slice(0,5) -%}
+                {%- set posts = collections.posts -%}
+				{%- for post in posts.slice(0,5) -%}
 				<li>{% include 'post-listing.njk' %}</li>
 				{%- endfor -%}
 			</ul>

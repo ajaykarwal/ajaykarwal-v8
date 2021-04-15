@@ -16,7 +16,8 @@ eleventyNavigation:
 
 <ul class="unstyled post-list">
 {%- set currentYear = "" -%}
-{%- for post in collections.posts.reverse() -%}
+{%- set posts = collections.posts.reverse() -%}
+{%- for post in posts -%}
     {%- set postYear = post.date.getFullYear() -%}
     {%- if currentYear != postYear -%}
     {%- set currentYear = postYear -%}
@@ -25,9 +26,3 @@ eleventyNavigation:
    <li>{% include 'post-listing.njk' %}</li>
 {%- endfor -%}
 </ul>
-<!-- 
-<ul class="unstyled">
-    {%- for post in collections.posts.reverse() -%}
-    <li>{% include 'post-listing.njk' %}</li>
-    {%- endfor -%}
-</ul> -->

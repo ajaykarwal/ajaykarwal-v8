@@ -19,7 +19,7 @@ layout: base
 	{{ content | safe }}
 
 	{% include "author.njk" %} {% if config.disqusShortname %} {% if comments != false %}
-	<aside>
+	<aside class="comments">
 		<h2>Comments</h2>
 		{% include "disqus.njk" %}
 	</aside>
