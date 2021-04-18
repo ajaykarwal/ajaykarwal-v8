@@ -70,17 +70,16 @@ section {
         .tags {
             margin-bottom: 0;
         }
-
-        .button {
-            @include mq(lg) {
-                position: absolute;
-                top: $space-xl;
-                right: 0;
-            }
-        }
     }
 
     .comments {
         margin-top: $space-xl;
     }
+}
+
+.draft-alert {
+    background-color: #ffc6c6;
+    margin-top: $space;
+    padding: $space;
+    text-align: center;
 }

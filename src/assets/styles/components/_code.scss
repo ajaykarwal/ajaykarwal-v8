@@ -1,52 +1,57 @@
 // Inline code
 :not(pre) {
-	> code[class*='language-'],
-	> code,
-	> kbd,
-	> samp {
-		@extend %font-mono;
-		@include font-size(15px);
-		padding: 3px 5px;
-		border-radius: 3px;
-		color: var(--black);
-		background-color: $inline-code;
-		text-shadow: 0 1px 0 var(--white);
+    > code[class*='language-'],
+    > code,
+    > kbd,
+    > samp {
+        @extend %font-mono;
 
-		@include mq(md) {
-			white-space: pre-wrap;
-		}
-	}
+        @include font-size(15px);
+
+        padding: 3px 5px;
+        border-radius: 3px;
+        color: var(--black);
+        background-color: $inline-code;
+
+        @include mq(md) {
+            white-space: pre-wrap;
+        }
+    }
 }
 
 // Code blocks
 pre[class*='language-'] {
-	@extend %font-mono;
-	@include font-size(16px);
-	display: block;
-	border: 0;
-	border-radius: $border-radius-lg;
-	line-height: 1.5;
-	margin: $space auto $space;
-	padding: $space-md;
-	word-break: break-all;
-	word-wrap: break-word;
-	overflow: auto;
+    @extend %font-mono;
+
+    @include font-size(16px);
+
+    display: block;
+    border: 0;
+    border-radius: $border-radius-lg;
+    line-height: 1.5;
+    margin: $space auto $space;
+    padding: $space-md;
+    word-break: break-all;
+    word-wrap: break-word;
+    overflow: auto;
 }
 
 .file {
-	@extend %font-mono;
-	@include font-size(14px);
-	font-weight: $font-weight-medium;
-	font-variation-settings: 'wght' $font-weight-medium;
-	position: relative;
-	padding: $space-sm $space;
-	background: var(--true-black);
-	color: var(--white);
-	border-radius: $border-radius-lg $border-radius-lg 0 0;
+    @extend %font-mono;
 
-	& + pre {
-		margin-top: 0;
-		border-top-left-radius: 0;
-		border-top-right-radius: 0;
-	}
+    @include font-size(14px);
+
+    font-weight: $font-weight-medium;
+    font-variation-settings: 'wght' $font-weight-medium;
+    position: relative;
+    padding: $space-sm $space;
+    background: var(--true-black);
+    color: var(--white);
+    border-radius: $border-radius-lg $border-radius-lg 0 0;
+
+    & + pre {
+        margin-top: 0;
+        border-top-left-radius: 0;
+        border-top-right-radius: 0;
+    }
 }

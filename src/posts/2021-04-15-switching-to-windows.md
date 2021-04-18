@@ -5,6 +5,7 @@ date: '2021-04-15'
 permalink: '{{ title | slug }}/index.html'
 tags:
     - windows
+    - moving-to-windows
     - macos
 ---
 

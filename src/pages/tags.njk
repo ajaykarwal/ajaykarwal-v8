@@ -22,6 +22,8 @@ headerButton:
 
 <ul class="unstyled">
 	{%- for post in collections[tag].reverse() -%}
+    {%- if not post.data.draft -%}
 	<li>{% include 'post-listing.njk' %}</li>
+	{%- endif -%}
 	{%- endfor -%}
 </ul>

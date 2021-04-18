@@ -34,9 +34,20 @@ eleventyNavigation:
 		</header>
 		<div class="content-block__details">
 			<ul class="unstyled">
-                {%- set posts = collections.posts -%}
-				{%- for post in posts.slice(0,5) -%}
+                {%- set limit = 5 -%}
+                {%- set count = 0 -%}
+
+				{%- for post in collections.posts -%}
+                
+                {%- if not post.data.draft -%}
+
+                {%- if count < limit -%}
 				<li>{% include 'post-listing.njk' %}</li>
+                {%- set count = count + 1 -%}
+				{%- endif -%}
+
+				{%- endif -%}
+
 				{%- endfor -%}
 			</ul>
 		</div>

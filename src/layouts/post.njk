@@ -2,6 +2,16 @@
 layout: base
 ---
 
+{% if draft %}
+<div class="draft-alert">
+	<div class="container">
+		<b>Note:</b> This post is still in draft, so its content may not be complete.
+        <br>
+		<a href="/blog">Click here</a> for all published posts.
+	</div>
+</div>
+{% endif %}
+
 <article class="container">
 	<header>
 		<h1>{{ title }}</h1>

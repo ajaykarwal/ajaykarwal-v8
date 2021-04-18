@@ -1,4 +1,7 @@
-{%- set absolutePageUrl -%}{{ page.url | url | absoluteUrl(meta.url) }}{%- endset -%} {# General #}
+{%- set absolutePageUrl -%}
+ { { page.url | url | absoluteUrl(meta.url) } }
+{%- endset -%}
+{# General #}
 <meta name="description" content="{{ description or meta.description }}" />
 <link rel="canonical" href="{{ absolutePageUrl }}" />
 
@@ -13,13 +16,18 @@
 <meta property="og:image" content="{{ image | url | absoluteUrl(meta.url) }}" />
 {%- else -%}
 <meta property="og:image" content="{{ '/assets/images/og/default.png' | url | absoluteUrl(meta.url) }}" />
-{%- endif -%} {# Favicon #}
+{%- endif -%}
+{# Favicon #}
 <link rel="apple-touch-icon" sizes="180x180" href="{{ '/assets/images/favicon/apple-touch-icon.png' | url }}" />
 <link rel="icon" type="image/png" href="{{ '/assets/images/favicon/favicon-32x32.png' | url }}" sizes="32x32" />
 <link rel="icon" type="image/png" href="{{ '/assets/images/favicon/favicon-16x16.png' | url }}" sizes="16x16" />
 <link rel="shortcut icon" href="{{ '/assets/images/favicon/favicon.ico' | url }}" />
 <link rel="manifest" href="{{ '/site.webmanifest' | url }}" />
 <meta name="theme-color" content="#1a1a1a" />
+{%- if draft -%}
+
+<meta name="robots" content="noindex,nofollow" />
+{%- endif -%}
 
 {# RSS Feed #}
 <link type="application/atom+xml" rel="alternate" href="{{ meta.url }}/feed.xml" title="{{ meta.title }}" />
