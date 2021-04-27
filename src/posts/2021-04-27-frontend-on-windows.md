@@ -1,8 +1,7 @@
 ---
 layout: post
-draft: true
 title: 'Frontend Development on Windows'
-date: '2021-04-20'
+date: '2021-04-27'
 permalink: '{{ title | slug }}/index.html'
 tags:
     - windows
