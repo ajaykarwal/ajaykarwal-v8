@@ -5,3 +5,4 @@ import 'focus-visible';
 import './modules/fslightbox';
 import './modules/nav';
 import './modules/lastfm';
+import './modules/speak';

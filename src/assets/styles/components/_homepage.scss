@@ -1,86 +1,115 @@
 ﻿.homepage {
-	@include center-content($wide: true);
+    @include center-content($wide: true);
 
-	h1 {
-		padding-top: $space-lg;
+    h1 {
+        padding-top: $space-lg;
 
-		@include mq(lg) {
-			padding-top: $space-xl;
-		}
-	}
+        span {
+            position: relative;
+            display: block;
+        }
 
-	.avatar {
-		width: 100px;
-		height: 150px;
-		object-fit: cover;
-		object-position: top;
-		display: block;
-		float: right;
-		margin: calc(#{$space-md} + 6px) auto $space $space;
+        @include mq(md) {
+            span {
+                display: inline-block;
+            }
+        }
 
-		@include mq(md) {
-			width: 260px;
-			height: 400px;
-			margin: calc(#{$space-lg} + 6px) auto $space-md $space-lg;
-		}
+        @include mq(lg) {
+            padding-top: $space-xl;
+        }
+    }
 
-		@include mq(lg) {
-			width: 340px;
-			height: 520px;
-			margin-top: calc(#{$space-xl} + 6px);
-		}
-	}
+    button#say-my-name {
+        position: absolute;
+        top: -10px;
+        margin-left: 10px;
 
-	.content-block {
-		margin-bottom: $space-xl;
-		position: relative;
+        svg {
+            width: 24px !important;
+            fill: var(--primary);
+        }
+    }
 
-		@include mq(md) {
-			display: grid;
-			grid-template-columns: 1fr 2fr;
-			grid-gap: $space-lg;
-		}
+    .avatar {
+        width: 100px;
+        height: 150px;
+        object-fit: cover;
+        object-position: top;
+        display: block;
+        float: right;
+        margin: calc(#{$space-md} + 6px) auto $space $space;
 
-		header {
-			padding-top: 0;
-			margin-bottom: $space-lg;
-			border: 0;
-			padding-bottom: 0;
-			.subheading {
-				@include font-size(16px);
-				font-weight: $font-weight-medium;
-			}
-			svg {
-				width: 16px !important;
-				margin-left: $space-sm;
-			}
-		}
-		footer {
-			margin-top: $space;
-			@include mq(md) {
-				position: absolute;
-				top: 170px;
-				margin: 0;
-			}
-			@include mq(lg) {
-				top: 130px;
-			}
-		}
-		&__details {
-			&.two-col {
-				display: grid;
-				grid-gap: $space;
+        @include mq(md) {
+            width: 260px;
+            height: 400px;
+            margin: calc(#{$space-lg} + 6px) auto $space-md $space-lg;
+        }
 
-				@include mq(md) {
-					grid-template-columns: 1fr 3fr;
-					grid-gap: $space-lg;
-					align-items: center;
-				}
+        @include mq(lg) {
+            width: 340px;
+            height: 520px;
+            margin-top: calc(#{$space-xl} + 6px);
+        }
+    }
 
-				p {
-					margin-bottom: 0;
-				}
-			}
-		}
-	}
+    .content-block {
+        margin-bottom: $space-xl;
+        position: relative;
+
+        @include mq(md) {
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            grid-gap: $space-lg;
+        }
+
+        header {
+            padding-top: 0;
+            margin-bottom: $space-lg;
+            border: 0;
+            padding-bottom: 0;
+
+            .subheading {
+                @include font-size(16px);
+
+                font-weight: $font-weight-medium;
+            }
+
+            svg {
+                width: 16px !important;
+                margin-left: $space-sm;
+            }
+        }
+
+        footer {
+            margin-top: $space;
+
+            @include mq(md) {
+                position: absolute;
+                top: 170px;
+                margin: 0;
+            }
+
+            @include mq(lg) {
+                top: 130px;
+            }
+        }
+
+        &__details {
+            &.two-col {
+                display: grid;
+                grid-gap: $space;
+
+                @include mq(md) {
+                    grid-template-columns: 1fr 3fr;
+                    grid-gap: $space-lg;
+                    align-items: center;
+                }
+
+                p {
+                    margin-bottom: 0;
+                }
+            }
+        }
+    }
 }
