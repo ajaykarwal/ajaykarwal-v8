@@ -18,6 +18,7 @@ layout: base
 		{% if subheading %}
 		<p class="subheading">{{ subheading }}</p>
 		{% endif %}
+        {% if not draft %}
 		<p class="date">{{ page.date | dateString }}</p>
 		<div class="tags">
 			Posted in {%- for tag in tags -%} {% if tag !== "posts" %}
@@ -25,13 +26,16 @@ layout: base
 			{% endif %} {%- endfor -%}
 		</div>
 		{% if headerButton %} <a href="{{ headerButton.url }}" class="button">{{ headerButton.text }}</a> {% endif %}
+        {% endif %}
 	</header>
 	{{ content | safe }}
-
+    {% if not draft %}
 	{% include "author.njk" %} {% if config.disqusShortname %} {% if comments != false %}
 	<aside class="comments">
 		<h2>Comments</h2>
 		{% include "disqus.njk" %}
 	</aside>
-	{% endif %} {% endif %}
+	{% endif %} 
+    {% endif %}
+    {% endif %}
 </article>
