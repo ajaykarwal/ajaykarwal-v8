@@ -76,6 +76,7 @@ module.exports = function (eleventyConfig) {
 	eleventyConfig.addPassthroughCopy('src/site.webmanifest');
 	eleventyConfig.addPassthroughCopy('src/assets/images');
 	eleventyConfig.addPassthroughCopy('src/assets/fonts');
+	eleventyConfig.addPassthroughCopy('src/assets/audio');
 
 	// Deep-Merge
 	eleventyConfig.setDataDeepMerge(true);

@@ -5,7 +5,7 @@ subtitle: Here are some of the things I’m currently focused on.
 permalink: /now/
 ---
 
-**Last updated:** March 2021.
+**Last updated:** May 2021.
 
 ## Work
 
@@ -17,17 +17,17 @@ I've switched from Gatsby to [Eleventy](https://www.11ty.dev/) &mdash; a static 
   See more of the <a href="/projects/">projects</a> I've worked on.
 </blockquote>
 
-## Reading
+<!-- ## Reading
 
 I've been reading [Rich Dad's Cashflow Quadrant](https://amzn.to/2Jgo3Z4) by Robert Kiyosaki for a while now. Progress has been slow, but I'm going to stick with it.
 
 <blockquote>
   Check out more of the books I like on <a href="https://www.goodreads.com/ajaykarwal">my Goodreads profile</a>.
-</blockquote>
+</blockquote> -->
 
 ## Watching
 
-I'm currently watching [Schitt's Creek](https://www.netflix.com/title/80036165) and working my way through all the <abbr title="Marvel Cinematic Universe">MCU</abbr> movies in release order.
+I'm currently watching [Snowpiercer](https://www.netflix.com/gb/title/80177458) and [Superstore](https://www.netflix.com/gb/title/80061132) which are both great and my kids and I are working our way through all the <abbr title="Marvel Cinematic Universe">MCU</abbr> movies in release order.
 
 <blockquote>
   You can see what else I've been watching on my <a href="https://letterboxd.com/ajaykarwal/">Letterboxd</a> and <a href="https://www.tvtime.com/en/user/38092710/profile">TV Time</a> profiles.
@@ -41,11 +41,11 @@ I'm currently watching [Schitt's Creek](https://www.netflix.com/title/80036165) 
   You can see what I've been listening to on my <a href="https://www.last.fm/user/ajaykarwal">Last.fm</a> and <a href="https://open.spotify.com/user/keynote">Spotify</a> profiles.
 </blockquote>
 
-## Gaming
+## Music Production
 
-I recently reached [100% completion](https://www.reddit.com/r/Breath_of_the_Wild/comments/g44qc1/this_is_both_satisfying_and_quite_upsetting/) on The Legend of Zelda: Breath of the Wild. Took me a little over 180 hours of game play but it was totally worth it!
+In the late 90's up until around 2008, I used to DJ under the name 'Keynote' and also dabbled in producing music, mainly drum and bass. I have some old tunes up on my [Soundcloud](https://soundcloud.com/ajaykarwal) page which are worth a listen.
 
-I'm really excited to see what the sequel to Breath of the Wild has to offer. Bring it on!
+After a break of over 10 years, I've started to get back into it and have spent the past few weeks working on several new tracks. I'll be putting them up on Soundcloud once I'm happy with them so watch this space!
 
 ---
 

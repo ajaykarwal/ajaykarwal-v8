@@ -8,7 +8,7 @@ tags:
     - misc
 ---
 
-I've recently been seeing a lot of posts where other folks in the industry have been blogging about their typical day. Turns out these posts are forming what Ethan Marcotte has referred to as [a “blogging chain.”](https://ethanmarcotte.com/wrote/a-day-typical/)
+Earlier this year I saw a lot of posts where other folks in the industry have been blogging about their typical day. Turns out these posts are forming what Ethan Marcotte has referred to as [a “blogging chain.”](https://ethanmarcotte.com/wrote/a-day-typical/)
 
 The chain was started by [Colin Devroe](http://cdevroe.com/2021/01/07/my-typical-day/), and he tagged a number of people to do the same. Some of my favourites including [Dan Mall](https://danmall.me/articles/my-typical-day/), [Chris Coyier](https://chriscoyier.net/2021/01/08/my-typical-day/), [Sara Soueidan](https://www.sarasoueidan.com/desk/typical-day/), [Jeremy Keith](https://adactio.com/journal/17750) and [Michelle Barker](https://css-irl.info/my-typical-day/) have gotten involved.
 
@@ -27,16 +27,3 @@ I decided to write my own after reading [Dave Rupert](https://daverupert.com/202
 And that's roughly how it goes most days. Weekends involve a lot more kids activities but I'm generally a creature of habit and like to keep things roughly the same each day.
 
 It's been interesting and inspiring to read some of the other typical day posts I've come across and I'll be looking out for more from others.
-
-So with that, my nominations go out to:
-- [Wes Bos](https://twitter.com/wesbos)
-- [Rafael Conde](https://twitter.com/rafahari)
-- [Sarah Drasner](https://twitter.com/sarah_edo)
-- [Brad Frost](https://twitter.com/brad_frost)
-- [Kevin Clarke](https://twitter.com/vernalkick)
-- [Una Kravets](https://twitter.com/una)
-- [Remy Sharp](https://twitter.com/rem)
-- [Marco Arment](https://twitter.com/marcoarment)
-- [Brian Lovin](https://twitter.com/brian_lovin)
-
-I hope you can all find time to share with the world.
