@@ -1,127 +1,136 @@
 ::selection {
-	background: $text-selection;
-	color: var(--black);
+    background: $text-selection;
+    color: var(--black);
 }
 
 html {
-	height: 100%;
-	width: 100%;
-	box-sizing: border-box;
-	-moz-osx-font-smoothing: grayscale;
-	-webkit-font-smoothing: antialiased;
+    height: 100%;
+    width: 100%;
+    box-sizing: border-box;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
 }
 
 *,
-*:before,
-*:after {
-	box-sizing: inherit;
+*::before,
+*::after {
+    box-sizing: inherit;
 }
 
 body {
-	-webkit-font-smoothing: antialiased;
-	@extend %font-body;
-	position: relative;
-	padding: 0;
-	padding-bottom: 50px;
-	margin: auto;
-	background-color: var(--grey-light);
-	font-weight: $font-weight-normal;
-	font-variation-settings: 'wght' $font-weight-normal;
-	line-height: 1.4;
-	letter-spacing: -0.4px;
-	color: var(--black);
-	min-height: 100%;
-	@include font-size(18px);
+    -webkit-font-smoothing: antialiased;
 
-	@include mq(lg) {
-		line-height: 1.5;
-		@include font-size(20px);
-	}
+    @extend %font-body;
+
+    position: relative;
+    padding: 0;
+    padding-bottom: 50px;
+    margin: auto;
+    background-color: var(--grey-light);
+    font-weight: $font-weight-normal;
+    font-variation-settings: 'wght' $font-weight-normal;
+    line-height: 1.4;
+    letter-spacing: -0.4px;
+    color: var(--black);
+    min-height: 100%;
+
+    @include font-size(18px);
+
+    @include mq(lg) {
+        line-height: 1.5;
+
+        @include font-size(20px);
+    }
 }
 
 main {
-	padding-bottom: $space-lg;
+    padding-bottom: $space-lg;
 }
 
 hr {
-	margin-top: $space-lg;
-	border: 0;
-	background-color: var(--grey-medium);
-	height: 2px;
+    margin-top: $space-lg;
+    border: 0;
+    background-color: var(--grey-medium);
+    height: 2px;
 
-	@include mq(md) {
-		margin-top: $space-xl;
-		margin-bottom: $space-xl;
-	}
+    @include mq(md) {
+        margin-top: $space-xl;
+        margin-bottom: $space-xl;
+    }
 }
 
 ul,
 ol {
-	list-style-type: none;
-	margin: $space auto;
+    list-style-type: none;
+    margin: $space auto;
 
-	li {
-		margin-bottom: 0.25em;
-		&::before {
-			content: '\2022';
-			color: var(--primary);
-			@include font-size(26px);
-			line-height: 0;
-			display: inline-block;
-			margin-left: -1em;
-			width: 1em;
-		}
-	}
+    li {
+        margin-bottom: 0.75em;
 
-	ul,
-	ol {
-		margin: 0.5em auto;
-	}
+        &::before {
+            content: '\2022';
+            color: var(--primary);
 
-	&.unstyled {
-		list-style-type: none;
-		margin: 0;
-		padding: 0;
-		li:before {
-			display: none;
-		}
-	}
+            @include font-size(26px);
+
+            line-height: 0;
+            display: inline-block;
+            margin-left: -1em;
+            width: 1em;
+        }
+    }
+
+    ul,
+    ol {
+        margin: 0.5em auto;
+    }
+
+    &.unstyled {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+
+        li::before {
+            display: none;
+        }
+    }
 }
 
 img {
-	display: block;
-	max-width: 100%;
-	height: auto;
+    display: block;
+    max-width: 100%;
+    height: auto;
 }
 
 picture {
-	display: block;
-	margin-bottom: $space-md;
+    display: block;
+    margin-bottom: $space-md;
 }
 
 figure {
-	margin: 0 0 20px 0;
+    margin: 0 0 20px 0;
 }
 
 blockquote:not(.twitter-tweet) {
-	margin: $space auto;
-	padding: $space;
-	border-left: 5px solid var(--grey-semi);
-	background-color: var(--grey-medium);
+    margin: $space auto;
+    padding: $space;
+    border-left: 5px solid var(--grey-semi);
+    background-color: var(--grey-medium);
 
-	p {
-		margin: 0;
-		+ p {
-			margin-top: $space;
-		}
-	}
+    p {
+        margin: 0;
 
-	&.primary {
-		border-left: 5px solid var(--primary);
-		background-color: var(--primary-very-light);
-	}
+        + p {
+            margin-top: $space;
+        }
+    }
 
-	cite {
-		@include font-size(13px);
-	}
+    &.primary {
+        border-left: 5px solid var(--primary);
+        background-color: var(--primary-very-light);
+    }
+
+    cite {
+        @include font-size(13px);
+    }
 }
