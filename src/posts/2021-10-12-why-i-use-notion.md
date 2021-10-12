@@ -1,8 +1,7 @@
 ---
 layout: post
-draft: true
 title: 'Why I use Notion and why you should too'
-date: '2021-06-13'
+date: '2021-10-12'
 permalink: '{{ title | slug }}/index.html'
 tags:
     - apps
