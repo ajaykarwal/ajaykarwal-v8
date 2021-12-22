@@ -5,7 +5,7 @@ subtitle: Here are some of the things I’m currently focused on.
 permalink: /now/
 ---
 
-**Last updated:** May 2021.
+**Last updated:** December 2021.
 
 ## Work
 
@@ -27,7 +27,7 @@ I've been reading [Rich Dad's Cashflow Quadrant](https://amzn.to/2Jgo3Z4) by Rob
 
 ## Watching
 
-I'm currently watching [Snowpiercer](https://www.netflix.com/gb/title/80177458) and [Superstore](https://www.netflix.com/gb/title/80061132) which are both great and my kids and I are working our way through all the <abbr title="Marvel Cinematic Universe">MCU</abbr> movies in release order.
+I've recently completed [The Witcher](https://www.netflix.com/title/80189685) and binged through [The IT Crowd](https://en.wikipedia.org/wiki/The_IT_Crowd) which couldn't be more different. Both were pretty great!
 
 <blockquote>
   You can see what else I've been watching on my <a href="https://letterboxd.com/ajaykarwal/">Letterboxd</a> and <a href="https://www.tvtime.com/en/user/38092710/profile">TV Time</a> profiles.
@@ -43,9 +43,9 @@ I'm currently watching [Snowpiercer](https://www.netflix.com/gb/title/80177458) 
 
 ## Music Production
 
-In the late 90's up until around 2008, I used to DJ under the name 'Keynote' and also dabbled in producing music, mainly drum and bass. I have some old tunes up on my [Soundcloud](https://soundcloud.com/ajaykarwal) page which are worth a listen.
+In the late 90's up until around 2008, I used to DJ under the name 'Keynote' and also dabbled in producing music, mainly drum and bass.
 
-After a break of over 10 years, I've started to get back into it and have spent the past few weeks working on several new tracks. I'll be putting them up on Soundcloud once I'm happy with them so watch this space!
+After a break of over 10 years, I've started to get back into it and have spent the past year working on several new tracks. Now producing music under the name **Soul Concept**, I've started adding new music to my [Soundcloud](https://soundcloud.com/soul-concept/tracks) page!
 
 ---
 
