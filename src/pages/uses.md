@@ -36,7 +36,7 @@ Here is a list of hardware, software, apps and other tools I use on a daily basi
 -   **Browsers:** Chrome mainly
 -   **Command Prompt / Terminal:** [cmder](https://cmder.net/)
 -   **Design:** Figma
--   **Audio:** Logic Pro X for editing my [podcast](http://inspect.fm)
+-   **Audio:** Logic Pro X for editing my [podcast](https://inspectpodcast.com)
 -   **Video:** [DaVinci Resolve](https://www.blackmagicdesign.com/uk/products/davinciresolve/)
 -   **Notes:** [Notion](http://www.notion.so/)
 -   **Cloud Storage:** Dropbox
