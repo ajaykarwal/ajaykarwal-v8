@@ -5,7 +5,7 @@ module.exports = {
                 </svg><span class="sr-only">${name}</span>`;
 	},
 
-	lightbox: function (src, alt) {
-		return `<a data-fslightbox href="/assets/images/${src}"><img src="/assets/images/${src}" alt="${alt}" /></a>`;
+    lightbox: function (src, alt, size = '100%') {
+		return `<a data-fslightbox href="/assets/images/${src}"><img src="/assets/images/${src}" alt="${alt}" width="${size}" /></a>`;
 	}
 };

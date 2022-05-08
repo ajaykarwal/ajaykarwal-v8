@@ -1,0 +1,19 @@
+.gallery {
+    display: flex;
+    justify-content: space-evenly;
+    gap: $space;
+    margin-bottom: $space-md;
+    padding: $space;
+    background-color: #fff;
+    
+    div {
+        text-align: center;
+    }
+
+    small {
+        display: block;
+        @include font-size(12px);
+        color: var(--grey-dark);
+        margin-top: $space-sm;
+    }
+}

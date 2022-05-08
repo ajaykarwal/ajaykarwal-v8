@@ -6,95 +6,96 @@ eleventyNavigation:
 ---
 
 <article class="container homepage">
-	<img class="avatar" src="/assets/images/avatar.jpg" alt="That's me!" width="340" height="520" />
-	<h1 class="jumbo" title="It's pronounced 'Uh-Jay'">Hi, <span>I'm Ajay.<button id="say-my-name">{% icon "volume" %}</button></span></h1>
+    <img class="avatar" src="/assets/images/avatar.jpg" alt="That's me!" width="340" height="520"/>
+    <h1 class="jumbo" title="It's pronounced 'Uh-Jay'">Hi, <span>I'm Ajay.<button id="say-my-name">{% icon "volume" %}</button></span></h1>
     <audio id="linkAudio">
         <source src="/assets/audio/ajay.mp3" type="audio/mpeg">
       Your browser does not support the audio element.
       </audio>
-	<p class="lead">I'm a frontend developer, UI designer, podcast host and all-round tech enthusiast from Buckingham, UK.</p>
+    <p class="lead">I'm a frontend developer, UI designer, podcast host and all-round tech enthusiast from Buckingham, UK.</p>
 
-	<p>
+    <p>
 		Over the past 20 years or so I’ve worked with some amazing clients including BP, HSBC, Thames Water, Audi, Land Rover, BT,
 		Caterpillar, Ministry of Sound, and <a href="/projects/">many more</a>.
 	</p>
 
-	<p>
+    <p>
 		I pride myself on writing clear, well-structured and modern HTML, CSS and JavaScript, and focus closely on UX, accessibility, and
 		performance.
 	</p>
 
-	<p>
+    <p>
 		To learn more,
 		<a href="/about/">check out my bio</a> or find out <a href="/now/">what I'm up to right now</a>.
 	</p>
 
-	<hr />
+    <hr/>
 
-	<aside class="content-block">
-		<header>
-			<h2>Latest Posts</h2>
-			<p class="subheading">Subscribe to all posts <a class="rss" href="/feed.xml">{% icon "rss" %}</a></p>
-		</header>
-		<div class="content-block__details">
-			<ul class="unstyled">
+    <aside class="content-block">
+        <header>
+            <h2>Latest Posts</h2>
+            <p class="subheading">Subscribe to all posts <a class="rss" href="/feed.xml">{% icon "rss" %}</a>
+            </p>
+        </header>
+        <div class="content-block__details">
+            <ul class="unstyled">
                 {%- set limit = 5 -%}
                 {%- set count = 0 -%}
 
-				{%- for post in collections.posts -%}
-                
-                {%- if not post.data.draft -%}
+                {%- for post in collections.posts -%}
 
-                {%- if count < limit -%}
-				<li>{% include 'post-listing.njk' %}</li>
-                {%- set count = count + 1 -%}
-				{%- endif -%}
+                    {%- if not post.data.draft -%}
 
-				{%- endif -%}
+                        {%- if count < limit -%}
+                            <li>{% include 'post-listing.njk' %}</li>
+                            {%- set count = count + 1 -%}
+                        {%- endif -%}
 
-				{%- endfor -%}
-			</ul>
-		</div>
-		<footer>
-			<a href="/blog/" class="button">All posts</a>
-		</footer>
-	</aside>
+                    {%- endif -%}
 
-	<aside class="content-block">
-		<header>
-			<h2>Inspect Podcast</h2>
-			<p class="subheading">A Podcast about Design + Development</p>
-		</header>
-		<div class="content-block__details two-col">
-			<a href="https://inspectpodcast.com" target="_blank" rel="nofollow noopener"
+                {%- endfor -%}
+            </ul>
+        </div>
+        <footer>
+            <a href="/blog/" class="button">All posts</a>
+        </footer>
+    </aside>
+
+    <aside class="content-block">
+        <header>
+            <h2>Inspect Podcast</h2>
+            <p class="subheading">A Podcast about Design + Development</p>
+        </header>
+        <div class="content-block__details two-col">
+            <a href="https://inspectpodcast.com" target="_blank" rel="nofollow noopener"
 				><img src="/assets/images/inspectfm.jpg" alt="Inspect podcast artwork" width="180" height="180"
 			/></a>
-			<p>
+            <p>
 				Inspect is a podcast about design and development hosted by myself and Kay Mankoo where we discuss design trends, the latest
 				in web development and the tech industry.
 			</p>
-		</div>
-		<footer>
-			<a href="https://inspectpodcast.com" target="_blank" rel="nofollow noopener" class="button">Listen</a>
-		</footer>
-	</aside>
+        </div>
+        <footer>
+            <a href="https://inspectpodcast.com" target="_blank" rel="nofollow noopener" class="button">Listen</a>
+        </footer>
+    </aside>
 
-	<aside class="content-block">
-		<header>
-			<h2>YouTube</h2>
-			<p class="subheading">My semi-serious side hobby</p>
-		</header>
-		<div class="content-block__details two-col">
-			<a href="https://www.youtube.com/c/ajaykarwal" target="_blank" rel="nofollow noopener"
+    <aside class="content-block">
+        <header>
+            <h2>YouTube</h2>
+            <p class="subheading">My semi-serious side hobby</p>
+        </header>
+        <div class="content-block__details two-col">
+            <a href="https://www.youtube.com/c/ajaykarwal" target="_blank" rel="nofollow noopener"
 				><img src="/assets/images/youtube.jpg" alt="Inspect.fm podcast artwork" width="180" height="180"
 			/></a>
-			<p>
+            <p>
 				I spend a lot of my spare time woodworking in my shed and occasionally I share my creations on YouTube. My channel is a
 				mixture of woodworking, DIY tips and product reviews.
 			</p>
-		</div>
-		<footer>
-			<a href="https://www.youtube.com/c/ajaykarwal" target="_blank" rel="nofollow noopener" class="button">Watch</a>
-		</footer>
-	</aside>
+        </div>
+        <footer>
+            <a href="https://www.youtube.com/c/ajaykarwal" target="_blank" rel="nofollow noopener" class="button">Watch</a>
+        </footer>
+    </aside>
 </article>
