@@ -1,21 +1,24 @@
 <nav class="nav js-nav" role="navigation" tabindex="-1">
-	{# Menu Toggle Button #}
-	<button class="nav__toggle js-nav-toggle" aria-expanded="false" aria-controls="nav-menu">
-		<span class="sr-only">toggle menu</span>
-		<span class="menuicon">
-			<span class="menuicon__bar"></span>
-			<span class="menuicon__bar"></span>
-			<span class="menuicon__bar"></span>
-			<span class="menuicon__bar"></span>
-		</span>
-	</button>
+    {# Menu Toggle Button #}
+    <button class="nav__toggle js-nav-toggle" aria-expanded="false" aria-controls="nav-menu">
+        <span class="sr-only">toggle menu</span>
+        <span class="menuicon">
+            <span class="menuicon__bar"></span>
+            <span class="menuicon__bar"></span>
+            <span class="menuicon__bar"></span>
+            <span class="menuicon__bar"></span>
+        </span>
+    </button>
 
-	{# Nav Links #}
-	<ul class="nav__menu unstyled js-nav-menu" id="nav-menu">
-		{%- for item in collections.all | eleventyNavigation -%} {%- if item.url -%} {%- set isCurrent = (item.url == page.url) -%} {%- set
+    {# Nav Links #}
+    <ul class="nav__menu unstyled js-nav-menu" id="nav-menu">
+        {%- for item in collections.all | eleventyNavigation -%}
+            {%- if item.url -%}
+                {%- set isCurrent = (item.url == page.url) -%}
+                {%- set
 		isParent = item.url != '/' and item.url in page.url -%}
-		<li class="nav__item{% if isCurrent or isParent %} nav__item--active{% endif %}">
-			<a
+                <li class="nav__item{% if isCurrent or isParent %} nav__item--active{% endif %}">
+                    <a
 				class="nav__link no-hover"
 				href="{% if isCurrent %}#main{% else %}{{ item.url | url }}{% endif %}"
 				{%
@@ -26,9 +29,10 @@
 				endif
 				%}
 			>
-				{{ item.title }}
-			</a>
-		</li>
-		{%- endif -%} {%- endfor -%}
-	</ul>
+                        {{ item.title }}
+                    </a>
+                </li>
+            {%- endif -%}
+        {%- endfor -%}
+    </ul>
 </nav>
