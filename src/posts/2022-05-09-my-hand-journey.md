@@ -1,8 +1,10 @@
 ---
 layout: post
-title: 'My Hand Journey... So far'
-date: '2022-05-01'
+title: 'My Hand Journey (so far)'
+date: '2022-05-09'
 permalink: '{{ title | slug }}/index.html'
+categories:
+    - life
 tags:
     - life
     - personal
