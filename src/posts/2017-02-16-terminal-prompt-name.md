@@ -3,10 +3,12 @@ layout: post
 date: '2017-02-16'
 title: 'Edit the Terminal Prompt name on macOS'
 permalink: '{{ title | slug }}/index.html'
+categories:
+    - popular
+    - code
 tags:
     - terminal
     - macos
-    - popular
 ---
 
 As a developer you're likely to spend a lot of time in the Terminal and may have already customised the appearance of it to suit you, but what about the prompt name?

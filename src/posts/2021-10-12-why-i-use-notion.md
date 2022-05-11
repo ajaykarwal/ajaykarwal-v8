@@ -3,6 +3,8 @@ layout: post
 title: 'Why I use Notion and why you should too'
 date: '2021-10-12'
 permalink: '{{ title | slug }}/index.html'
+categories:
+    - misc
 tags:
     - apps
     - notion

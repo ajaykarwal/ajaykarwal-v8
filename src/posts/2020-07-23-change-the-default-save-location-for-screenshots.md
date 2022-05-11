@@ -3,6 +3,8 @@ layout: post
 title: 'Change the default save location for screenshots on macOS'
 permalink: '{{ title | slug }}/index.html'
 date: '2020-07-23'
+categories:
+    - code
 tags:
     - macos
     - terminal

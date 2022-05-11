@@ -3,39 +3,52 @@ layout: base
 ---
 
 {% if draft %}
-<div class="draft-alert">
-	<div class="container">
-		<b>Note:</b> This post is still in draft, so its content may not be complete.
+    <div class="draft-alert">
+        <div class="container">
+            <b>Note:</b> This post is still in draft, so its content may not be complete.
         <br>
-		<a href="/blog">Click here</a> for all published posts.
+            <a href="/blog">Click here</a> for all published posts.
 	</div>
-</div>
+    </div>
 {% endif %}
 
 <article class="container">
-	<header>
-		<h1>{{ title }}</h1>
-		{% if subheading %}
-		<p class="subheading">{{ subheading }}</p>
-		{% endif %}
-        {% if not draft %}
-		<p class="date">{{ page.date | dateString }}</p>
-		<div class="tags">
-			Posted in {%- for tag in tags -%} {% if tag !== "posts" %}
-			<a href="/tags/{{ tag }}">{{ tag }}</a>
-			{% endif %} {%- endfor -%}
-		</div>
-		{% if headerButton %} <a href="{{ headerButton.url }}" class="button">{{ headerButton.text }}</a> {% endif %}
+    <header>
+        <h1>{{ title }}</h1>
+        {% if subheading %}
+            <p class="subheading">{{ subheading }}</p>
         {% endif %}
-	</header>
-	{{ content | safe }}
+        {% if not draft %}
+            <p class="date">{{ page.date | dateString }}</p>
+            <div class="tags">
+			Posted in {%- for cat in categories -%}
+                    {% if cat !== "posts" %}
+                        <a href="/categories/{{ cat }}">{{ cat }}</a>
+                    {% endif %}
+                {%- endfor -%}
+            </div>
+            <div class="tags">
+			Tagged {%- for tag in tags -%}
+                    {% if tag !== "posts" %}
+                        <a href="/tags/{{ tag }}">{{ tag }}</a>
+                    {% endif %}
+                {%- endfor -%}
+            </div>
+            {% if headerButton %}
+                <a href="{{ headerButton.url }}" class="button">{{ headerButton.text }}</a>
+            {% endif %}
+        {% endif %}
+    </header>
+    {{ content | safe }}
     {% if not draft %}
-	{% include "author.njk" %} {% if config.disqusShortname %} {% if comments != false %}
-	<aside class="comments">
-		<h2>Comments</h2>
-		{% include "disqus.njk" %}
-	</aside>
-	{% endif %} 
-    {% endif %}
+        {% include "author.njk" %}
+        {% if config.disqusShortname %}
+            {% if comments != false %}
+                <aside class="comments">
+                    <h2>Comments</h2>
+                    {% include "disqus.njk" %}
+                </aside>
+            {% endif %}
+        {% endif %}
     {% endif %}
 </article>

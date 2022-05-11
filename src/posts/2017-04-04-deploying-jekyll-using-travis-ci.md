@@ -3,6 +3,8 @@ layout: post
 date: '2017-04-04'
 title: 'Deploying a Jekyll website using Travis CI'
 permalink: '{{ title | slug }}/index.html'
+categories:
+    - code
 tags:
     - jekyll
     - ci

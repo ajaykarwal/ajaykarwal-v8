@@ -3,6 +3,8 @@ layout: post
 date: '2019-04-29'
 title: 'Add spaces to the Dock in macOS'
 permalink: '{{ title | slug }}/index.html'
+categories:
+    - code
 tags:
     - macos
     - terminal

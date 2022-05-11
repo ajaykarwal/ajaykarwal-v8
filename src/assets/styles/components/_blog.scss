@@ -1,0 +1,18 @@
+.blog {
+	margin-bottom: $space-xl;
+	position: relative;
+
+    &.two-col {
+        display: grid;
+        grid-gap: $space;
+
+        @include mq(md) {
+            grid-template-columns: 3fr 1fr;
+            grid-gap: $space-lg;
+        }
+
+        p {
+            margin-bottom: 0;
+        }
+    }
+}

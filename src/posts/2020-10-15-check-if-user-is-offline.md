@@ -3,6 +3,8 @@ layout: post
 title: 'Check if user is offline'
 permalink: '{{ title | slug }}/index.html'
 date: '2020-10-15'
+categories:
+    - code
 tags:
     - javascript
     - tips

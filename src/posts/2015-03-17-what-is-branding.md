@@ -3,6 +3,8 @@ layout: post
 date: '2015-03-17'
 title: 'What is Branding?'
 permalink: '{{ title | slug }}/index.html'
+categories:
+    - design
 tags:
     - branding
     - links

@@ -3,9 +3,11 @@ layout: post
 date: '2020-02-27'
 title: 'Three methods for adding CSS to your website'
 permalink: '{{ title | slug }}/index.html'
+categories:
+    - popular
+    - code
 tags:
     - css
-    - popular
 ---
 
 There are multiple ways to write <abbr title="Cascading Style Sheet">CSS</abbr> for your website and the method you choose may vary depending on your chosen CMS or framework, but essentially it boils down to one of the following methods.

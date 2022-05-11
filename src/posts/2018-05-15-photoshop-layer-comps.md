@@ -3,8 +3,9 @@ layout: post
 date: '2018-05-15'
 title: 'Working with Layer Comps in Photoshop'
 permalink: '{{ title | slug }}/index.html'
-tags:
+categories:
     - design
+tags:
     - photoshop
 ---
 

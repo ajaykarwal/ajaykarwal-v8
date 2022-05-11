@@ -58,14 +58,37 @@ module.exports = function (eleventyConfig) {
 
 	// Tags
 	eleventyConfig.addCollection('tagList', collection => {
-		const tagsSet = new Set();
+		const tagsSet = {};
 		collection.getAll().forEach(item => {
 			if (!item.data.tags) return;
-			item.data.tags.filter(tag => !['posts', 'all'].includes(tag)).forEach(tag => tagsSet.add(tag));
+			item.data.tags
+				.filter(tag => !['posts', 'all'].includes(tag))
+				.forEach(tag => {
+					if (!tagsSet[tag]) {
+						tagsSet[tag] = [];
+					}
+					tagsSet[tag].push(item);
+				});
 		});
-		return Array.from(tagsSet).sort();
+		return tagsSet;
 	});
 
+	// Categories
+	eleventyConfig.addCollection('categoryList', collection => {
+		let catSet = new Set();
+		collection.getAll().forEach(item => {
+			if (!item.data.categories) return;
+			item.data.categories
+				.filter(cat => !['posts', 'all'].includes(cat))
+				.forEach(cat => {
+					if (!catSet[cat]) {
+						catSet[cat] = [];
+					}
+					catSet[cat].push(item);
+				});
+		});
+		return catSet;
+	});
 	// Layouts
 	eleventyConfig.addLayoutAlias('base', 'base.njk');
 	eleventyConfig.addLayoutAlias('post', 'post.njk');

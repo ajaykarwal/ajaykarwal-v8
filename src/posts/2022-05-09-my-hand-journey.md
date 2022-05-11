@@ -6,7 +6,6 @@ permalink: '{{ title | slug }}/index.html'
 categories:
     - life
 tags:
-    - life
     - personal
 ---
 

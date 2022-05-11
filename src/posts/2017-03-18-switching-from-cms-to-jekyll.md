@@ -3,10 +3,12 @@ layout: post
 date: '2017-03-18'
 title: 'Switching from a CMS to Jekyll'
 permalink: '{{ title | slug }}/index.html'
+categories:
+    - popular
+    - code
 tags:
     - jekyll
     - umbraco
-    - popular
 ---
 
 Back in February 2017, I shipped a new version of my website. Only a very slight update to the design but a complete overhaul on how it was built.

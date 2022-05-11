@@ -24,4 +24,15 @@
 			}
 		}
 	}
+	&--links {
+		a {
+			display: inline-block;
+			margin: 0 $space-sm $space-sm 0;
+			@include font-size(13px);
+
+			&:hover {
+				text-decoration: underline;
+			}
+		}
+	}
 }

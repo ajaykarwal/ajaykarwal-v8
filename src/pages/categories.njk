@@ -1,27 +1,26 @@
 ---
 layout: page
 eleventyComputed:
-    title: All posts tagged '{{ tag }}'
-    permalink: /tags/{{ tag }}/
+    title: All posts in '{{ category }}'
+    permalink: /categories/{{ category }}/
 pagination:
-    data: collections.tagList
+    data: collections.categoryList
     size: 1
-    alias: tag
+    alias: category
     filter:
         - all
         - nav
         - post
         - posts
-        - tagList
+        - categoryList
     addAllPagesToCollections: true
-permalink: /tags/{{ tag }}/
+permalink: /categories/{{ category }}/
 headerButton:
     url: '/blog/'
     text: All posts
 ---
-
 <ul class="unstyled">
-	{%- for post in collections.tagList[tag] | reverse -%}
+	{%- for post in collections.categoryList[category] | reverse -%}
     {%- if not post.data.draft -%}
 	<li>{% include 'post-listing.njk' %}</li>
 	{%- endif -%}

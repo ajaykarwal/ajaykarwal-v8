@@ -3,6 +3,8 @@ layout: post
 title: 'Use the `viewport` meta tag to control mobile layout'
 permalink: '{{ title | slug }}/index.html'
 date: '2020-05-07'
+categories:
+    - code
 tags:
     - html
 ---

@@ -3,6 +3,8 @@ layout: post
 title: 'Show or Hide hidden files on macOS'
 permalink: '{{ title | slug }}/index.html'
 date: '2020-07-16'
+categories:
+    - code
 tags:
     - macos
     - terminal

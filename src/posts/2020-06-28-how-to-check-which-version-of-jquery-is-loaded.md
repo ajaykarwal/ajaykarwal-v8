@@ -3,6 +3,8 @@ layout: post
 title: 'How to check which version of jQuery is loaded'
 permalink: '{{ title | slug }}/index.html'
 date: '2020-06-28'
+categories:
+    - code
 tags:
     - javascript
     - jquery

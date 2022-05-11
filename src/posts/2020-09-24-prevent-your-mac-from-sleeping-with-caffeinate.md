@@ -3,6 +3,8 @@ layout: post
 title: 'Prevent your Mac from sleeping with `caffeinate`'
 permalink: '{{ title | slug }}/index.html'
 date: '2020-09-24'
+categories:
+    - code
 tags:
     - macos
 ---

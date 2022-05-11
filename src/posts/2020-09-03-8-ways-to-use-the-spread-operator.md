@@ -3,6 +3,8 @@ layout: post
 title: '8 ways to use the Spread operator'
 permalink: '{{ title | slug }}/index.html'
 date: '2020-09-03'
+categories:
+    - code
 tags:
     - javascript
     - links

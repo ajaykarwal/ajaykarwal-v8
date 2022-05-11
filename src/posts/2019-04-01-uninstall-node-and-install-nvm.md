@@ -3,10 +3,12 @@ layout: post
 date: '2019-04-01'
 title: 'Uninstall Node.js and install Node Version Manager (NVM)'
 permalink: '{{ title | slug }}/index.html'
+categories:
+    - popular
+    - code
 tags:
     - node
     - javascript
-    - popular
 ---
 
 When trying to install some npm packages globally, for example `npm i gulp-cli -g` you may run into a permissions error along the lines of:

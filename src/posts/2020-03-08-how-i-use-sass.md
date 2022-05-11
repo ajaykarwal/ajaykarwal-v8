@@ -3,8 +3,11 @@ layout: post
 date: '2020-03-08'
 title: 'How I use Sass in my projects'
 permalink: '{{ title | slug }}/index.html'
+categories:
+    - code
 tags:
     - css
+    - sass
 ---
 
 I've previously posted about the three basic ways you can [add CSS to your website](/how-to-add-css). However, in modern web applications it's more common to use a CSS pre-processor such as Less, Stylus, or in my case, Sass.

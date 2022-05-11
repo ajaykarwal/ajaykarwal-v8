@@ -3,6 +3,8 @@ layout: post
 title: 'Understanding `rm`'
 permalink: '{{ title | slug }}/index.html'
 date: '2020-08-16'
+categories:
+    - code
 tags:
     - terminal
 ---
