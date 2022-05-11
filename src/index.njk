@@ -41,18 +41,13 @@ eleventyNavigation:
             <ul class="unstyled">
                 {%- set limit = 5 -%}
                 {%- set count = 0 -%}
-
-                {%- for post in collections.posts -%}
-
+                {%- for post in collections.posts | reverse -%}
                     {%- if not post.data.draft -%}
-
                         {%- if count < limit -%}
                             <li>{% include 'post-listing.njk' %}</li>
                             {%- set count = count + 1 -%}
                         {%- endif -%}
-
                     {%- endif -%}
-
                 {%- endfor -%}
             </ul>
         </div>
