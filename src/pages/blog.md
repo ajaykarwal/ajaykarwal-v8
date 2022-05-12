@@ -37,7 +37,7 @@ eleventyNavigation:
     <div>
         <h3>Tags</h3>
         <div class="tags tags--links">
-            {%- for tag, val in collections.tagList -%}
+            {%- for tag, val in collections.tagList | dictsort -%}
                 {%- if tag !== "posts" -%}
                     <a href="/tags/{{tag}}">{{tag}}</a>
                 {%- endif -%}
