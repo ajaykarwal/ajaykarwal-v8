@@ -11,10 +11,11 @@ eleventyNavigation:
     <div>
         <div class="tags tags--buttons">
             <a href="/categories/popular">Popular</a>
-            <a href="/categories/code">Code</a>
-            <a href="/categories/tech">Tech</a>
-            <a href="/categories/design">Design</a>
-            <a href="/categories/life">Life</a>
+            {%- for cat, val in collections.categoryList | dictsort -%}
+                {%- if cat !== "popular" and cat !== "misc" -%}
+                    <a href="/categories/{{cat}}">{{cat | capitalize }}</a>
+                {%- endif -%}
+            {%- endfor -%}
             <a href="/categories/misc">Misc</a>
         </div>
         <ul class="unstyled post-list">

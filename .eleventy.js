@@ -75,7 +75,7 @@ module.exports = function (eleventyConfig) {
 
 	// Categories
 	eleventyConfig.addCollection('categoryList', collection => {
-		let catSet = new Set();
+        let catSet = {};
 		collection.getAll().forEach(item => {
 			if (!item.data.categories) return;
 			item.data.categories
