@@ -10,7 +10,7 @@
 			<ul class="unstyled">
 				{%- for link in config.connect -%}
 				<li key="{{ link.label }}">
-					<a rel="me" href="{{ link.url }}" target="_blank" rel="nofollow noopener">
+					<a href="{{ link.url }}" target="_blank" rel="nofollow noopener me">
 						{{ link.label }}
 					</a>
 				</li>
