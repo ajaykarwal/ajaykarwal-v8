@@ -20,7 +20,7 @@ This was gist of this test:
 
 The code looked like this.
 
-![A block of minified JavaScript which is difficult to decipher](/src/assets/images/uploads/minified-code.png)
+![A block of minified JavaScript which is difficult to decipher](/assets/images/uploads/minified-code.png)
 
 While I did find this test challenging and enjoyable, the experience has stuck with me ever since. It’s not a situation I’d ever like to be in for real.
 
