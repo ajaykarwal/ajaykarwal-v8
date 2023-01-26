@@ -1,4 +1,5 @@
-// @import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
+@use 'sass:math';
+
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;600;700&display=swap');
 
 // Fonts
@@ -13,13 +14,13 @@ $font-family-serif: $font-stack-serif;
 $font-family-mono: $font-stack-mono;
 
 %font-heading {
-    font-family: $font-family-heading;
+	font-family: $font-family-heading;
 }
 %font-body {
-    font-family: $font-family-sans-serif;
+	font-family: $font-family-sans-serif;
 }
 %font-mono {
-    font-family: $font-family-mono;
+	font-family: $font-family-mono;
 }
 
 $font-weight-thin: 100;
@@ -54,21 +55,21 @@ $panel-background: $grey-medium;
 $text-selection: $secondary-dark;
 
 $theme-colors: (
-    'primary': $primary,
-    'primary-dark': $primary-dark,
-    'primary-light': $primary-light,
-    'primary-very-light': $primary-very-light,
-    'secondary': $secondary,
-    'secondary-dark': $secondary-dark,
-    'secondary-light': $secondary-light,
-    'white': $white,
-    'grey-light': $grey-light,
-    'grey-medium': $grey-medium,
-    'grey-semi': $grey-semi,
-    'grey-dark': $grey-dark,
-    'grey-darker': $grey-darker,
-    'black': $black,
-    'true-black': $true-black
+	'primary': $primary,
+	'primary-dark': $primary-dark,
+	'primary-light': $primary-light,
+	'primary-very-light': $primary-very-light,
+	'secondary': $secondary,
+	'secondary-dark': $secondary-dark,
+	'secondary-light': $secondary-light,
+	'white': $white,
+	'grey-light': $grey-light,
+	'grey-medium': $grey-medium,
+	'grey-semi': $grey-semi,
+	'grey-dark': $grey-dark,
+	'grey-darker': $grey-darker,
+	'black': $black,
+	'true-black': $true-black
 ) !default;
 
 $text-body: $black;
@@ -86,8 +87,8 @@ $brand-github: #000;
 
 // Spacing
 $space: 20px;
-$space-xs: $space / 4;
-$space-sm: $space / 2;
+$space-xs: math.div($space, 4);
+$space-sm: math.div($space, 2);
 $space-md: $space * 1.5;
 $space-lg: $space * 2;
 $space-xl: $space * 4;
@@ -103,10 +104,10 @@ $box-shadow: 0 2px 16px rgba(0, 0, 0, 0.15);
 $box-shadow-elevated: 0 6px 12px 0 rgba(0, 0, 0, 0.1);
 
 $breakpoints: (
-    sm: 375px,
-    md: 768px,
-    lg: 992px,
-    xl: 1200px
+	sm: 375px,
+	md: 768px,
+	lg: 992px,
+	xl: 1200px
 );
 
 $container-max-width: 100%;

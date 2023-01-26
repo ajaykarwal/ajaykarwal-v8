@@ -100,6 +100,7 @@ module.exports = function (eleventyConfig) {
 	eleventyConfig.addPassthroughCopy('src/assets/images');
 	eleventyConfig.addPassthroughCopy('src/assets/fonts');
 	eleventyConfig.addPassthroughCopy('src/assets/audio');
+	eleventyConfig.addPassthroughCopy('src/admin');
 
 	// Deep-Merge
 	eleventyConfig.setDataDeepMerge(true);
@@ -111,7 +112,8 @@ module.exports = function (eleventyConfig) {
 			output: 'dist',
 			includes: 'includes',
 			layouts: 'layouts',
-			data: 'data'
+			data: 'data',
+			admin: 'admin'
 		},
 		templateFormats: ['njk', 'md', '11ty.js'],
 		htmlTemplateEngine: 'njk',
