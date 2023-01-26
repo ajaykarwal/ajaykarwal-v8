@@ -6,7 +6,7 @@ categories:
   - code
 tags:
   - advice
-  - ""
+  - tips
 draft: true
 ---
 Back in 2014 I applied for my first senior frontend role. The first part of the process was a coding test which would then lead onto a telephone interview.
