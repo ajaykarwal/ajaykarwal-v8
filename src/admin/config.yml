@@ -3,7 +3,7 @@ backend:
     branch: master # Branch to update (optional; defaults to master)
 
 publish_mode: editorial_workflow
-media_folder: 'assets/images' # Media files will be stored here
+media_folder: 'src/assets/images/uploads' # Media files will be stored here
 
 collections:
     - name: 'posts' # Used in routes, e.g., /admin/collections/blog
