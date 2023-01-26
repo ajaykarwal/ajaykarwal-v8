@@ -1,28 +1,26 @@
 ---
 layout: post
 title: Help Your Future Self
+permalink: "{{ title | slug }}/index.html"
 date: 2023-01-26T20:59:18.856Z
 categories:
-    - code
+  - code
 tags:
-    - advice
-    - tips
+  - advice
+  - tips
 draft: true
 ---
-
 Back in 2014 I applied for my first senior frontend role. The first part of the process was a coding test which would then lead onto a telephone interview.
 
 This was gist of this test:
 
 > An ex-employee did not back up their working files before they left the company. The only copy is now the minified version on the live website. We need to make some changes but at the moment the file is unusable. 
 >
->We need you to un-minify the file and rename all the variables and functions into something meaningful.
+> We need you to un-minify the file and rename all the variables and functions into something meaningful.
 
 The code looked like this.
 
-```javascript
-function w(e,n,r){if(e.attr('data-type')=='warning'){ei='warning'}else if(e.attr('data-type')=='error'){ei='error'}else{ei='info'}id='tt'+Math.floor(Math.random()*1e4);$u=e.attr('data-u').split('<br/>');var i={id:id,type:ei,u:$u};var s=y.render(t,i);$('body').append(s);$(id).css({top:n,left:r}).hide().stop(true,false).fadeIn(200)}function q(){$(id).stop(true,false).fadeOut(200,function(){$(this).remove()})}y=Mustache;var r={};var t='<div class='nvTt' id='{{id}}'><span class='nvTt--corner nvTt--{{type}}'></span></div>';var ei=',$u=',id=';$(document).on('mouseover mouseout mousedown','.e',function(e){var t=$(this);if(e.type=='mouseover'){var n=e.pageY+10,r=e.pageX+10;w(t,n,r)}else{q()}t.on('remove',function(e){q()})});r.add=function(e,t,n){e.addClass('e').attr({'data-u':t,'data-type':n||'})};r.destroy=function(e){e.removeClass('e')}
-```
+![A block of minified JavaScript which is difficult to decipher](/assets/images/uploads/minified-code.png)
 
 While I did find this test challenging and enjoyable, the experience has stuck with me ever since. It’s not a situation I’d ever like to be in for real.
 
