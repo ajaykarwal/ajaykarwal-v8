@@ -2,19 +2,18 @@
 layout: post
 title: Help Your Future Self
 permalink: "{{ title | slug }}/index.html"
-date: 2023-01-26T20:59:18.856Z
+date: 2023-01-31T20:59:18.856Z
 categories:
   - code
 tags:
   - advice
   - tips
-draft: true
 ---
-Back in 2014 I applied for my first senior frontend role. The first part of the process was a coding test which would then lead onto a telephone interview.
+Back in 2014 I applied for my first senior Frontend Developer role. The first part of the process was a coding test which would then lead onto a telephone interview.
 
 This was gist of this test:
 
-> An ex-employee did not back up their working files before they left the company. The only copy is now the minified version on the live website. We need to make some changes but at the moment the file is unusable. 
+> An ex-employee did not back up their working files before they left the company. We need to update out tooltips but the only copy we have is the minified version on the live website. At the moment the file is unusable. 
 >
 > We need you to un-minify the file and rename all the variables and functions into something meaningful.
 
