@@ -23,4 +23,4 @@ In recent months I’ve even been asking ChatGPT to write code for me.
 
 So what about the next generation of developers? Will the books of today even be relevant in a year’s time? Is there value in looking back at older editions to see how things once were?
 
-Something to think about.
+I﻿ think they're a dying breed, but a﻿t least we can rest easy knowing that these old chunky books served their purpose — even if it was only to improve our posture by raising up our screens.
