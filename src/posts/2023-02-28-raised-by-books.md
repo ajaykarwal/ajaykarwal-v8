@@ -5,7 +5,7 @@ permalink: "{{ title | slug }}/index.html"
 date: 2023-02-28T10:01:15.734Z
 categories:
   - misc
-draft: true
+draft: false
 ---
 Remember when your monitor looked like this?
 
