@@ -5,7 +5,8 @@ permalink: "{{ title | slug }}/index.html"
 date: 2023-03-13T21:47:47.686Z
 categories:
   - life
-tags: []
+tags:
+  - health
 draft: false
 ---
 January 1st 2023.
