@@ -14,7 +14,7 @@ Like most people in the world I decided to also make a New Year’s resolution t
 
 ## Motivation
 
-As far back as I can remember (I’ve always wanted to be a gangster! — no not really, that’s just a movie quote that always pops into my mind whenever anyone says ‘as far back as I can remember.’ [Drop me a tweet](https://twitter.com/ajaykarwal) if you know where its from).
+As far back as I can remember (*I’ve always wanted to be a gangster*) — No not really, that’s just a movie quote that always pops into my mind whenever anyone says ‘as far back as I can remember.’ [Drop me a tweet](https://twitter.com/ajaykarwal) if you know where its from.
 
 Sorry… where was I?
 
@@ -43,8 +43,6 @@ On each walk I try and pick up the pace a little or take a different route which
 After five weeks of daily walks I felt I was in the right frame of mind to start running. I researched the Couch to 5K plan and downloaded a few of the many iPhone apps available to guide you. [I settled for the NHS app](https://apps.apple.com/gb/app/nhs-couch-to-5k/id1082307672), which is totally free and has a few famous voices to motivate you and guide you on when to run and walk and cool down, etc.
 
 I’d already been tracking my walking on Strava and I have a few friends on there who are very much into running and some that are taking the 5K challenge too so it really helped to have a bit of a community with me.
-
-
 
 ## Getting Started
 
