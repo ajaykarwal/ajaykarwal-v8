@@ -14,7 +14,11 @@ Like most people in the world I decided to also make a New Year’s resolution t
 
 ## Motivation
 
-As far back as I can remember (*I’ve always wanted to be a gangster*) — No not really, that’s just a movie quote that always pops into my mind whenever anyone says ‘as far back as I can remember.’ [Drop me a tweet](https://twitter.com/ajaykarwal) if you know where its from.
+As far back as I can remember (*I’ve always wanted to be a gangster*) — No not really, that’s just a movie quote that always pops into my mind whenever anyone says ‘as far back as I can remember.’ 
+
+[Drop me a tweet](https://twitter.com/ajaykarwal) if you know where its from.
+
+.﻿..
 
 Sorry… where was I?
 
