@@ -5,33 +5,33 @@ subtitle: Here are some of the things I’m currently focused on.
 permalink: /now/
 ---
 
-**Last updated:** December 2021.
+**Last updated:** March 2023.
 
 ## Work
 
-I've just launched my redesigned website. It's something I do roughly every two years to keep on top of new trends and technologies.
+As an avid Notion user, I've started working on a side project for [Notion Power Users](https://notionpowerusers.com/), blogging about workflows, resources, tips and more that power users of Notion would find useful.
 
-I've switched from Gatsby to [Eleventy](https://www.11ty.dev/) &mdash; a static site generator written in JavaScript which is lightning fast!
+I've also been busy [setting up a newsletter](https://ajaykarwal.substack.com/) where I share weekly thoughts and links on stuff I find interesting.
 
 <blockquote>
   See more of the <a href="/projects/">projects</a> I've worked on.
 </blockquote>
 
-<!-- ## Reading
+## Reading
 
-I've been reading [Rich Dad's Cashflow Quadrant](https://amzn.to/2Jgo3Z4) by Robert Kiyosaki for a while now. Progress has been slow, but I'm going to stick with it.
+I'm currently reading [The Celestine Prophecy](https://amzn.to/3ZNmBT7) by James Redfield.
 
 <blockquote>
   Check out more of the books I like on <a href="https://www.goodreads.com/ajaykarwal">my Goodreads profile</a>.
-</blockquote> -->
+</blockquote>
 
-## Watching
+<!-- ## Watching
 
 I've recently completed [The Witcher](https://www.netflix.com/title/80189685) and binged through [The IT Crowd](https://en.wikipedia.org/wiki/The_IT_Crowd) which couldn't be more different. Both were pretty great!
 
 <blockquote>
   You can see what else I've been watching on my <a href="https://letterboxd.com/ajaykarwal/">Letterboxd</a> and <a href="https://www.tvtime.com/en/user/38092710/profile">TV Time</a> profiles.
-</blockquote>
+</blockquote> -->
 
 ## Music
 

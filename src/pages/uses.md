@@ -9,10 +9,10 @@ eleventyNavigation:
 
 Here is a list of hardware, software, apps and other tools I use on a daily basis both at work and in my personal life. I hope you found some useful resources here.
 
-**Last updated:** April 2021.
+**Last updated:** March 2023.
 
 ## Hardware
--   **Desk:** A 3m kitchen worktop resting on two IKEA ALEX drawers with IKEA ADILS support legs in the middle.
+-   **Desk:** IKEA BEKANT in black stained ash.
 -   **Chair:** [Herman Miller Mirra 2](https://www.hermanmiller.com/en_gb/products/seating/office-chairs/mirra-2-chairs/)
 -   **Personal Laptop:** 15" MacBook Pro (2013)
 -   **Work Laptop:** Dell XPS 15 9500
@@ -26,6 +26,7 @@ Here is a list of hardware, software, apps and other tools I use on a daily basi
 -   **Headphones:** [Sennheiser HD 400S](https://amzn.to/2XTfasU) - Check out my [youtube review](https://youtu.be/k_CPpoAyMcg)
 -   **Microphone:** [Blue Yeti](https://www.bluemic.com/en-us/products/yeti/)
 -   **Speakers:** [Alesis Elevate 3 MKII](https://www.alesis.com/products/view/elevate-3-mkii)
+-   **Midi Controller:** [Native Instruments Komplete Kontrol A25](https://amzn.to/3Lm5SBR) - for [making music](https://soulconcept.uk/)
 -   **Storage:** [Synology DS212](http://amzn.to/2cYdXyb) with 2 &times; [3TB WD Red](http://amzn.to/2cKr2aX) hard drives
 -   **Reading:** [Kindle Fire HDX](http://amzn.to/2chJzcz)
 

@@ -1,11 +1,26 @@
 [
 	{
+		"id": "tierra",
+        "title": "Tierra by Maria",
+		"summary": "Packaging design for natural skincare product range",
+		"date": "2022-04",
+		"details": ""
+	},
+	{
+		"id": "gfm",
+        "title": "Guilt-Free Media",
+		"summary": "Branding for an 'Edutainment' platform",
+		"date": "2021-09",
+		"details": ""
+	},
+	{
 		"current": true,
 		"id": "aiimi",
         "title": "Aiimi",
 		"summary": "Enterprise search and analytics app",
 		"date": "2020-10",
-		"details": ""
+		"details": "Aiimi is a tech company that specialises in using AI technology and data expertise to bring new insights to organisations.<br><br>I am part of the team building Aiimi's core product, the Aiimi Insight Engine.",
+		"tech": ["Angular", "TypeScript"]
 	},
 	{
 		"id": "supportroom",
