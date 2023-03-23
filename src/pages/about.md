@@ -5,7 +5,7 @@ title: About Me
 permalink: /about/
 eleventyNavigation:
     key: About
-    order: 3
+    order: 4
 ---
 
 Hi, I'm Ajay Karwal. I've been building stuff on the web for over 20 years with a focus on frontend development, UI design and UX. 

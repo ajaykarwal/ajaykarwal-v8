@@ -4,7 +4,7 @@ title: CV
 permalink: /cv/
 eleventyNavigation:
     key: CV
-    order: 4
+    order: 5
 ---
 
 Here is a streamlined version of my CV to give you an idea about my experience. For more details check out my [LinkedIn](http://www.linkedin.com/in/ajaykarwal) profile.

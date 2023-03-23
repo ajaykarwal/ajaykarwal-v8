@@ -4,7 +4,7 @@ title: Uses
 permalink: /uses/
 eleventyNavigation:
     key: Uses
-    order: 2
+    order: 3
 ---
 
 Here is a list of hardware, software, apps and other tools I use on a daily basis both at work and in my personal life. I hope you found some useful resources here.

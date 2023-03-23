@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Contact
-subtitle: Let's chat
 permalink: /contact/
 ---
 
