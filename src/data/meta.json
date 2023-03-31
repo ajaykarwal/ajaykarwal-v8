@@ -3,5 +3,6 @@
 	"description": "Personal Blog and Portfolio of Ajay Karwal",
 	"url": "https://ajaykarwal.com",
 	"lang": "en",
-	"locale": "en_us"
+	"locale": "en_us",
+	"domain": "ajaykarwal.com"
 }

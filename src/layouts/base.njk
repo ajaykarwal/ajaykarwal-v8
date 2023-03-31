@@ -6,11 +6,14 @@
         {% endif %}
         <meta charset="UTF-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-        <title>{{ meta.title }}</title>
+        <title>
+            {%- if title -%}
+                {{ title }}&nbsp;-&nbsp;
+            {%- endif -%}
+            {{ meta.domain }}</title>
         <link href="https://unpkg.com/prismjs@1.20.0/themes/prism-okaidia.css" rel="stylesheet"/>
-        <link rel="stylesheet" href="{{ '/assets/styles/main.css' | url }}"/> 
-		{% include "meta.njk" %}
-		<script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+        <link rel="stylesheet" href="{{ '/assets/styles/main.css' | url }}"/> {% include "meta.njk" %}
+        <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
     </head>
     <body>
         <div hidden>{% iconsprite %}</div>
@@ -40,4 +43,4 @@
             }
         </script>
     </body>
-</html>
+</html></head></html>
