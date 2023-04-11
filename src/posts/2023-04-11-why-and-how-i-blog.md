@@ -13,12 +13,12 @@ draft: false
 
 For me, blogging is three things.
 
-1. A place to document thoughts and ideas for myself.\
+1. **A place to document thoughts and ideas for myself.**\
    I often write up notes on information I might need in the future to save me having to Google it again, such as [how to set up Node Version Manager](https://ajaykarwal.com/uninstall-node.js-and-install-node-version-manager-(nvm)/) or [how to show or hide hidden files on macOS](https://ajaykarwal.com/show-or-hide-hidden-files-on-macos/).
-2. A resource for the community.\
+2. **A resource for the community.**\
    The dev community has helped me so much over my career and I can’t count the amount of useful information I’ve got from other people’s blog posts, so it’s only right that I share a little knowledge when I can.
-3. Forming a habit and growing.\
-   By writing (semi) regularly, I keep myself focused on forming good habits and by sticking writing about my profession I become more of an SME for others.
+3. **Forming a habit and growing.**\
+   By writing (semi) regularly, I keep myself focused on forming good habits and by writing about my profession I become more of an <abbr title="Subject Matter Expert">SME</abbr> for others.
 
 ## Here’s my method.
 
@@ -37,3 +37,5 @@ I’ve got a pretty nice workflow for getting ideas into my [Notion Inbox](https
 From here on I work in a typical [Kanban board](https://www.atlassian.com/agile/kanban/boards) style, moving my posts across columns until I’m happy to publish them.
 
 The beauty of writing my drafts in Notion is that I can simply export the Markdown when I’m done and paste it straight into my [Decap CMS](https://decapcms.org/) (formerly Netlify CMS) and leave it up to the site CSS to style things up properly.
+
+I﻿t's a pretty simple workflow, which is key to making sure that I blog as often as possible. And the easiest way for you to keep up to date is to follow the [RSS feed](https://ajaykarwal.com/feed.xml).
