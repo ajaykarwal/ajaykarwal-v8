@@ -30,7 +30,7 @@ Sometimes, inspiration just comes while taking a walk and listening to podcast.
 
 However the inspiration for a blog post hits, the idea always goes into Notion.
 
-I’ve got a pretty nice workflow for getting ideas into my [Notion Inbox](https://notionpowerusers.com/why-you-need-a-notion-inbox/) where I’ll dump all the ideas I have. Then when I’m sat at my desk I’ll triage these ideas and put the best potentials onto my Blog Content database in Notion and start adding some extra notes.
+I’ve got a pretty nice workflow for getting ideas into my [Notion Inbox](https://ajaykarwal.com/why-you-need-a-notion-inbox/) where I’ll dump all the ideas I have. Then when I’m sat at my desk I’ll triage these ideas and put the best potentials onto my Blog Content database in Notion and start adding some extra notes.
 
 ![A screenshot of my Notion board where I manage blog content ideas](/assets/images/uploads/kanban-board.png "Some of the blog post ideas I’ve got on my board")
 
