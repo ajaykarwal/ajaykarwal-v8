@@ -9,10 +9,10 @@ eleventyNavigation:
 
 Here is a list of hardware, software, apps and other tools I use on a daily basis both at work and in my personal life. I hope you found some useful resources here.
 
-**Last updated:** March 2023.
+**Last updated:** July 2023.
 
 ## Hardware
--   **Desk:** IKEA BEKANT in black stained ash.
+-   **Desk:** IKEA BEKANT in black stained ash ([Check out my setup](https://ajaykarwal.substack.com/p/so-about-my-desk)).
 -   **Chair:** [Herman Miller Mirra 2](https://www.hermanmiller.com/en_gb/products/seating/office-chairs/mirra-2-chairs/)
 -   **Personal Laptop:** 15" MacBook Pro (2013)
 -   **Work Laptop:** Dell XPS 15 9500
@@ -34,7 +34,7 @@ Here is a list of hardware, software, apps and other tools I use on a daily basi
 -   **Editor:** Visual Studio Code
 -   **Theme:** Material Theme - Palenight High Contrast
 -   **Font:** [Fira Code](https://github.com/tonsky/FiraCode)
--   **Browsers:** Chrome mainly
+-   **Browsers:** Chrome
 -   **Command Prompt / Terminal:** [cmder](https://cmder.net/)
 -   **Design:** Figma
 -   **Audio:** Logic Pro X for editing my [podcast](https://inspectpodcast.com)

@@ -15,9 +15,9 @@ eleventyNavigation:
     <audio id="linkAudio">
         <source src="/assets/audio/ajay.mp3" type="audio/mpeg"> Your browser does not support the audio element.
     </audio>
-    <p class="lead">I'm a frontend developer, UI designer, podcast host and all-round tech enthusiast from Northampton, UK.</p>
+    <p class="lead">{{config.bio}}</p>
     <p>
-        Over the past 20 years or so I've worked with some amazing clients including BP, HSBC, Thames Water, Anglian Water,
+        Over the past 20+ years I've worked with some amazing clients including BP, HSBC, Thames Water, Anglian Water,
         Audi, Jaguar Land Rover, BT, Caterpillar, Ministry of Sound, and
         <a href="/projects/">many more</a>.
     </p>
@@ -55,6 +55,22 @@ eleventyNavigation:
         </div>
         <footer>
             <a href="/blog/" class="button">All posts</a>
+        </footer>
+    </aside>
+    <aside class="content-block">
+        <header>
+            <h2>From The Desk of Ajay Karwal</h2>
+            <p class="subheading">My free weekly newsletter</p>
+        </header>
+        <div class="content-block__details two-col">
+            <a href="https://ajaykarwal.substack.com" target="_blank" rel="nofollow noopener"><img src="/assets/images/project-substack.png" alt="Substack" width="180" height="180"/>
+            </a>
+            <p>
+                My free weekly newsletter where I share thoughts on web development, design, productivity and being a good human &mdash; directly to your inbox.
+            </p>
+        </div>
+        <footer>
+            <a href="https://ajaykarwal.substack.com" target="_blank" rel="nofollow noopener" class="button">Subscribe</a>
         </footer>
     </aside>
     <aside class="content-block">

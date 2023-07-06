@@ -3,10 +3,19 @@
 		"label": "About me",
 		"url": "https://ajaykarwal.com/about"
 	},
-		{
+	{
 		"label": "Newsletter",
 		"description": "Subscribe for updates straight to your inbox",
 		"url": "https://ajaykarwal.com/newsletter"
+	},
+	{
+		"label": "Buy Me a Coffee",
+		"description": "Show your support if you enjoy my content",
+		"url": "https://www.buymeacoffee.com/ajaykarwal"
+	},
+	{
+		"label": "Gumroad",
+		"url": "https://ajaykarwal.gumroad.com/"
 	},
 	{
 		"label": "Twitter",

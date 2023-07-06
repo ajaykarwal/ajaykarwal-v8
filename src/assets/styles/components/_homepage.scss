@@ -89,10 +89,6 @@
                 top: 170px;
                 margin: 0;
             }
-
-            @include mq(lg) {
-                top: 130px;
-            }
         }
 
         &__details {
