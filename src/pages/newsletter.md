@@ -7,16 +7,14 @@ eleventyNavigation:
     order: 1
 ---
 
-Sign up to [From the Desk of Ajay Karwal](https://ajaykarwal.substack.com/) &mdash; my free weekly newsletter where I share thoughts on web development, design, productivity and being a good human &mdash; directly to your inbox.
+Sign up to **From the Desk of Ajay Karwal** &mdash; my free weekly newsletter where I share thoughts on web development, design, productivity and being a good human &mdash; directly to your inbox.
 
 <iframe src="https://ajaykarwal.substack.com/embed" width="100%" height="320" style="border:0; margin: 2rem 0" frameborder="0" scrolling="no"></iframe>
 
-Read all the past issues in the [archive](https://ajaykarwal.substack.com/archive) too.
+## Past issues
 
-<!-- <ul class="unstyled">
-	{%- for post in collections.tagList['newsletter'] | reverse -%}
-    {%- if not post.data.draft -%}
+<ul class="unstyled">
+	{%- for post in collections.newsletter | reverse -%}
 	<li>{% include 'post-listing.njk' %}</li>
-	{%- endif -%}
 	{%- endfor -%}
-</ul> -->
+</ul>
