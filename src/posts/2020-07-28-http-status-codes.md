@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'HTTP Status Codes'
-permalink: '{{ title | slug }}/index.html'
+permalink: 'blog/{{ title | slug }}/index.html'
 date: '2020-07-28'
 categories:
     - code

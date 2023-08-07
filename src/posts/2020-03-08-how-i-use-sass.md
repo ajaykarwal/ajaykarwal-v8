@@ -2,7 +2,7 @@
 layout: post
 date: '2020-03-08'
 title: 'How I use Sass in my projects'
-permalink: '{{ title | slug }}/index.html'
+permalink: 'blog/{{ title | slug }}/index.html'
 categories:
     - code
 tags:

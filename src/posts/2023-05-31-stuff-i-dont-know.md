@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Stuff I don't know
-permalink: "stuff-i-dont-know/index.html"
+permalink: 'blog/stuff-i-dont-know/index.html'
 date: 2023-05-31T12:40:00.683Z
 categories:
   - code

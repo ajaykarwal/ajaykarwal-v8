@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Why and How I blog
-permalink: "{{ title | slug }}/index.html"
+permalink: 'blog/{{ title | slug }}/index.html'
 date: 2023-04-11T19:08:08.325Z
 categories:
   - misc

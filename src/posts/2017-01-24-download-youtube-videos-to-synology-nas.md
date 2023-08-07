@@ -2,7 +2,7 @@
 layout: post
 date: '2017-01-24'
 title: 'Download YouTube videos to a Synology NAS'
-permalink: '{{ title | slug }}/index.html'
+permalink: 'blog/{{ title | slug }}/index.html'
 categories:
     - popular
     - misc

@@ -2,7 +2,7 @@
 layout: post
 date: '2016-01-28'
 title: 'Using Umbraco Dictionary Items as image alt text'
-permalink: '{{ title | slug }}/index.html'
+permalink: 'blog/{{ title | slug }}/index.html'
 categories:
     - code
 tags:

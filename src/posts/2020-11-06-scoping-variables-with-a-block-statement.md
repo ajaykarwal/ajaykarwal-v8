@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Scoping Variables With A Block Statement'
-permalink: '{{ title | slug }}/index.html'
+permalink: 'blog/{{ title | slug }}/index.html'
 date: '2020-11-06'
 categories:
     - code

@@ -2,7 +2,7 @@
 layout: post
 date: '2018-03-09'
 title: 'React application data flow with Redux'
-permalink: '{{ title | slug }}/index.html'
+permalink: 'blog/{{ title | slug }}/index.html'
 categories:
     - code
 tags:

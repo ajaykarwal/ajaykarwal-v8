@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Understanding `rm`'
-permalink: '{{ title | slug }}/index.html'
+permalink: 'blog/{{ title | slug }}/index.html'
 date: '2020-08-16'
 categories:
     - code

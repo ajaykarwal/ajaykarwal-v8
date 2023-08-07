@@ -2,7 +2,7 @@
 layout: post
 date: '2015-03-17'
 title: 'What is Branding?'
-permalink: '{{ title | slug }}/index.html'
+permalink: 'blog/{{ title | slug }}/index.html'
 categories:
     - design
 tags:

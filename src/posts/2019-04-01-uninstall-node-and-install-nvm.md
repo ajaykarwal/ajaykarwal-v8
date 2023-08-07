@@ -2,7 +2,7 @@
 layout: post
 date: '2019-04-01'
 title: 'Uninstall Node.js and install Node Version Manager (NVM)'
-permalink: '{{ title | slug }}/index.html'
+permalink: 'blog/{{ title | slug }}/index.html'
 categories:
     - popular
     - code

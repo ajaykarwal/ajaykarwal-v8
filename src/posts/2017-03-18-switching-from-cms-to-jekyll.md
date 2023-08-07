@@ -2,7 +2,7 @@
 layout: post
 date: '2017-03-18'
 title: 'Switching from a CMS to Jekyll'
-permalink: '{{ title | slug }}/index.html'
+permalink: 'blog/{{ title | slug }}/index.html'
 categories:
     - popular
     - code

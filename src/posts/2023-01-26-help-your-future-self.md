@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Help Your Future Self
-permalink: "{{ title | slug }}/index.html"
+permalink: 'blog/{{ title | slug }}/index.html'
 date: 2023-01-31T20:59:18.856Z
 categories:
   - code

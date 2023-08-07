@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Add CSS to console logs'
-permalink: '{{ title | slug }}/index.html'
+permalink: 'blog/{{ title | slug }}/index.html'
 date: '2020-08-24'
 categories:
     - code
