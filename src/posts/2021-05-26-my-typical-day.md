@@ -2,7 +2,7 @@
 layout: post
 title: 'My Typical Day'
 date: '2021-05-26'
-permalink: '{{ title | slug }}/index.html'
+permalink: 'blog/{{ title | slug }}/index.html'
 categories:
     - life
 ---

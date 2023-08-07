@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Raised by Books
-permalink: "{{ title | slug }}/index.html"
+permalink: '{{ title | slug }}/index.html'
 date: 2023-02-28T10:01:15.734Z
 categories:
   - misc

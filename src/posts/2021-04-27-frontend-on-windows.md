@@ -2,7 +2,7 @@
 layout: post
 title: 'Frontend Development on Windows'
 date: '2021-04-27'
-permalink: '{{ title | slug }}/index.html'
+permalink: 'blog/{{ title | slug }}/index.html'
 categories:
     - code
 tags:

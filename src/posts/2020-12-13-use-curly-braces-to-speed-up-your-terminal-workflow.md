@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Use curly braces to speed up your Terminal workflow'
-permalink: '{{ title | slug }}/index.html'
+permalink: 'blog/{{ title | slug }}/index.html'
 date: '2020-12-13'
 categories:
     - code

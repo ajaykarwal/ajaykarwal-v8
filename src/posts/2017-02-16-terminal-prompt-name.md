@@ -2,7 +2,7 @@
 layout: post
 date: '2017-02-16'
 title: 'Edit the Terminal Prompt name on macOS'
-permalink: '{{ title | slug }}/index.html'
+permalink: 'blog/{{ title | slug }}/index.html'
 categories:
     - popular
     - code

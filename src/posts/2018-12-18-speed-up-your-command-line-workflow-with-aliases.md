@@ -2,7 +2,7 @@
 layout: post
 date: '2018-12-18'
 title: 'Speed up your Terminal workflow with aliases on macOS'
-permalink: '{{ title | slug }}/index.html'
+permalink: 'blog/{{ title | slug }}/index.html'
 categories:
     - code
 tags:

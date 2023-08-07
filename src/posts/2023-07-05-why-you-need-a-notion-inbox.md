@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Why you need a Notion Inbox
-permalink: "{{ title | slug }}/index.html"
+permalink: 'blog/{{ title | slug }}/index.html'
 date: 2023-03-16T12:04:40.708Z
 categories:
   - misc

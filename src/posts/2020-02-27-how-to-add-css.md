@@ -2,7 +2,7 @@
 layout: post
 date: '2020-02-27'
 title: 'Three methods for adding CSS to your website'
-permalink: '{{ title | slug }}/index.html'
+permalink: 'blog/{{ title | slug }}/index.html'
 categories:
     - popular
     - code

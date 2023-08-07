@@ -2,7 +2,7 @@
 layout: post
 date: '2020-10-05'
 title: 'Convert Pixels to Rem in Sass'
-permalink: '{{ title | slug }}/index.html'
+permalink: 'blog/{{ title | slug }}/index.html'
 categories:
     - code
 tags:

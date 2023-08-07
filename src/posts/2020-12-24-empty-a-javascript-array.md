@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Empty a JavaScript Array'
-permalink: '{{ title | slug }}/index.html'
+permalink: 'blog/{{ title | slug }}/index.html'
 date: '2020-12-24'
 categories:
     - code

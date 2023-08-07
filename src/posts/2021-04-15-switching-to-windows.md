@@ -2,7 +2,7 @@
 layout: post
 title: 'Switching from macOS to Windows'
 date: '2021-04-15'
-permalink: '{{ title | slug }}/index.html'
+permalink: 'blog/{{ title | slug }}/index.html'
 categories:
     - code
 tags:

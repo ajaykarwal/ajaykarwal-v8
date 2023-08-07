@@ -2,7 +2,7 @@
 layout: post
 date: '2020-03-18'
 title: 'My current tech in 2020'
-permalink: '{{ title | slug }}/index.html'
+permalink: 'blog/{{ title | slug }}/index.html'
 categories:
     - tech
 tags:

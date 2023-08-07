@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 'Merge Objects or Arrays with the `Spread` operator'
-permalink: '{{ title | slug }}/index.html'
+permalink: 'blog/{{ title | slug }}/index.html'
 date: '2020-07-09'
 categories:
     - code
