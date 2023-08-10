@@ -1,0 +1,64 @@
+.nl-wrapper {
+	background: $white;
+	padding: $space;
+
+	@include mq(md) {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		padding-bottom: 0;
+	}
+	.nl-form {
+		.form-field {
+			margin-bottom: $space;
+		}
+
+		@include mq(md) {
+			margin-right: $space-lg;
+		}
+	}
+	.nl-image {
+		display: none;
+
+		@include mq(md) {
+			display: flex;
+			justify-content: end;
+			img {
+				width: 180px;
+				max-width: none;
+				height: auto;
+			}
+		}
+	}
+}
+
+.nl-item {
+	margin-bottom: $space;
+
+	@include mq(md) {
+		display: flex;
+		align-items: center;
+	}
+
+	&-date {
+		@include font-size(13px);
+
+		color: $grey-dark;
+		margin-top: $space-xs;
+		min-width: 150px;
+	}
+
+	&-heading {
+		margin: 0;
+		a {
+			@include font-size(18px);
+			color: var(--black);
+			font-weight: $font-weight-normal;
+			font-variation-settings: 'wght' $font-weight-normal;
+
+			&:hover {
+				color: var(--primary);
+			}
+		}
+	}
+}
