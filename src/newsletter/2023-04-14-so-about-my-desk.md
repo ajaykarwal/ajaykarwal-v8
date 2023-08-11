@@ -1,7 +1,7 @@
 ---
 layout: newsletter
 title: So... about my desk
-permalink: 'newsletter/{{ title | slug }}/index.html'
+permalink: 'newsletter/so-about-my-desk/index.html'
 tags: [newsletter]
 ---
 

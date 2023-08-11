@@ -12,7 +12,7 @@ Here is a list of hardware, software, apps and other tools I use on a daily basi
 **Last updated:** July 2023.
 
 ## Hardware
--   **Desk:** IKEA BEKANT in black stained ash ([Check out my setup](https://ajaykarwal.substack.com/p/so-about-my-desk)).
+-   **Desk:** IKEA BEKANT in black stained ash ([Check out my setup](/newsletter/so-about-my-desk)).
 -   **Chair:** [Herman Miller Mirra 2](https://www.hermanmiller.com/en_gb/products/seating/office-chairs/mirra-2-chairs/)
 -   **Personal Laptop:** 15" MacBook Pro (2013)
 -   **Work Laptop:** Dell XPS 15 9500
