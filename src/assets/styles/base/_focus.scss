@@ -5,18 +5,7 @@
 a:focus,
 button:focus,
 input:focus {
-	outline: 5px solid var(--primary);
-}
-
-// =================
-// FOCUS-VISIBLE POLYFILL
-// =================
-
-.js-focus-visible :focus:not(.focus-visible) {
-	outline: none;
-}
-
-.js-focus-visible .focus-visible {
+	outline: 3px solid var(--primary);
 }
 
 // =================
