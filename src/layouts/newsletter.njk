@@ -9,7 +9,7 @@ layout: base
         {% endif %}
         {% if not draft %}
             <p class="date">{{ page.date | dateString }}</p>
-            <div class="tags">
+            {# <div class="tags">
 			Posted in {%- for cat in categories -%}
                     {% if cat !== "posts" %}
                         <a href="/categories/{{ cat }}">{{ cat }}</a>
@@ -22,7 +22,7 @@ layout: base
                         <a href="/tags/{{ tag }}">{{ tag }}</a>
                     {% endif %}
                 {%- endfor -%}
-            </div>
+            </div> #}
             {% if headerButton %}
                 <a href="{{ headerButton.url }}" class="button">{{ headerButton.text }}</a>
             {% endif %}
