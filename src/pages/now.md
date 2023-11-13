@@ -9,7 +9,7 @@ permalink: /now/
 
 ## Work
 
-I've been busy [setting up a newsletter](/newsletter) where I share weekly thoughts and links on stuff I find interesting.
+I've been busy [setting up a newsletter](/newsletter) where I share thoughts and links on stuff I find interesting.
 
 <blockquote>
   See more of the <a href="/projects/">projects</a> I've worked on.
