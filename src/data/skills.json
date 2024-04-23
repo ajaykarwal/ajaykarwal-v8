@@ -1,18 +1,18 @@
 [
 	{
 		"label": "Languages",
-		"data": ["JavaScript / TypeScript", "HTML / Markdown", "CSS / Sass / Less", "C#", "Java"]
+		"data": ["JavaScript", "TypeScript", "CSS / Sass", "HTML / Markdown", "C#", "Java"]
 	},
 	{
 		"label": "Frameworks",
-		"data": ["Angular", "React", "jQuery", "Jekyll", "Eleventy", "Gatsby", "Bootstrap", "Material"]
+		"data": ["Angular", "React", "jQuery", "Jekyll", "Eleventy", "Bootstrap", "Material"]
 	},
 	{
 		"label": "Tools",
-		"data": ["Git / Github", "Netlify", "VS Code", "Webpack / Gulp", "DevTools"]
+		"data": ["Git / Github", "VS Code", "Webpack", "DevTools", "Netlify"]
 	},
 	{
 		"label": "Design",
-		"data": ["Figma", "Sketch", "Photoshop", "Illustrator", "InVision", "Atomic Design"]
+		"data": ["Figma", "Sketch", "Photoshop", "Illustrator", "Atomic Design"]
 	}
 ]

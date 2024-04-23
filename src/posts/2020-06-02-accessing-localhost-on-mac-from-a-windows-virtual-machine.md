@@ -12,7 +12,7 @@ tags:
     - localhost
 ---
 
-As a front-end developer, it's important to test your code on as many web browsers as possible, but as a Mac user it is necessary to run Windows in a Virtual Machine — in my case, [VirtualBox](https://www.virtualbox.org/) — in order to test on Microsoft Edge and Internet Explorer.
+As a frontend developer, it's important to test your code on as many web browsers as possible, but as a Mac user it is necessary to run Windows in a Virtual Machine — in my case, [VirtualBox](https://www.virtualbox.org/) — in order to test on Microsoft Edge and Internet Explorer.
 
 > Microsoft offers [Free Virtual Machines from IE8 to MS Edge](https://developer.microsoft.com/en-us/microsoft-edge/tools/vms/).
 

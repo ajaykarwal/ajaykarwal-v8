@@ -11,8 +11,8 @@ Here is a streamlined version of my CV to give you an idea about my experience. 
 
 ## Current Role
 
-**Front-end Developer** @ [Aiimi](http://aiimi.com)
-My role involves developing features for Aiimi's core product, the Aiimi Insight Engine, an enterprise search and analytics tool.
+**Principal Frontend Developer** @ [Aiimi](http://aiimi.com)
+My role involves developing features for Aiimi's core product — Aiimi Insight Engine; an enterprise search and analytics tool.
 
 ## Skills
 

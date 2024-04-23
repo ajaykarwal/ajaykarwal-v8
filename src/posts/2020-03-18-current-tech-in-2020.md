@@ -9,7 +9,7 @@ tags:
     - tools
 ---
 
-As with any job it's important to keep up to date with the latest technology and trends, but with software development — front-end development in particular — things change at such an alarming speed that many tech trends become obsolete before people even get a chance to explore them.
+As with any job it's important to keep up to date with the latest technology and trends, but with software development — frontend development in particular — things change at such an alarming speed that many tech trends become obsolete before people even get a chance to explore them.
 
 While the tools and tech I'm using today aren't vastly different than this time last year, I figured I'd create this snapshot of what I'm currently using.
 
@@ -21,13 +21,13 @@ If there's something you feel is missing from VS Code out-of-the-box, there's pr
 
 ## Languages and Frameworks
 
-Day to day I'm using a pretty standard front-end stack of HTML, CSS and JavaScript.
+Day to day I'm using a pretty standard frontend stack of HTML, CSS and JavaScript.
 
 ### Markup
 
-I don't explicitly write large amounts HTML these days as the markup for the projects I work on are usually coming from somewhere in the back-end or from a CMS.
+I don't explicitly write large amounts HTML these days as the markup for the projects I work on are usually coming from somewhere in the backend or from a CMS.
 
-In my day job at [ecx.io](https://www.ecx.io/) we use a mixture of Adobe Experience Manager (AEM), SAP Hybris and Sitecore on the back-end and I sit within the AEM team so most of the markup I write is in [HTL](https://docs.adobe.com/content/help/en/experience-manager-htl/using/getting-started/update.html) (no that's not a typo). HTML Template Language (also known as 'Sightly') is Adobe Experience Manager’s preferred and recommended server-side template system for HTML.
+In my day job at [ecx.io](https://www.ecx.io/) we use a mixture of Adobe Experience Manager (AEM), SAP Hybris and Sitecore on the backend and I sit within the AEM team so most of the markup I write is in [HTL](https://docs.adobe.com/content/help/en/experience-manager-htl/using/getting-started/update.html) (no that's not a typo). HTML Template Language (also known as 'Sightly') is Adobe Experience Manager’s preferred and recommended server-side template system for HTML.
 
 HTL makes use of `data` attributes to add logic into HTML templates, similar to how [Angular](https://angularjs.org/) uses the `ng-` attribute. For example, a simple unordered list in HTL could look like this.
 
@@ -37,7 +37,7 @@ HTL makes use of `data` attributes to add logic into HTML templates, similar to 
 </ul>
 ```
 
-When I'm working on smaller projects or brochure websites, I tend to reach for a static site generator such as [Jekyll](https://jekyllrb.com/). It's great for creating simple websites which don't require a full back-end but could still benefit from some server-side logic.
+When I'm working on smaller projects or brochure websites, I tend to reach for a static site generator such as [Jekyll](https://jekyllrb.com/). It's great for creating simple websites which don't require a full backend but could still benefit from some server-side logic.
 
 My own website was built in Jekyll for several years until I recently switched over to [Gatsby](https://www.gatsbyjs.org/) — another static site generator built on React.
 

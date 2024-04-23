@@ -1,4 +1,6 @@
 .author {
+    border-top: 1px solid $grey-semi;
+    padding-top: $space-md;
     margin-top: $space-xl;
 
     &__content {

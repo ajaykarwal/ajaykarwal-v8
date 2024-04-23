@@ -148,7 +148,7 @@
         "title": "Catphones",
 		"summary": "Umbraco CMS upgrade and website redesign",
 		"date": "2015-02",
-		"details": "The primary goal of this project was to upgrade from Umbraco version 4 to version 6. As this was a major upgrade and largely a manual process, the project also included a full UI redesign at the same time.<br><br>My role was to redesign the website and refactor the front-end code to suit.",
+		"details": "The primary goal of this project was to upgrade from Umbraco version 4 to version 6. As this was a major upgrade and largely a manual process, the project also included a full UI redesign at the same time.<br><br>My role was to redesign the website and refactor the frontend code to suit.",
 		"tech": ["Umbraco", "Bootstrap", "Sass"]
 	},
 	{

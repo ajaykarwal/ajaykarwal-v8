@@ -102,6 +102,10 @@ strong {
 	font-weight: $font-weight-medium;
 	font-variation-settings: 'wght' $font-weight-medium;
 }
+i,
+em {
+	font-style: italic;
+}
 
 p {
 	margin-top: 0;
