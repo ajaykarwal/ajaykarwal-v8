@@ -1,18 +1,18 @@
 [
 	{
-		"label": "Languages",
-		"data": ["JavaScript", "TypeScript", "CSS / Sass", "HTML / Markdown", "C#", "Java"]
-	},
-	{
-		"label": "Frameworks",
-		"data": ["Angular", "React", "jQuery", "Jekyll", "Eleventy", "Bootstrap", "Material"]
+		"label": "Technical",
+		"data": ["Angular", "TypeScript",  "HTML", "CSS / Sass", "Cypress", "Storybook"]
 	},
 	{
 		"label": "Tools",
-		"data": ["Git / Github", "VS Code", "Webpack", "DevTools", "Netlify"]
+		"data": ["Git / Github", "Docker", "Azure", "Netlify", "Postman", "NVDA"]
 	},
 	{
 		"label": "Design",
-		"data": ["Figma", "Sketch", "Photoshop", "Illustrator", "Atomic Design"]
+		"data": ["Figma", "Sketch", "Adobe CC", "Atomic Design"]
+	},
+	{
+		"label": "Soft Skills",
+		"data": ["Problem Solving", "Web Accessibility", "Communication", "Mentoring"]
 	}
 ]
