@@ -3,44 +3,42 @@
 // ---------------------------------
 
 /* --------------------------- Reset and Normalise -------------------------- */
-
-@import 'base/reboot';
-@import 'base/normalize';
+@use 'base/reboot';
+@use 'base/normalize';
 
 /* -------------------------------- UTILITIES ------------------------------- */
-@import 'utils/functions';
-@import 'utils/variables';
-@import 'utils/mixins';
+@use 'utils/functions';
+@use 'utils/variables';
+@use 'utils/mixins';
 
 /* ------------------------------ BASE MODULES ------------------------------ */
-@import 'base/root';
-@import 'base/base';
-@import 'base/layout';
-@import 'base/typography';
-@import 'base/animation';
-@import 'base/focus';
-@import 'base/screenreader';
-@import 'base/table';
-@import 'base/utilities';
+@use 'base/root';
+@use 'base/base';
+@use 'base/layout';
+@use 'base/typography';
+@use 'base/animation';
+@use 'base/focus';
+@use 'base/screenreader';
+@use 'base/table';
+@use 'base/utilities';
 
 /* ------------------------------- COMPONENTS ------------------------------- */
-@import 'components/author';
-@import 'components/blog';
-@import 'components/buttons';
-@import 'components/code';
-@import 'components/footer';
-@import 'components/form';
-@import 'components/header';
-@import 'components/homepage';
-@import 'components/icon';
-@import 'components/listing';
-@import 'components/meta';
-@import 'components/nav';
-@import 'components/newsletter';
-@import 'components/projects';
-@import 'components/sitemap';
-@import 'components/skills-list';
-@import 'components/link-list';
-@import 'components/gallery';
-
-@import 'components/admin';
+@use 'components/author';
+@use 'components/blog';
+@use 'components/buttons';
+@use 'components/code';
+@use 'components/footer';
+@use 'components/form';
+@use 'components/header';
+@use 'components/homepage';
+@use 'components/icon';
+@use 'components/listing';
+@use 'components/meta';
+@use 'components/nav';
+@use 'components/newsletter';
+@use 'components/projects';
+@use 'components/sitemap';
+@use 'components/skills-list';
+@use 'components/link-list';
+@use 'components/gallery';
+@use 'components/admin';

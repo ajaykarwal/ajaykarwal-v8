@@ -7,12 +7,15 @@ const transforms = require('./utils/transforms.js');
 const shortcodes = require('./utils/shortcodes.js');
 const iconsprite = require('./utils/iconsprite.js');
 const syntaxHighlight = require('@11ty/eleventy-plugin-syntaxhighlight');
+const UpgradeHelper = require('@11ty/eleventy-upgrade-help');
 
 module.exports = function (eleventyConfig) {
 	// Plugins
 	eleventyConfig.addPlugin(pluginRss);
 	eleventyConfig.addPlugin(pluginNavigation);
 	eleventyConfig.addPlugin(syntaxHighlight);
+	// If you have other `addPlugin` calls, it’s important that UpgradeHelper is added last.
+	eleventyConfig.addPlugin(UpgradeHelper);
 
 	// Dynamic Permalinks
 	// eleventyConfig.setDynamicPermalinks(false);
@@ -75,7 +78,7 @@ module.exports = function (eleventyConfig) {
 
 	// Categories
 	eleventyConfig.addCollection('categoryList', collection => {
-        let catSet = {};
+		let catSet = {};
 		collection.getAll().forEach(item => {
 			if (!item.data.categories) return;
 			item.data.categories

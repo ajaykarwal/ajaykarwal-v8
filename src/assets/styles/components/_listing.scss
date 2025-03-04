@@ -1,3 +1,6 @@
+@use "../utils/variables.scss" as *;
+@use "../utils/mixins.scss" as *;
+
 .post-list {
     margin-top: $space-lg;
 

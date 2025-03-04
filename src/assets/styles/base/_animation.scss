@@ -1,3 +1,6 @@
+@use "../utils/variables.scss" as *;
+@use "../utils/mixins.scss" as *;
+
 @media (prefers-reduced-motion: reduce) {
 	* {
 		animation-duration: 0.01s !important;

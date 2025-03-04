@@ -1,3 +1,5 @@
+@use "../utils/variables.scss" as *;
+@use "../utils/mixins.scss" as *;
 .author {
     border-top: 1px solid $grey-semi;
     padding-top: $space-md;

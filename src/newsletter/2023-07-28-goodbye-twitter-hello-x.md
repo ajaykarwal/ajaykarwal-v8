@@ -1,8 +1,8 @@
 ---
 layout: newsletter
-title: Goodbye Twitter, hello...X?
+title: "Goodbye Twitter, hello...X?"
 subheading: The end of an era for one of the world's most recognisable brands. The Twitter bird is officially dead.
-permalink: 'newsletter/{{ title | slug }}/index.html'
+permalink: 'newsletter/goodbye-twitter-hello-x/index.html'
 tags: [newsletter]
 ---
 

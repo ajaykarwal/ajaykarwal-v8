@@ -1,4 +1,7 @@
-﻿.homepage {
+﻿@use "../utils/variables.scss" as *;
+@use "../utils/mixins.scss" as *;
+
+.homepage {
     @include center-content($wide: true);
 
     h1 {

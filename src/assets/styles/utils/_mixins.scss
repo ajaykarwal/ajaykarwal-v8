@@ -1,7 +1,11 @@
+@use 'sass:math';
+@use './variables.scss' as *;
+@use './functions.scss' as *;
+
 //--------------------
 // SCSS MIXINS
 //--------------------
-@use 'sass:math';
+
 @mixin clearfix() {
 	&:after {
 		content: '';

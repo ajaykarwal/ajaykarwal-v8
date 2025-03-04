@@ -1,3 +1,6 @@
+@use '../utils/variables.scss' as *;
+@use '../utils/mixins.scss' as *;
+
 .sitemap {
 	@include font-size(16px);
 	li {

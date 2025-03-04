@@ -1,6 +1,9 @@
+@use "../utils/variables.scss" as *;
+@use "../utils/mixins.scss" as *;
+
 ::selection {
-    background: $text-selection;
-    color: var(--black);
+	background: $text-selection;
+	color: var(--black);
 }
 
 html {

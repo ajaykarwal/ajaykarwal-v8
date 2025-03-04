@@ -1,3 +1,6 @@
+@use "../utils/variables.scss" as *;
+@use "../utils/mixins.scss" as *;
+
 ul.projects {
 	margin-top: $space-xl;
 

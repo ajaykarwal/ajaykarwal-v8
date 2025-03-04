@@ -1,3 +1,6 @@
+@use "../utils/variables.scss" as *;
+@use "../utils/mixins.scss" as *;
+
 .link-list {
 	li {
 		margin-bottom: $space-md;

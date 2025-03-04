@@ -1,3 +1,6 @@
+@use '../utils/variables.scss' as *;
+@use '../utils/mixins.scss' as *;
+
 %button-reset {
 	border: none;
 	border-radius: 0;

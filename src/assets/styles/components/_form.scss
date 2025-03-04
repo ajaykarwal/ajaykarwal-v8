@@ -1,3 +1,6 @@
+@use "../utils/variables.scss" as *;
+@use "../utils/mixins.scss" as *;
+
 .form-field {
     padding: $space-sm;
     border: 1px solid $grey-semi;
