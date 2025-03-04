@@ -1,7 +1,7 @@
 [
 	{
 		"label": "Technical",
-		"data": ["Angular", "TypeScript",  "HTML", "CSS / Sass", "Cypress", "Storybook"]
+		"data": ["Angular", "TypeScript", "HTML", "CSS / Sass", "Cypress", "Storybook"]
 	},
 	{
 		"label": "Tools",
