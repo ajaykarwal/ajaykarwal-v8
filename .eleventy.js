@@ -7,6 +7,46 @@ const transforms = require('./utils/transforms.js');
 const shortcodes = require('./utils/shortcodes.js');
 const iconsprite = require('./utils/iconsprite.js');
 const syntaxHighlight = require('@11ty/eleventy-plugin-syntaxhighlight');
+const htmlmin = require('html-minifier');
+const buildDir = 'dist';
+
+const shouldTransformHTML = outputPath => outputPath && outputPath.endsWith('.html') && process.env.ELEVENTY_ENV === 'production';
+
+const isHomePage = outputPath => outputPath === `${buildDir}/index.html`;
+
+process.setMaxListeners(Infinity);
+module.exports = {
+    htmlmin: function (content, outputPath) {
+        if (shouldTransformHTML(outputPath)) {
+            return htmlmin.minify(content, {
+                useShortDoctype: true,
+                removeComments: true,
+                collapseWhitespace: true
+            });
+        }
+        return content;
+    },
+
+    critical: async function (content, outputPath) {
+        if (shouldTransformHTML(outputPath) && isHomePage(outputPath)) {
+            try {
+                const { generate } = await import('critical');
+                const config = {
+                    base: `${buildDir}/`,
+                    html: content,
+                    inline: true,
+                    width: 1280,
+                    height: 800
+                };
+                const { html } = await generate(config);
+                return html;
+            } catch (err) {
+                console.error(err);
+            }
+        }
+        return content;
+    },
+};
 
 module.exports = function (eleventyConfig) {
 	// Plugins
@@ -23,6 +63,30 @@ module.exports = function (eleventyConfig) {
 	// Transforms
 	Object.keys(transforms).forEach(transformName => {
 		eleventyConfig.addTransform(transformName, transforms[transformName]);
+	});
+
+	// Add the critical transform directly here:
+	eleventyConfig.addTransform('critical', async function (content, outputPath) {
+		const buildDir = 'dist';
+		const shouldTransformHTML = outputPath && outputPath.endsWith('.html') && process.env.ELEVENTY_ENV === 'production';
+		const isHomePage = outputPath === `${buildDir}/index.html`;
+		if (shouldTransformHTML && isHomePage) {
+			try {
+				const { generate } = await import('critical');
+				const config = {
+					base: `${buildDir}/`,
+					html: content,
+					inline: true,
+					width: 1280,
+					height: 800
+				};
+				const { html } = await generate(config);
+				return html;
+			} catch (err) {
+				console.error(err);
+			}
+		}
+		return content;
 	});
 
 	// Shortcodes
