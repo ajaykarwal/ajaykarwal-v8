@@ -28,6 +28,9 @@ eleventyNavigation:
                 </div>
                 <div class="project__header--date">
                     {{ project.date | projectDate }}
+                    {%- if project.end -%}
+                        <span> - {{ project.end | projectDate }}</span>
+                    {%- endif -%}
                     {%- if project.current -%}
                         <span> - Present</span>
                     {%- endif -%}

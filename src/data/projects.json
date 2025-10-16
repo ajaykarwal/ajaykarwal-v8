@@ -14,12 +14,12 @@
 		"details": ""
 	},
 	{
-		"current": true,
 		"id": "aiimi",
         "title": "Aiimi",
 		"summary": "Enterprise search and analytics app",
 		"date": "2020-10",
-		"details": "Aiimi is a tech company that specialises in using AI technology and data expertise to bring new insights to organisations.<br><br>I am part of the team building Aiimi's core product, the Aiimi Insight Engine.",
+		"end": "2025-10",
+		"details": "Aiimi is a tech company that specialises in using AI technology and data expertise to bring new insights to organisations.<br><br>I am part of the team building Aiimi's core product - Aiimi Insight Engine.",
 		"tech": ["Angular", "TypeScript"]
 	},
 	{

@@ -5,11 +5,11 @@ subtitle: Here are some of the things I’m currently focused on.
 permalink: /now/
 ---
 
-**Last updated:** April 2024.
+**Last updated:** October 2025.
 
 ## Work
 
-I've been busy [setting up a newsletter](/newsletter) where I share thoughts and links on stuff I find interesting.
+I'm currently working on a new version of my website. Giving it a bit of a design update and rebuilding on a new tech stack. Watch this space.
 
 <blockquote>
   See more of the <a href="/projects/">projects</a> I've worked on.
@@ -17,9 +17,9 @@ I've been busy [setting up a newsletter](/newsletter) where I share thoughts and
 
 ## Reading
 
-I'm currently reading [Surrounded by Idiots](https://amzn.to/49J5Pc0) by Thomas Erikson.
+I'm currently reading [The Lord of the Rings](https://amzn.to/4hnUVxN) for the first time.
 
-It's a book about understanding human behaviour.
+I've seen the movies countless times and finally decided to commit to the source material. I'm loving it so far and its giving me even more of an appreciation of the movies.
 
 <blockquote>
   Check out more of the books I like on <a href="https://www.goodreads.com/ajaykarwal">my Goodreads profile</a>.
@@ -27,7 +27,7 @@ It's a book about understanding human behaviour.
 
 ## Watching
 
-I've recenly binged through [It's Always Sunny In Philadelphia](https://www.imdb.com/title/tt0472954/) and really hoping there's a season 17!
+I'm currenly catching up with [For All Mankind](https://en.wikipedia.org/wiki/For_All_Mankind_(TV_series)). Excellent show.
 
 <blockquote>
   You can see what else I've been watching on my <a href="https://letterboxd.com/ajaykarwal/">Letterboxd</a> and <a href="https://www.tvtime.com/en/user/38092710/profile">TV Time</a> profiles.
