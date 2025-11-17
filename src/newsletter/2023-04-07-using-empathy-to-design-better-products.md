@@ -9,7 +9,7 @@ This week myself and a couple of colleagues at Aiimi ran an [Empathy Day at my w
 
 After an introduction talk from our guest [Chris Bush](https://www.linkedin.com/in/christopherjbush/), we had a workshop where we discussed the challenges that various persona’s might face.
 
-From the Desk of Ajay Karwal is a reader-supported publication. To receive new posts and support my work, consider becoming a free or paid subscriber.
+{{meta.newsletterName}} is a reader-supported publication. To receive new posts and support my work, consider becoming a free or paid subscriber.
 
 We then invited attendees to try out one of our six empathy emulation stations where individuals were asked to perform a simple everyday task, like sending an email, but with one of their abilities taken away or reduced.
 

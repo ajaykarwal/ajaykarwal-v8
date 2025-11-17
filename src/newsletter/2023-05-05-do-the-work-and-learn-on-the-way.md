@@ -13,7 +13,7 @@ He’s pretty new to development so a pre-requisite to joining my project was to
 
 But the main issue he was running into was deciding on what to learn and when.
 
-From the Desk of Ajay Karwal is a reader-supported publication. To receive new posts and support my work, consider becoming a free or paid subscriber.
+{{meta.newsletterName}} is a reader-supported publication. To receive new posts and support my work, consider becoming a free or paid subscriber.
 
 For example, if he spent a few hours learning about [how to use Sass](https://ajaykarwal.com/blog/how-i-use-sass-in-my-projects/), but then was given a piece of work which focused more on JavaScript, he would then need to go an do further tutorials.
 

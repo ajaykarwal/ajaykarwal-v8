@@ -15,7 +15,7 @@ Throughout the evening, my friend was feeling like we needed to be quick and acc
 
 But let’s be honest. No one is watching yet.
 
-From the Desk of Ajay Karwal is a reader-supported publication. To receive new posts and support my work, consider becoming a free or paid subscriber.
+{{meta.newsletterName}} is a reader-supported publication. To receive new posts and support my work, consider becoming a free or paid subscriber.
 
 When it comes to personal websites, small startups or niche blogs, it’s highly unlikely that anyone is watching while you’re tinkering away. You’re essentially anonymous, and there’s an advantage to that.
 

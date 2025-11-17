@@ -57,7 +57,8 @@
 	{
 		"id": "audi",
         "title": "Audi",
-		"summary": "Car configurator updates",
+		"summary": "React component updates for Audi's car configurator",
+		"tech": ["React.js", "Sass"],
 		"date": "2019-07"
 	},
 	{
@@ -97,7 +98,7 @@
 	{
 		"id": "hsbc",
         "title": "HSBC",
-		"summary": "",
+		"summary": "Mortgage intermerdiary portal enhancements",
 		"date": "2017-03"
 	},
 	{
@@ -131,11 +132,6 @@
 		"date": "2015-12",
 		"details": "In 2015, Ministry of Sound, the iconic music brand launched their new Audio range of wireless speakers and headphones. As part of this launch they required a new microsite to be added to their existing website.<br><br>My role was to work closely with the in-house development team to drive the online marketing of the Ministry Audio range within the brand's existing guidelines.",
 		"tech": ["Adobe Photoshop"]
-	},
-	{
-		"id": "landrover",
-        "title": "Land Rover",
-		"date": "2015-09"
 	},
 	{
 		"id": "kodak",

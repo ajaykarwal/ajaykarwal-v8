@@ -13,7 +13,7 @@ In a world obsessed with quick fixes and instant success, there's something refr
 
 Over the past few weeks I’ve come across the term “**Get Rich Slowly**” in some form or another in a bunch of places such as Morgan Housel’s [podcast](https://podcasts.apple.com/us/podcast/the-morgan-housel-podcast/id1675310669), Ramit Sethi’s [awesome book](https://amzn.to/3IvOecD) and in a few of the newsletters I subscribe to.
 
-From the Desk of Ajay Karwal is a reader-supported publication. To receive new posts and support my work, consider becoming a free or paid subscriber.
+{{meta.newsletterName}} is a reader-supported publication. To receive new posts and support my work, consider becoming a free or paid subscriber.
 
 Getting rich slowly means making small, consistent progress towards a big goal over a long period of time. And it's not just about money! You can get "rich" in education, career growth, building an audience, improving your health, or hitting your fitness goals. The key here is investing your time and effort over the long haul.
 

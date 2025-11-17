@@ -9,7 +9,7 @@ Following on from last weeks post about [doing the work and learning on the way]
 
 As humans, we never stop learning and more so now than ever we’re exposed to an endless amount of new information each day from the News, YouTube, blog posts, newsletters and the people around us. It’s important to be in control of how this information enters your brain.
 
-From the Desk of Ajay Karwal is a reader-supported publication. To receive new posts and support my work, consider becoming a free or paid subscriber.
+{{meta.newsletterName}} is a reader-supported publication. To receive new posts and support my work, consider becoming a free or paid subscriber.
 
 I came across this [video about note taking](https://youtu.be/RfnLqdllftk) by Jim Kwik, a mental coach for speed-reading, memory improvement and brain performance, which really resonated with me and its very similar to the approach I take.
 

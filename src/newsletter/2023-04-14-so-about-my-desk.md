@@ -5,7 +5,7 @@ permalink: 'newsletter/so-about-my-desk/index.html'
 tags: [newsletter]
 ---
 
-Since this publication is called ‘**[From the Desk of Ajay Karwal](https://ajaykarwal.com/newsletter)**’ I thought it’s about time I showed you my desk.
+Since this publication is called ‘**[{{meta.newsletterName}}](https://ajaykarwal.com/newsletter)**’ I thought it’s about time I showed you my desk.
 
 But before we get to that… let me point you to a blog post I wrote this week — [Why and How I Blog](https://ajaykarwal.com/blog/why-and-how-i-blog/). If you’re thinking of starting your own blog, hopefully the post will give you a little inspiration to get started.
 

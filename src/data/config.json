@@ -9,20 +9,8 @@
 	"disqusShortname": "ajaykarwal",
 	"connect": [
 		{
-			"label": "X (Twitter)",
-			"url": "https://x.com/ajaykarwal"
-		},
-		{
 			"label": "Instagram",
 			"url": "https://instagram.com/ajaykarwal"
-		},
-		{
-			"label": "Threads",
-			"url": "https://threads.net/@ajaykarwal"
-		},
-		{
-			"label": "Mastodon",
-			"url": "https://mastodon.social/@ajaykarwal"
 		},
 		{
 			"label": "GitHub",

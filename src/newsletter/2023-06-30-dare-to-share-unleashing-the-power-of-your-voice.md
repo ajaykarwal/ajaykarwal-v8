@@ -10,7 +10,7 @@ tags: [newsletter]
 
 Ever wonder how many interesting and inspiring voices in the world will never be heard because they convince themselves that they aren’t an expert? That they don’t have enough experience, or simply feel that nobody would listen?
 
-From the Desk of Ajay Karwal is a reader-supported publication. To receive new posts and support my work, consider becoming a free or paid subscriber.
+{{meta.newsletterName}} is a reader-supported publication. To receive new posts and support my work, consider becoming a free or paid subscriber.
 
 People are great at making excuses. How many times have you told yourself,
 
