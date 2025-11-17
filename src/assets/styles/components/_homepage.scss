@@ -27,6 +27,8 @@
         position: absolute;
         top: -10px;
         margin-left: 10px;
+        width: 24px;
+        height: 24px;
 
         svg {
             width: 24px !important;
@@ -78,9 +80,14 @@
                 font-weight: $font-weight-medium;
             }
 
+            .rss {
+                width: 16px !important;
+                height: 16px !important;
+                margin-left: $space-sm;
+            }
             svg {
                 width: 16px !important;
-                margin-left: $space-sm;
+                height: 16px !important;
             }
         }
 

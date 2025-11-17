@@ -3,13 +3,16 @@
 
 .nl-wrapper {
 	background: $white;
-	padding: $space;
+	padding: $space * 2;
 
 	@include mq(md) {
 		display: flex;
 		align-items: center;
 		justify-content: space-between;
-		padding-bottom: 0;
+	}
+	.nl-header {
+		width: 250px;
+		margin: auto;
 	}
 	.nl-form {
 		.form-field {
