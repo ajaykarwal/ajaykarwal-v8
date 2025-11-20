@@ -4,23 +4,24 @@
 .nl-wrapper {
 	background: $white;
 	padding: $space * 2;
-
+	
 	@include mq(md) {
 		display: flex;
-		align-items: center;
+		align-items: end;
 		justify-content: space-between;
+		gap: $space-lg;
+		padding-bottom: 0;
 	}
 	.nl-header {
-		width: 250px;
-		margin: auto;
+	
 	}
 	.nl-form {
 		.form-field {
 			margin-bottom: $space;
 		}
-
+		
 		@include mq(md) {
-			margin-right: $space-lg;
+			margin-bottom: $space-lg;
 		}
 	}
 	.nl-image {
@@ -30,7 +31,7 @@
 			display: flex;
 			justify-content: end;
 			img {
-				width: 180px;
+				width: 195px;
 				max-width: none;
 				height: auto;
 			}
