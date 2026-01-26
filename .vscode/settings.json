@@ -1,4 +1,2 @@
 {
-	// Disables the setting in the User settings.json file
-	"prettier.disableLanguages": []
 }

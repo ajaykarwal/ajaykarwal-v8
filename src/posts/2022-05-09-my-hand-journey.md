@@ -4,8 +4,6 @@ title: 'My Hand Journey (so far)'
 date: '2022-05-09'
 permalink: 'blog/my-hand-journey-so-far/index.html'
 categories:
-    - life
-tags:
     - personal
 ---
 

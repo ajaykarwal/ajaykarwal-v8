@@ -4,7 +4,7 @@ title: 'My Typical Day'
 date: '2021-05-26'
 permalink: 'blog/{{ title | slug }}/index.html'
 categories:
-    - life
+    - personal
 ---
 
 Earlier this year I saw a lot of posts where other folks in the industry have been blogging about their typical day. Turns out these posts are forming what Ethan Marcotte has referred to as [a “blogging chain.”](https://ethanmarcotte.com/wrote/a-day-typical/)

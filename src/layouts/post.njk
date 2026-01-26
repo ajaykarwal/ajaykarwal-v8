@@ -27,13 +27,15 @@ layout: base
                     {% endif %}
                 {%- endfor -%}
             </div>
-            <div class="tags">
-			Tagged {%- for tag in tags -%}
-                    {% if tag !== "posts" %}
-                        <a href="/tags/{{ tag }}">{{ tag }}</a>
-                    {% endif %}
-                {%- endfor -%}
-            </div>
+            {% if tags.length > 1 %}
+                <div class="tags">
+			        Tagged {%- for tag in tags -%}
+                        {% if tag !== "posts" %}
+                            <a href="/tags/{{ tag }}">{{ tag }}</a>
+                        {% endif %}
+                    {%- endfor -%}
+                </div>
+            {% endif %}
             {% if headerButton %}
                 <a href="{{ headerButton.url }}" class="button">{{ headerButton.text }}</a>
             {% endif %}

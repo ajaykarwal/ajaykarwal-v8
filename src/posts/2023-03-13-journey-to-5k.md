@@ -4,11 +4,9 @@ title: Journey to 5K
 permalink: 'blog/{{ title | slug }}/index.html'
 date: 2023-03-13T21:47:47.686Z
 categories:
-  - life
-tags:
-  - health
-draft: false
+  - personal
 ---
+
 January 1st 2023.
 
 Like most people in the world I decided to also make a New Year’s resolution to get more exercise and get fitter, but this time I was determined to stick to it.

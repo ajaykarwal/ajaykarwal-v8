@@ -4,8 +4,7 @@ title: Raised by Books
 permalink: 'blog/{{ title | slug }}/index.html'
 date: 2023-02-28T10:01:15.734Z
 categories:
-  - misc
-draft: false
+  - books
 ---
 Remember when your monitor looked like this?
 
